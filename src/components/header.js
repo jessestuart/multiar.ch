@@ -6,33 +6,34 @@ type Props = {
   siteTitle: string,
 }
 
-const Header = ({ siteTitle }: Props) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
+const Header = ({ siteTitle }: Props) => {
+  console.log({ siteTitle })
+  return (
     <div
+      className="pv3"
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        background: '#e5f4ee',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div
+        className="flex justify-center items-center"
+        style={{
+          margin: '0 auto',
+          maxWidth: 960,
+        }}
+      >
+        <h1 className="ma0 mt2">
+          <Link
+            to="/"
+            className="black-70 fw3 no-underline"
+            style={{ textDecoraction: 'none' }}
+          >
+            {siteTitle}
+          </Link>
+        </h1>
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default Header

@@ -1,22 +1,27 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import 'js-tachyons'
 import 'typeface-alegreya'
 import 'typeface-space-mono'
 
 import Header from '../components/header'
 import './index.css'
 
-const Layout = ({ children, data }) => (
+type Props = {
+  children: Function,
+  data: {
+    site: {
+      siteMetadata: {
+        title: string,
+      },
+    },
+  },
+}
+
+const Layout = ({ children, data }: Props) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+    <Helmet title={data.site.siteMetadata.title} />
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
@@ -30,10 +35,6 @@ const Layout = ({ children, data }) => (
     </div>
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func,
-}
 
 export default Layout
 
