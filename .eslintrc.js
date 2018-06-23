@@ -51,7 +51,7 @@ module.exports = {
     'react/prop-types': 2,
     quotes: ['error', 'single', { avoidEscape: true }],
   },
-  plugins: ['import', 'jest', 'prettier'],
+  plugins: ['import', 'jest', 'prettier', 'graphql'],
   settings: {
     'import/resolver': {
       'babel-module': {},
@@ -60,5 +60,6 @@ module.exports = {
   globals: {
     __DEV__: true,
     __ENV__: true,
+    graphql: true,
   },
 }

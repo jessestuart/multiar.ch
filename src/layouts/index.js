@@ -5,7 +5,7 @@ import 'js-tachyons'
 import 'typeface-alegreya'
 import 'typeface-space-mono'
 
-import Header from '../components/header'
+import Header from '../components/Header'
 import './index.css'
 
 type Props = {
