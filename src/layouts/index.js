@@ -24,11 +24,9 @@ const Layout = ({ children, data }: Props) => (
     <Helmet title={data.site.siteMetadata.title} />
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
+      className="f3 w-100-ns ma4 ma0-ns"
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        lineHeight: '2rem',
       }}
     >
       {children()}

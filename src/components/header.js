@@ -21,7 +21,7 @@ const Header = ({ siteTitle }: Props) => {
           maxWidth: 960,
         }}
       >
-        <h1 className="ma0 mt2">
+        <h1 className="ma0 mt2 f1">
           <Link
             to="/"
             className="fw3 no-underline"
