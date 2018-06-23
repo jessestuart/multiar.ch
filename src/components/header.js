@@ -7,7 +7,6 @@ type Props = {
 }
 
 const Header = ({ siteTitle }: Props) => {
-  console.log({ siteTitle })
   return (
     <div
       className="pv3"
@@ -25,8 +24,8 @@ const Header = ({ siteTitle }: Props) => {
         <h1 className="ma0 mt2">
           <Link
             to="/"
-            className="black-70 fw3 no-underline"
-            style={{ textDecoraction: 'none' }}
+            className="fw3 no-underline"
+            style={{ textDecoraction: 'none', color: '#68465b' }}
           >
             {siteTitle}
           </Link>
