@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div className="mt4 bb b--black-10">
     <blockquote
-      className="flex justify-center center pl2 w-50"
+      className="flex justify-center center pl2 w-50-ns"
       style={{
         borderLeft: '2px #7b5d6f solid',
         fontStyle: 'italic',

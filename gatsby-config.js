@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'multiar.ch',
+    title: 'multiarch',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }

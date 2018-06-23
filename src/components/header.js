@@ -25,7 +25,11 @@ const Header = ({ siteTitle }: Props) => {
           <Link
             to="/"
             className="fw3 no-underline"
-            style={{ textDecoraction: 'none', color: '#68465b' }}
+            style={{
+              textDecoraction: 'none',
+              color: '#68465b',
+              letterSpacing: '-0.15rem',
+            }}
           >
             {siteTitle}
           </Link>
