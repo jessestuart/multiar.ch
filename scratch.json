@@ -1,7 +1,7 @@
 {
-  "name": "multiar.ch",
-  "description": "multiar.ch",
-  "version": "0.0.1",
+  "name": "jessestuart",
+  "description": "This is where my words and pictures live.",
+  "version": "1.8.19",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "dependencies": {
     "@babel/runtime": "7.4.5",
@@ -9,7 +9,6 @@
     "bluebird": "3.5.5",
     "classnames": "2.2.6",
     "clrs": "0.2.0",
-    "core-js": "3.1.4",
     "dotenv": "8.0.0",
     "gatsby": "2.9.4",
     "gatsby-image": "2.1.4",
@@ -52,15 +51,13 @@
     "react-typography": "0.16.19",
     "styled-components": "4.3.1",
     "styled-is": "1.3.0",
-    "typeface-alegreya": "^0.0.54",
+    "typeface-alegreya": "0.0.69",
     "typeface-alegreya-sans": "0.0.72",
     "typeface-alegreya-sans-sc": "0.0.54",
     "typeface-alegreya-sc": "0.0.72",
     "typeface-fira-mono": "0.0.72",
-    "typeface-lato": "^0.0.54",
-    "typeface-space-mono": "^0.0.54",
+    "typeface-lato": "0.0.54",
     "typeface-spectral": "0.0.72",
-    "typeface-work-sans": "^0.0.54",
     "typography": "0.16.19",
     "typography-plugin-code": "0.16.19",
     "voca": "1.4.0",
@@ -156,15 +153,18 @@
     "tslint-react": "4.0.0",
     "typescript": "3.5.2"
   },
-  "keywords": [
-    "gatsby",
-    "gatsbyjs",
-    "multiarch"
-  ],
+  "homepage": ".",
+  "keywords": ["blog", "gatsby", "photography", "react"],
   "license": "MIT",
+  "main": "src/pages/index.tsx",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "private"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jessestuart/multiar.ch"
+    "url": "https://github.com/jessestuart/jesses.io"
   },
   "scripts": {
     "build": "GATSBY_ENV=Production gatsby build",
@@ -175,8 +175,8 @@
     "dev:photos": "NODE_OPTIONS=--max_old_space_size=4096 concurrently 'yarn gatsby develop'",
     "e2e:percy": "percy exec ts-node ./test/e2e/run-percy-cypress.js",
     "format": "prettier 'src/**/*.js' 'src/**/*.md'",
-    "lint": "concurrently 'yarn lint:js' 'yarn check-types'",
-    "lint:js": "eslint --cache --quiet --ext .ts,.tsx ./src/",
+    "lint": "concurrently 'yarn lint:js' 'yarn lint:style' 'yarn check-types'",
+    "lint:js": "eslint --cache --quiet --ext .ts,.tsx ./src/ ./cypress/",
     "lint:style": "stylelint 'src/**/*.css'",
     "lint:stylefix": "stylelint --fix 'src/**/*.css'",
     "lint:text": "textlint src/pages/**/index.md",

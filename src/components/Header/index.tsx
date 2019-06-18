@@ -1,12 +1,11 @@
 /* @flow */
-import React from 'react'
 import Link from 'gatsby-link'
+import React from 'react'
 
-type Props = {
-  siteTitle: string,
-}
+import config from '../../../gatsby-config'
 
-const Header = ({ siteTitle }: Props) => {
+const Header = () => {
+  const { title } = config
   return (
     <div
       className="pv3"
@@ -26,12 +25,12 @@ const Header = ({ siteTitle }: Props) => {
             to="/"
             className="fw3 no-underline"
             style={{
-              textDecoraction: 'none',
               color: '#68465b',
               letterSpacing: '-0.15rem',
+              textDecoration: 'none',
             }}
           >
-            {siteTitle}
+            {title}
           </Link>
         </h1>
       </div>

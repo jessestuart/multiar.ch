@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Header component. 1`] = `
+<div
+  className="pv3"
+  style={
+    Object {
+      "background": "#e5f4ee",
+    }
+  }
+>
+  <div
+    className="flex justify-center items-center"
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+      }
+    }
+  >
+    <h1
+      className="ma0 mt2 f1"
+    >
+      <a
+        className="fw3 no-underline"
+        href="/true"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "#68465b",
+            "letterSpacing": "-0.15rem",
+            "textDecoration": "none",
+          }
+        }
+      />
+    </h1>
+  </div>
+</div>
+`;

@@ -1,65 +1,79 @@
 module.exports = {
-  parser: 'babel-eslint',
-  parserOptions: {
-    sourceType: 'module',
-    allowImportExportEverywhere: false,
-    codeFrame: false,
-  },
   extends: [
-    'airbnb',
-    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
+    'plugin:import/typescript',
+    'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
+    'plugin:promise/recommended',
+    'plugin:cypress/recommended',
     'plugin:react/recommended',
-    'plugin:import/errors',
   ],
+  parser: '@typescript-eslint/parser',
+  plugins: [
+    '@typescript-eslint',
+    'cypress',
+    'prettier',
+    'promise',
+    'react',
+    'react-hooks',
+  ],
+  parserOptions: {
+    ecmaVersion: 8,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    sourceType: 'module',
+    useJSXTextNode: true,
+    project: './tsconfig.json',
+    tsconfigRootDir: './',
+  },
   env: {
     browser: true,
-    node: true,
+    'cypress/globals': true,
     jest: true,
+    node: true,
   },
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
-    'import/extensions': 0,
-    // Disabled due to babel-eslint bug (and enforced by prettier anyway):
-    // https://github.com/babel/babel-eslint/issues/530
-    // indent: ['error', 2, { SwitchCase: 1 }],
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['to'],
-        aspects: ['noHref', 'invalidHref', 'preferButton'],
-      },
-    ],
-    // Disabled to a bug causing false positive warnings, pending this PR being
-    // merged: https://github.com/evcohen/eslint-plugin-jsx-a11y
-    'jsx-a11y/heading-has-content': 0,
+    semi: ['error', 'never'],
+    'key-spacing': 'error',
     'keyword-spacing': 'error',
     'no-console': 'warn',
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: false }],
+    'no-undef': 'error',
     'object-curly-spacing': ['error', 'always'],
-    'prettier/prettier': 'error',
-    'react/display-name': 0,
-    'react/jsx-boolean-value': 2,
-    'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
-    'react/jsx-closing-tag-location': 2,
-    'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-filename-extension': 0,
-    'react/no-unused-prop-types': 1,
-    'react/no-unused-state': 1,
-    'react/prefer-stateless-function': 1,
-    'react/require-default-props': 1,
-    'react/prop-types': 2,
-    quotes: ['error', 'single', { avoidEscape: true }],
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        trailingComma: 'all',
+        printWidth: 80,
+        parser: 'typescript',
+      },
+    ],
+    'promise/no-callback-in-promise': 'off',
+    'react/no-unescaped-entities': 'off',
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
+    '@typescript-eslint/array-type': 'warn',
+    '@typescript-eslint/ban-types': 'warn',
+    '@typescript-eslint/camelcase': 'warn',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/member-delimiter-style': ['off'],
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/prefer-interface': 'warn',
   },
-  plugins: ['import', 'jest', 'prettier', 'graphql'],
   settings: {
-    'import/resolver': {
-      'babel-module': {},
+    react: {
+      version: 'detect',
     },
   },
   globals: {
     __DEV__: true,
-    __ENV__: true,
-    graphql: true,
   },
 }
