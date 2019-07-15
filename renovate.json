@@ -2,10 +2,6 @@
   "automerge": true,
   "extends": [
     "config:base",
-    "group:definitelyTyped",
-    "group:linters",
-    "group:jsTest",
-    "group:babelMonorepo",
     ":automergeBranchPush",
     ":semanticCommits",
     ":rebaseStalePrs"

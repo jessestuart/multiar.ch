@@ -1,12 +1,9 @@
-import { siteMetadata } from './gatsby-config'
-
 const _ = require('lodash')
 
-module.exports = {
-  siteMetadata: {
-    title: 'multiarch',
-  },
-  plugins: ['gatsby-plugin-react-helmet'],
+const siteMetadata = {
+  title: 'multiar.ch',
+  siteUrl: 'https://multiar.ch',
+  description: 'Collection of regularly-updated, multiarch Docker images.',
 }
 
 // If we detect if we're running in a CI environment, only a few sample
@@ -32,36 +29,25 @@ const sourceFilesystem = {
   },
 }
 
-const sourceFilesystemImages = {
-  resolve: 'gatsby-source-filesystem',
-  options: {
-    path: `${__dirname}/src/images`,
-    name: 'images',
-  },
-}
-
-const transformerRemark = {
-  resolve: 'gatsby-transformer-remark',
-  options: {
-    plugins: [
-      {
-        resolve: 'gatsby-remark-images',
-        options: {
-          maxWidth: 768,
-        },
-      },
-      'gatsby-remark-autolink-headers',
-      'gatsby-remark-copy-linked-files',
-      'gatsby-remark-prismjs',
-      'gatsby-remark-smartypants',
-    ],
-  },
-}
+// const sourceFilesystemImages = {
+//   resolve: 'gatsby-source-filesystem',
+//   options: {
+//     path: `${__dirname}/src/images`,
+//     name: 'images',
+//   },
+// }
 
 const typographyPlugin = {
   resolve: 'gatsby-plugin-typography',
   options: {
     pathToConfigModule: 'src/utils/typography',
+  },
+}
+
+const dockerHubPlugin = {
+  resolve: 'gatsby-source-docker-hub',
+  options: {
+    username: 'jessestuart',
   },
 }
 
@@ -93,7 +79,6 @@ let plugins = _.compact([
   // Gotta load those sweet, sweet files.
   // ====================================
   sourceFilesystem,
-  sourceFilesystemImages,
   // =======================================================================
   // Add in React Helmet and React 16 support until Gatsby v2 is released.
   // =======================================================================
@@ -108,7 +93,7 @@ let plugins = _.compact([
   // ==========================================
   'gatsby-plugin-sharp',
   'gatsby-transformer-sharp',
-  transformerRemark,
+  dockerHubPlugin,
   // ==========
   // Analytics.
   // ==========
@@ -127,7 +112,7 @@ if (!IS_LOCAL) {
   plugins = _.concat(plugins, [
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify-cache',
-    'gatsby-plugin-feed',
+    // 'gatsby-plugin-feed',
     // manifestPlugin,
     'gatsby-plugin-netlify',
   ])

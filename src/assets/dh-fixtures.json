@@ -1,0 +1,247 @@
+[
+  {
+    "description": "OwnTracks. Multiarch. 👌",
+    "last_updated": "2019-07-26T00:25:53.188984Z",
+    "name": "owntracks",
+    "pull_count": 488928,
+    "star_count": 3
+  },
+  {
+    "description": "The every(wo)man's reverse proxy, on all your boxes or boards. amd64, arm64, & armhf nightly builds.",
+    "last_updated": "2019-07-17T06:13:12.702257Z",
+    "name": "caddy",
+    "pull_count": 363037,
+    "star_count": 1
+  },
+  {
+    "description": "Nightly multi-architecture (amd64, arm64, armv7) builds for the Kubernetes Helm tiller service.",
+    "last_updated": "2019-07-26T00:26:23.660382Z",
+    "name": "tiller",
+    "pull_count": 334292,
+    "star_count": 10
+  },
+  {
+    "description": "All the dependencies, up-to-date, all the time. Nightly multiarch builds. (amd64 + arm64)",
+    "last_updated": "2019-07-26T00:26:00.434943Z",
+    "name": "renovate",
+    "pull_count": 143411,
+    "star_count": 0
+  },
+  {
+    "description": "Minio server — supports arm (arm32v6, arm32v7, armhf) arm64 (aarch64), and amd64 architectures.",
+    "last_updated": "2019-07-26T00:25:28.724882Z",
+    "name": "minio",
+    "pull_count": 74819,
+    "star_count": 3
+  },
+  {
+    "description": "An OSS metrics dashboard and graph editor for Graphite, Elasticsearch, Prometheus and InfluxDB.",
+    "last_updated": "2019-07-26T00:25:46.783163Z",
+    "name": "grafana",
+    "pull_count": 52737,
+    "star_count": 1
+  },
+  {
+    "description": "amd64, arm64, and armhf Docker images for Minio Client.",
+    "last_updated": "2019-07-26T00:25:01.207276Z",
+    "name": "mc",
+    "pull_count": 45199,
+    "star_count": 0
+  },
+  {
+    "description": "Multiarch (ARM, ARM64, AMD64) fluent-bit image. Nightly builds from master. Telemetry FTW.",
+    "last_updated": "2019-03-29T00:56:24.662030Z",
+    "name": "fluent-bit",
+    "pull_count": 38773,
+    "star_count": 3
+  },
+  {
+    "description": "Multi-arch (AMD, ARM, ARM64) image for scraping data from a Unifi controller.",
+    "last_updated": "2019-04-24T09:19:43.460889Z",
+    "name": "unifi_exporter",
+    "pull_count": 37002,
+    "star_count": 0
+  },
+  {
+    "description": "Nightly multiarch (arm64, armhf, amd64) builds of Heptio Velero for Kubernetes.",
+    "last_updated": "2019-07-26T00:25:27.980053Z",
+    "name": "velero",
+    "pull_count": 36417,
+    "star_count": 1
+  },
+  {
+    "description": "Nightly multiarch (arm64, armhf, amd64) builds of Heptio's ark.",
+    "last_updated": "2019-02-05T00:20:24.394623Z",
+    "name": "ark",
+    "pull_count": 23236,
+    "star_count": 2
+  },
+  {
+    "description": "A local PV represents a local disk directly-attached to a Node. This reached GA in 1.14.",
+    "last_updated": "2018-06-17T23:56:56.873702Z",
+    "name": "kube-local-volume-provisioner",
+    "pull_count": 17476,
+    "star_count": 1
+  },
+  {
+    "description": "kube2iam provides different AWS IAM roles for pods running on Kubernetes.\n Nightly multiarch builds.",
+    "last_updated": "2019-07-26T00:26:11.724272Z",
+    "name": "kube2iam",
+    "pull_count": 11239,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:16:41.077609Z",
+    "name": "elasticsearch_exporter",
+    "pull_count": 10668,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:26:38.629018Z",
+    "name": "docker-hub-exporter",
+    "pull_count": 8596,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-06-27T10:58:33.747580Z",
+    "name": "consul",
+    "pull_count": 5189,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:15:25.027394Z",
+    "name": "homemaker",
+    "pull_count": 4527,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-01-13T06:51:47.711712Z",
+    "name": "lmsensors_exporter",
+    "pull_count": 3293,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:25:38.734157Z",
+    "name": "pihole_exporter",
+    "pull_count": 3271,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-02-18T05:22:18.479499Z",
+    "name": "prometheus-operator",
+    "pull_count": 3147,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-12-20T00:09:51.823687Z",
+    "name": "fluent-bit-builder",
+    "pull_count": 2826,
+    "star_count": 0
+  },
+  {
+    "description": "Caddy w/ Cloudflare plugin included. [NOTE: use jessestuart/caddy instead for nightly builds!] ",
+    "last_updated": "2018-05-13T00:09:24.732025Z",
+    "name": "caddy-cloudflare",
+    "pull_count": 2824,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:03:30.885302Z",
+    "name": "vagrant-build-base",
+    "pull_count": 2509,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-02-18T05:22:29.570278Z",
+    "name": "prometheus-config-reloader",
+    "pull_count": 2063,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-02-20T08:50:20.501687Z",
+    "name": "node_exporter",
+    "pull_count": 1852,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-05-15T17:02:00.791064Z",
+    "name": "helm-exporter",
+    "pull_count": 1528,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-11-16T11:32:08.900382Z",
+    "name": "elasticsearch-kubernetes",
+    "pull_count": 1007,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-25T23:23:49.785133Z",
+    "name": "adguard-home",
+    "pull_count": 713,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-07-10T09:21:51.979274Z",
+    "name": "drone-server",
+    "pull_count": 630,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-06-17T18:06:45.687229Z",
+    "name": "docker-registry",
+    "pull_count": 621,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-05-30T00:47:55.005035Z",
+    "name": "jenkins",
+    "pull_count": 571,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-02-03T05:01:44.614667Z",
+    "name": "jesses.io",
+    "pull_count": 527,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2019-07-26T00:26:06.365673Z",
+    "name": "pihole-exporter",
+    "pull_count": 519,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-04-10T10:45:28.268829Z",
+    "name": "alpine-essentials",
+    "pull_count": 420,
+    "star_count": 0
+  },
+  {
+    "description": "",
+    "last_updated": "2018-04-04T05:16:56.865279Z",
+    "name": "arm_exporter",
+    "pull_count": 255,
+    "star_count": 0
+  }
+]

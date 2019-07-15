@@ -1,8 +1,6 @@
 import 'js-tachyons'
-import 'typeface-alegreya'
+import 'typeface-lato'
 import 'typeface-space-mono'
-
-import './index.css'
 
 import React, { ReactNode } from 'react'
 import Helmet from 'react-helmet'
@@ -15,11 +13,12 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-  const { title } = useSiteMetadata()
+  const siteMetadata = useSiteMetadata()
+  const { title } = siteMetadata
   return (
-    <div>
+    <>
       <Helmet title={title} />
-      <Header />
+      <Header title={title} />
       <div
         className="f3 w-100-ns ma4 ma0-ns"
         style={{
@@ -28,7 +27,7 @@ const Layout = ({ children }: Props) => {
       >
         {children}
       </div>
-    </div>
+    </>
   )
 }
 

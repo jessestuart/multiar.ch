@@ -1,40 +1,27 @@
-/* @flow */
 import Link from 'gatsby-link'
 import React from 'react'
+import { Flex, Text } from 'rebass'
 
-import config from '../../../gatsby-config'
-
-const Header = () => {
-  const { title } = config
+const Header = ({ title }: { title: string }) => {
   return (
-    <div
-      className="pv3"
-      style={{
-        background: '#e5f4ee',
-      }}
-    >
-      <div
-        className="flex justify-center items-center"
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-        }}
-      >
+    <Flex bg="secondary">
+      <div className="justify-center items-center center mw7">
         <h1 className="ma0 mt2 f1">
           <Link
             to="/"
             className="fw3 no-underline"
             style={{
-              color: '#68465b',
               letterSpacing: '-0.15rem',
               textDecoration: 'none',
             }}
           >
-            {title}
+            <Text color="primary" fontFamily="mono">
+              {title}
+            </Text>
           </Link>
         </h1>
       </div>
-    </div>
+    </Flex>
   )
 }
 

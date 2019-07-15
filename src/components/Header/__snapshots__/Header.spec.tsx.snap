@@ -2,21 +2,10 @@
 
 exports[`Render Header component. 1`] = `
 <div
-  className="pv3"
-  style={
-    Object {
-      "background": "#e5f4ee",
-    }
-  }
+  className="sc-bdVaJa sc-bwzfXH edpdtm"
 >
   <div
-    className="flex justify-center items-center"
-    style={
-      Object {
-        "margin": "0 auto",
-        "maxWidth": 960,
-      }
-    }
+    className="justify-center items-center center mw7"
   >
     <h1
       className="ma0 mt2 f1"
@@ -28,12 +17,19 @@ exports[`Render Header component. 1`] = `
         onMouseEnter={[Function]}
         style={
           Object {
-            "color": "#68465b",
             "letterSpacing": "-0.15rem",
             "textDecoration": "none",
           }
         }
-      />
+      >
+        <div
+          className="sc-bdVaJa sc-htpNat dtuhmt"
+          color="primary"
+          fontFamily="mono"
+        >
+          multiar.ch
+        </div>
+      </a>
     </h1>
   </div>
 </div>
