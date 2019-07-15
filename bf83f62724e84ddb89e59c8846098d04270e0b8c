@@ -1,0 +1,6 @@
+[ver:1,total:2100]
+.gtm/terminal.app:1120,1564772400:220,1564776000:630,1564801200:270,r
+src/components/RepoList/index.tsx:860,1564772400:530,1564776000:330,m
+.git/rebase-merge/git-rebase-todo:70,1564772400:30,1564801200:40,r
+package.json:30,1564801200:30,m
+.git/COMMIT_EDITMSG:20,1564801200:20,r
