@@ -7,3 +7,8 @@ src/services/docker-hub.ts:24,1564696800:24,m
 src/utils/hooks.ts:20,1564700400:20,r
 .circleci/config.yml:15,1564700400:15,m
 src/assets/dh-fixtures.json:12,1564696800:12,r
+
+[ver:1,total:180]
+.gtm/terminal.app:150,1564696800:150,r
+gatsby-config.js:15,1564696800:15,m
+package.json:15,1564696800:15,m
