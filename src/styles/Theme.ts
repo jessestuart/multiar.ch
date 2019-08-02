@@ -4,6 +4,7 @@ const Theme = {
     primary: '#68465b',
     secondary: '#e5f4ee',
     text: 'rgba(0, 0, 0, 0.75)',
+    textMuted: 'rgba(0, 0, 0, 0.6)',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   fonts: {

@@ -4,6 +4,7 @@ import 'typeface-space-mono'
 
 import React, { ReactNode } from 'react'
 import Helmet from 'react-helmet'
+import { Box } from 'rebass'
 
 import Header from 'components/Header'
 import { useSiteMetadata } from 'utils/hooks'
@@ -19,14 +20,7 @@ const Layout = ({ children }: Props) => {
     <>
       <Helmet title={title} />
       <Header title={title} />
-      <div
-        className="f3 w-100-ns ma4 ma0-ns"
-        style={{
-          lineHeight: '2rem',
-        }}
-      >
-        {children}
-      </div>
+      <Box className="f3 w-100-ns ma4 ma0-ns lh-copy">{children}</Box>
     </>
   )
 }

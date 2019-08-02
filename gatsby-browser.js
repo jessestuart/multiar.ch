@@ -10,7 +10,14 @@ const React = require('react')
 const Theme = require('./src/styles/Theme').default
 
 const Layout = require('./src/components/Layout').default
+
 const { ThemeProvider } = require('styled-components')
+
+const { initSentry } = require('./src/services/sentry')
+
+const { GATSBY_ENV } = process.env
+
+initSentry({ environment: GATSBY_ENV })
 
 // eslint-disable-next-line
 exports.wrapPageElement = ({ element, props }) => {

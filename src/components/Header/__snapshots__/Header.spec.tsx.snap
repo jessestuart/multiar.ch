@@ -2,35 +2,21 @@
 
 exports[`Render Header component. 1`] = `
 <div
-  className="sc-bdVaJa sc-bwzfXH edpdtm"
+  className="sc-bdVaJa justify-center items-center center w-100 sc-bwzfXH edpdtm"
 >
-  <div
-    className="justify-center items-center center mw7"
+  <a
+    className="fw3 no-underline tracked-tight"
+    href="/true"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
   >
-    <h1
-      className="ma0 mt2 f1"
+    <div
+      className="sc-bdVaJa ma0 mt2 f1 sc-htpNat dtuhmt"
+      color="primary"
+      fontFamily="mono"
     >
-      <a
-        className="fw3 no-underline"
-        href="/true"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        style={
-          Object {
-            "letterSpacing": "-0.15rem",
-            "textDecoration": "none",
-          }
-        }
-      >
-        <div
-          className="sc-bdVaJa sc-htpNat dtuhmt"
-          color="primary"
-          fontFamily="mono"
-        >
-          multiar.ch
-        </div>
-      </a>
-    </h1>
-  </div>
+      multiar.ch
+    </div>
+  </a>
 </div>
 `;

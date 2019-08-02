@@ -46,12 +46,15 @@ const baseFontFamilyList = _.concat(['Lato'], sansSerifFontFamilies)
 
 const mapFontFamilyListToString = fp.join(',')
 
+export const textColorBase = 'rgba(0, 0, 0, 0.8)'
+export const textColorMuted = 'rgba(0, 0, 0, 0.6)'
+
 // tslint:disable
 const options = {
   baseFontSize: '16px',
   baseLineHeight: 1.9,
   blockMarginBottom: 0.75,
-  bodyColor: '#3C403F',
+  bodyColor: textColorBase,
   bodyFontFamily: baseFontFamilyList,
   fontFamily: baseFontFamilyList,
   // headerColor: Theme.colors.primary,
@@ -65,9 +68,9 @@ const options = {
     //   textAlign: 'justify',
     //   textIndent: '2em',
     // },
-    a: {
-      color: '#3C403F',
-    },
+    // a: {
+    //   color: textColorBase,
+    // },
 
     ol: {
       listStyle: 'none',
@@ -84,6 +87,7 @@ const options = {
     '.code': {
       fontFamily: mapFontFamilyListToString(monospaceFontFamilies),
     },
+
     '.fira-mono': {
       fontFamily: mapFontFamilyListToString(monospaceFontFamilies),
     },
@@ -102,9 +106,9 @@ const options = {
       background: 'inherit !important',
     },
 
-    'blockquote > *not(:last-child)': {
-      paddingBottom: '0.5',
-    },
+    // 'blockquote > *not(:last-child)': {
+    //   paddingBottom: '0.5',
+    // },
 
     // '.pseudo-underline': {
     //   borderBottom: `2px solid ${colors.defaultLink}`,
