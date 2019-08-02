@@ -3,21 +3,18 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
-
-// You can delete this file if you're not using it
 const React = require('react')
+
+require('typeface-alegreya')
+require('typeface-alegreya-sans')
+require('typeface-fira-mono')
+require('typeface-lato')
 
 const Theme = require('./src/styles/Theme').default
 
 const Layout = require('./src/components/Layout').default
 
 const { ThemeProvider } = require('styled-components')
-
-const { initSentry } = require('./src/services/sentry')
-
-const { GATSBY_ENV } = process.env
-
-initSentry({ environment: GATSBY_ENV })
 
 // eslint-disable-next-line
 exports.wrapPageElement = ({ element, props }) => {
