@@ -1,26 +1,22 @@
-# gatsby-starter-default
-The default Gatsby starter.
+<h1 align=center>
+  <a href="https://multiar.ch">
+    multiar.ch
+  </a>
+</h1>
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+<div align="center">
 
-## Install
+[![CircleCI][circleci-badge]][circleci-url]
+[![Netlify Status][netlify]][netlify 2] [![codecov][codecov-badge]][codecov-url]
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+</div>
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[circleci-badge]:
+  https://circleci.com/gh/jessestuart/multiar.ch.svg?style=shield
+[codecov-badge]:
+  https://codecov.io/gh/jessestuart/jesses.io/branch/master/graph/badge.svg
+[circleci-url]: https://circleci.com/gh/jessestuart/multiar.ch
+[codecov-url]: https://codecov.io/gh/jessestuart/jesses.io
+[netlify]:
+  https://api.netlify.com/api/v1/badges/3749f292-ea4b-4d99-bd94-a2d3432fcba8/deploy-status
+[netlify 2]: https://app.netlify.com/sites/multiarch/deploys
