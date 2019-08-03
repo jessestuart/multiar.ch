@@ -12,7 +12,7 @@
 </div>
 
 [circleci-badge]:
-  https://circleci.com/gh/jessestuart/multiar.ch.svg?style=shield
+  https://circleci.com/gh/jessestuart/multiar.ch.svg?style=shield&circle-token=251c98606edcf82fda1d3e6cefe40c0e0751a58d
 [codecov-badge]:
   https://codecov.io/gh/jessestuart/jesses.io/branch/master/graph/badge.svg
 [circleci-url]: https://circleci.com/gh/jessestuart/multiar.ch
