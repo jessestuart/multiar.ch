@@ -1,0 +1,16 @@
+[ver:1,total:1440]
+.gtm/terminal.app:1070,1564729200:775,1564732800:295,r
+package.json:125,1564729200:105,1564732800:20,m
+babel.config.js:90,1564729200:90,m
+src/components/Layout/index.tsx:55,1564729200:55,m
+src/components/Layout/index.css:20,1564729200:20,d
+gatsby-config.js:20,1564729200:20,r
+src/components/Header/index.tsx:15,1564729200:15,r
+public/styles-abaeffde14e29bebc73f.js:15,1564732800:15,r
+public/styles-d418194a727d2ecb0b66.js:15,1564732800:15,r
+public/styles.31c4329f4e0927e8338e.css:15,1564732800:15,r
+
+[ver:1,total:1140]
+README.md:810,1564729200:810,m
+.gtm/terminal.app:300,1564729200:300,r
+.nvmrc:30,1564729200:30,m
