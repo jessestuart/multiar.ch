@@ -5,8 +5,18 @@ import fp from 'lodash/fp'
 import { DateTime } from 'luxon'
 import React from 'react'
 import { Box, Text } from 'rebass'
+import styled from 'styled-components'
 
 import Theme from 'styles/Theme'
+
+const RepoListItem = styled.li`
+  // ':not(:last-child)': {
+  //   marginbottom: 8;
+  // }
+  ':last-child': {
+    border-bottom: none;
+  }
+`
 
 const RepoList = () => {
   const query = useStaticQuery(graphql`
@@ -35,6 +45,7 @@ const RepoList = () => {
     return null
   }
 
+  // <li key={index} className="flex lh-copy pt2 pb3 bb b--near-white">
   return (
     <Box className="justify-center center flex pt4 f4">
       <ol className="mw7-ns w-100">
@@ -52,8 +63,11 @@ const RepoList = () => {
           ).toRelative()
 
           return (
-            <li key={index} className="flex lh-copy pt2 pb3 bb b--near-white">
-              <div className="w-100">
+            <RepoListItem
+              key={index}
+              className="flex lh-copy pt2 pb3 bb b--near-white"
+            >
+              <div style={{ flex: 1 }}>
                 <a
                   className="flex-nowrap primary lh-title"
                   style={{ color: Theme.colors.primary }}
@@ -79,7 +93,7 @@ const RepoList = () => {
               >
                 {repo.pullCount.toLocaleString()}
               </Text>
-            </li>
+            </RepoListItem>
           )
         })}
       </ol>
