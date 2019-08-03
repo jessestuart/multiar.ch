@@ -1,11 +1,10 @@
 import 'js-tachyons'
-import 'typeface-alegreya'
+import 'typeface-lato'
 import 'typeface-space-mono'
 
-import './index.css'
-
-import React, { ReactNode } from 'react'
+import React, { Fragment, ReactNode } from 'react'
 import Helmet from 'react-helmet'
+import { Box } from 'rebass'
 
 import Header from 'components/Header'
 import { useSiteMetadata } from 'utils/hooks'
@@ -15,20 +14,14 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-  const { title } = useSiteMetadata()
+  const siteMetadata = useSiteMetadata()
+  const { title } = siteMetadata
   return (
-    <div>
+    <Fragment>
       <Helmet title={title} />
-      <Header />
-      <div
-        className="f3 w-100-ns ma4 ma0-ns"
-        style={{
-          lineHeight: '2rem',
-        }}
-      >
-        {children}
-      </div>
-    </div>
+      <Header title={title} />
+      <Box className="f3 w-100-ns ma4 ma0-ns lh-copy">{children}</Box>
+    </Fragment>
   )
 }
 

@@ -41,7 +41,7 @@ workflows:
 # Shared definitions.
 # ===================
 defaults: &defaults
-  working_directory: ~/jesses.io
+  working_directory: ~/multiar.ch
   docker:
     - image: node:12
 
@@ -67,6 +67,7 @@ save_cache: &save_cache
   save_cache:
     paths:
       - node_modules/
+      - ~/.cache/yarn
     key: v4-dependencies-{{ checksum "yarn.lock" }}
 
 save_public_dir_cache: &save_public_dir_cache
@@ -105,10 +106,10 @@ sentry_release: &sentry_release
     - run: sh ./scripts/update-sentry-release.sh
 
 cypress_job: &cypress_job
-  working_directory: ~/jesses.io
+  working_directory: ~/multiar.ch
   docker:
     # the Docker image with Cypress dependencies
-    - image: cypress/base:12.1.0
+    - image: cypress/base:12.6.0
       environment:
         ## this enables colors in the output
         TERM: xterm
@@ -160,13 +161,8 @@ jobs:
       - store_artifacts:
           path: reports/junit
       - run:
-          name: Upload results to Codacy.
-          command: |
-            cat ./test/coverage/lcov.info | yarn codacy-coverage
-      - run:
           name: Upload results to Codecov.
-          command: |
-            yarn codecov
+          command: yarn codecov
 
   build:
     <<: *defaults
@@ -188,28 +184,3 @@ jobs:
   sentry_release: *sentry_release
 
   cypress_job: *cypress_job
-  # capture_screenshots:
-  #   docker:
-  #     - image: circleci/node:12-browsers
-  #   steps:
-  #     - checkout
-  #     - restore_cache:
-  #         keys:
-  #           - dependencies-{{ checksum "yarn.lock" }}
-  #           - dependencies-
-  #     - restore_cache:
-  #         key: public-dir-{{ .Revision }}
-  #     - run:
-  #         name: Workaround for GoogleChrome/puppeteer#290
-  #         command: |
-  #           chmod +x .circleci/setup-puppeteer.sh
-  #           .circleci/setup-puppeteer.sh
-  #     - run:
-  #         command: yarn install --no-progress
-  #     - run:
-  #         command: yarn dev
-  #         background: true
-  #     - run:
-  #         command: yarn test
-  #     - store_artifacts:
-  #         path: test/__snapshots__

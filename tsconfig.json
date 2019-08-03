@@ -1,6 +1,6 @@
 {
-  "include": ["./src/**/*.tsx", "**/*.spec.tsx", "./src/**/*.ts", "**/*.js"],
-  "exclude": ["node_modules/*", "public/*"],
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules/*", "public/*", ".cache/"],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",

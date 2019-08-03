@@ -2,39 +2,21 @@
 
 exports[`Render Header component. 1`] = `
 <div
-  className="pv3"
-  style={
-    Object {
-      "background": "#e5f4ee",
-    }
-  }
+  className="sc-bdVaJa justify-center items-center center w-100 sc-bwzfXH edpdtm"
 >
-  <div
-    className="flex justify-center items-center"
-    style={
-      Object {
-        "margin": "0 auto",
-        "maxWidth": 960,
-      }
-    }
+  <a
+    className="fw3 no-underline tracked-tight"
+    href="/true"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
   >
-    <h1
-      className="ma0 mt2 f1"
+    <div
+      className="sc-bdVaJa ma0 mt2 f1 sc-htpNat dtuhmt"
+      color="primary"
+      fontFamily="mono"
     >
-      <a
-        className="fw3 no-underline"
-        href="/true"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        style={
-          Object {
-            "color": "#68465b",
-            "letterSpacing": "-0.15rem",
-            "textDecoration": "none",
-          }
-        }
-      />
-    </h1>
-  </div>
+      multiar.ch
+    </div>
+  </a>
 </div>
 `;

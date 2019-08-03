@@ -75,5 +75,6 @@ module.exports = {
   },
   globals: {
     __DEV__: true,
+    process: true,
   },
 }

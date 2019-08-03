@@ -1,19 +1,33 @@
 import React from 'react'
 
-const IndexPage = () => (
-  <div className="mt4 bb b--black-10">
-    <blockquote
-      className="flex justify-center center pl2 w-50-ns italic"
-      style={{
-        borderLeft: '2px #7b5d6f solid',
-      }}
-    >
-      Cross-build so hard, mahfuckas wanna fine me;
-      <br />
-      (that manifest cray)
-    </blockquote>
-    <blockquote className="flex center pl2 w-50">— Jay-Z, Probably</blockquote>
-  </div>
-)
+import RepoList from 'components/RepoList'
+import SubHeader from 'components/SubHeader'
+
+const IndexPage = () => {
+  // const [data, setData] = useState()
+
+  // useEffect(() => {
+  //   const fetchRepos = async () => {
+  //     if (!_.isEmpty(data)) {
+  //       return
+  //     }
+  //     let repos: any[]
+  //     if (process.env.NODE_ENV === 'development') {
+  //       repos = require('../assets/dh-fixtures.json')
+  //     } else {
+  //       repos = await queryRepos()
+  //     }
+  //     setData(repos)
+  //   }
+  //   fetchRepos()
+  // }, [data])
+
+  return (
+    <>
+      <SubHeader />
+      <RepoList />
+    </>
+  )
+}
 
 export default IndexPage
