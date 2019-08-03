@@ -2,3 +2,7 @@
 .gtm/terminal.app:20,1564912800:20,r
 .git/rebase-merge/git-rebase-todo:20,1564912800:20,r
 .git/COMMIT_EDITMSG:20,1564912800:20,r
+
+[ver:1,total:3120]
+.gtm/terminal.app:1930,1564822800:960,1564848000:420,1564858800:480,1564866000:70,r
+src/components/RepoList/index.tsx:1190,1564866000:1190,m
