@@ -3,7 +3,7 @@ import { Text } from 'rebass'
 
 const SubHeader = () => {
   return (
-    <div className="pt4 bb bt b--black-10 flex justify-center">
+    <div className="pv4 bb bt b--black-10 flex justify-center">
       <Text className="flex flex-column lh-title mw7">
         <Text
           fontFamily="serif"
