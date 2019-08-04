@@ -2,7 +2,7 @@
 
 exports[`Render Header component. 1`] = `
 <div
-  className="sc-bdVaJa justify-center items-center center w-100 sc-bwzfXH edpdtm"
+  className="sc-bdVaJa justify-center items-center center w-100 pa2 sc-bwzfXH iqFxzw"
 >
   <a
     className="fw3 no-underline tracked-tight"
@@ -11,7 +11,7 @@ exports[`Render Header component. 1`] = `
     onMouseEnter={[Function]}
   >
     <div
-      className="sc-bdVaJa ma0 mt2 f1 sc-htpNat dtuhmt"
+      className="sc-bdVaJa ma0 mt2 f1 sc-htpNat lmlKOh"
       color="primary"
       fontFamily="mono"
     >
