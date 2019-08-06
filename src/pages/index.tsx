@@ -1,8 +1,8 @@
 import React from 'react'
 
+import Footer from 'components/Footer'
 import RepoList from 'components/RepoList'
 import SubHeader from 'components/SubHeader'
-import Footer from 'components/Footer'
 
 const IndexPage = () => {
   return (
