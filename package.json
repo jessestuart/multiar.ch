@@ -110,7 +110,7 @@
     "scrollprogress": "3.0.2",
     "semantic-release": "15.13.19",
     "source-map-support": "0.5.13",
-    "start-server-and-test": "1.9.1",
+    "start-server-and-test": "1.9.2",
     "ts-jest": "24.0.2",
     "ts-node": "8.3.0",
     "tslint": "5.18.0",
