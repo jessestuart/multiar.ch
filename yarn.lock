@@ -13456,10 +13456,10 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-rebass@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.2.1.tgz#6df1a2479f72aefa1595216b71e044c9a6688b3a"
-  integrity sha512-QOj86ypRIdUrsdgByeNKRWIqLcZKscg1DVT82er7Ghu4ok5455AtWp7sMssDwI8SMrs1WX5HclXMMbl7DvyypA==
+rebass@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.2.2.tgz#b833ab1f0c7681503b1fb9eb8f652a93757c5a17"
+  integrity sha512-v6b1gG5vx0jgHJlI5prYVY9luztvyfLC8Eeumdmix/qmsUWaR9ZBnTcPXQFZm2VsH/X36u/7DL0BjYwY3EO+Gg==
   dependencies:
     styled-system "^5.0.0"
 
