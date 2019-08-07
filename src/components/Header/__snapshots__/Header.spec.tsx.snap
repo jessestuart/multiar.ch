@@ -5,10 +5,12 @@ exports[`Render Header component. 1`] = `
   className="sc-bdVaJa justify-center items-center center w-100 pa2 sc-bwzfXH iqFxzw"
 >
   <a
+    aria-current="page"
     className="fw3 no-underline tracked-tight"
-    href="/true"
+    href="/"
     onClick={[Function]}
     onMouseEnter={[Function]}
+    style={Object {}}
   >
     <div
       className="sc-bdVaJa ma0 mt2 f1 sc-htpNat lmlKOh"

@@ -5,6 +5,7 @@ yarn-error.log
 .eslintcache
 reports/
 junit.xml
+test/coverage/
 
 # Build directory
 /public

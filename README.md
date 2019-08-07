@@ -16,7 +16,7 @@
 [codecov-badge]:
   https://codecov.io/gh/jessestuart/jesses.io/branch/master/graph/badge.svg
 [circleci-url]: https://circleci.com/gh/jessestuart/multiar.ch
-[codecov-url]: https://codecov.io/gh/jessestuart/jesses.io
+[codecov-url]: https://codecov.io/gh/jessestuart/multiar.ch
 [netlify]:
   https://api.netlify.com/api/v1/badges/3749f292-ea4b-4d99-bd94-a2d3432fcba8/deploy-status
 [netlify 2]: https://app.netlify.com/sites/multiarch/deploys
