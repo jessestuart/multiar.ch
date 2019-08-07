@@ -30,14 +30,14 @@ describe('RepoList component', () => {
     expect(tree).toMatchSnapshot()
   })
 
-  test('Render RepoList component.', () => {
-    const component = renderer.create(<RepoList />)
+  test('Render empty PureRepoList.', () => {
+    const component = renderer.create(<PureRepoList repos={[]} />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
 
-  test('Render empty RepoList.', () => {
-    const component = renderer.create(<PureRepoList repos={[]} />)
+  test('Render RepoList component.', () => {
+    const component = renderer.create(<RepoList />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })

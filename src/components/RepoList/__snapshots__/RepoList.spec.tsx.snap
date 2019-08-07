@@ -3066,29 +3066,4 @@ exports[`RepoList component Render RepoList component. 1`] = `
 </div>
 `;
 
-exports[`RepoList component Render empty RepoList. 1`] = `
-<div
-  className="justify-center center flex pt4 f4 sc-bdVaJa iXDzJJ"
->
-  <ol
-    className="mw7-ns"
-  >
-    <li
-      className="flex fw7 lh-copy"
-    >
-      <div
-        className="sc-bdVaJa flex-nowrap w-100 sc-htpNat kknGiY"
-        fontFamily="mono"
-      >
-        Image
-      </div>
-      <div
-        className="sc-bdVaJa flex justify-end w-100 sc-htpNat kknGiY"
-        fontFamily="mono"
-      >
-        Pulls
-      </div>
-    </li>
-  </ol>
-</div>
-`;
+exports[`RepoList component Render empty PureRepoList. 1`] = `null`;

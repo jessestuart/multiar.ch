@@ -8,7 +8,14 @@ import { Box, Text } from 'rebass'
 
 import RepoListRow from 'components/RepoList/RepoListRow'
 
-export const PureRepoList = ({ repos }: { repos: DockerHubRepo[] }) => {
+export const PureRepoList = ({
+  repos = [],
+}: {
+  repos: DockerHubRepo[] | undefined
+}) => {
+  if (_.isEmpty(repos)) {
+    return null
+  }
   return (
     <Box className="justify-center center flex pt4 f4">
       <ol className="mw7-ns">
@@ -66,10 +73,6 @@ const RepoList = () => {
       return lastUpdated > -31540000000
     }),
   )(query)
-  if (_.isEmpty(repos)) {
-    return null
-  }
-
   return <PureRepoList repos={repos} />
 }
 

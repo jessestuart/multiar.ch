@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArchitectureIconGroup render with default icons 1`] = `
+Array [
+  <span
+    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+  >
+    amd64
+  </span>,
+  <span
+    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+  >
+    arm
+  </span>,
+  <span
+    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+  >
+    arm64
+  </span>,
+]
+`;

@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 import Theme from 'styles/Theme'
 
-const ArchitectureIcon = styled.span`
+export const ArchitectureIcon = styled.span`
   background-color: #e5f4ee;
   border-radius: 10%;
   border: 1px solid #abb7b2;
@@ -16,9 +16,9 @@ const ArchitectureIcon = styled.span`
   user-select: none !important;
 `
 
-type Architecture = 'amd64' | 'arm64' | 'arm'
+export type Architecture = 'amd64' | 'arm64' | 'arm'
 
-const ArchitectureIconGroup = ({
+export const ArchitectureIconGroup = ({
   architectures,
 }: {
   architectures: Architecture[] | undefined
