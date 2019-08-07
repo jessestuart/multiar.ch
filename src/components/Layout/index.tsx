@@ -4,7 +4,7 @@ import 'typeface-space-mono'
 
 import React, { ReactNode } from 'react'
 import Helmet from 'react-helmet'
-import { Box } from 'rebass'
+import { Box } from 'rebass/styled-components'
 
 import Header from 'components/Header'
 import { useSiteMetadata } from 'utils/hooks'

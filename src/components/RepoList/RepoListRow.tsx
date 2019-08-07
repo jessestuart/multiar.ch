@@ -2,7 +2,7 @@ import { DockerHubRepo } from 'gatsby-source-docker-hub'
 import _ from 'lodash'
 import { DateTime } from 'luxon'
 import React from 'react'
-import { Text } from 'rebass'
+import { Text } from 'rebass/styled-components'
 import styled from 'styled-components'
 
 import Theme from 'styles/Theme'
@@ -68,7 +68,7 @@ const RepoListRow = (props: Props) => {
           Updated {lastUpdatedRelative}
         </Text>
       </div>
-      <Text className="pl4" fontFamily="mono">
+      <Text className="pl4 flex justify-end" fontFamily="mono">
         {repo.pullCount.toLocaleString()}
       </Text>
     </li>

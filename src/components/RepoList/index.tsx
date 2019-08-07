@@ -4,7 +4,7 @@ import _ from 'lodash'
 import fp from 'lodash/fp'
 import { DateTime } from 'luxon'
 import React from 'react'
-import { Box, Text } from 'rebass'
+import { Box, Text } from 'rebass/styled-components'
 
 import RepoListRow from 'components/RepoList/RepoListRow'
 
