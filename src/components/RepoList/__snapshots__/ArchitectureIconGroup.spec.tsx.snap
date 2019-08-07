@@ -19,3 +19,5 @@ Array [
   </span>,
 ]
 `;
+
+exports[`ArchitectureIconGroup render with no icons 1`] = `null`;

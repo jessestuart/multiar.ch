@@ -11,4 +11,11 @@ describe('ArchitectureIconGroup', () => {
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
+  test('render with no icons', () => {
+    const component = renderer.create(
+      <ArchitectureIconGroup architectures={[]} />,
+    )
+    const tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })

@@ -68,7 +68,7 @@ const RepoListRow = (props: Props) => {
           Updated {lastUpdatedRelative}
         </Text>
       </div>
-      <Text className="pl4" fontFamily="mono">
+      <Text className="pl4 flex justify-end" fontFamily="mono">
         {repo.pullCount.toLocaleString()}
       </Text>
     </li>
