@@ -3,17 +3,17 @@
 exports[`ArchitectureIconGroup render with default icons 1`] = `
 Array [
   <span
-    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+    className="f7 pa1 ma1 sc-htpNat esNeRb"
   >
     amd64
   </span>,
   <span
-    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+    className="f7 pa1 ma1 sc-htpNat esNeRb"
   >
     arm
   </span>,
   <span
-    className="f7 pa1 ma1 sc-htoDjs kAUFmn"
+    className="f7 pa1 ma1 sc-htpNat esNeRb"
   >
     arm64
   </span>,

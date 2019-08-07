@@ -1,6 +1,6 @@
 import Link from 'gatsby-link'
 import React, { ReactNode } from 'react'
-import { Flex, Text } from 'rebass'
+import { Flex, Text } from 'rebass/styled-components'
 
 interface Props {
   children: ReactNode
