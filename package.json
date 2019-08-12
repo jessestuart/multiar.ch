@@ -1,7 +1,7 @@
 {
   "name": "multiar.ch",
   "description": "multiar.ch",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "dependencies": {
     "@babel/runtime": "7.5.5",
