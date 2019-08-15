@@ -1,6 +1,4 @@
 import 'js-tachyons'
-import 'typeface-lato'
-import 'typeface-space-mono'
 
 import React, { ReactNode } from 'react'
 import Helmet from 'react-helmet'

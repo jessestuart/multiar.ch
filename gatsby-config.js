@@ -91,8 +91,6 @@ let plugins = _.compact([
   // ==========================================
   // Transformers for Markdown and image files.
   // ==========================================
-  'gatsby-plugin-sharp',
-  'gatsby-transformer-sharp',
   dockerHubPlugin,
   // ==========
   // Analytics.
