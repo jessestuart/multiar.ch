@@ -24,7 +24,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -67,7 +72,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -110,7 +120,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -153,7 +168,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -196,7 +216,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -239,7 +264,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -282,7 +312,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -325,7 +360,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -368,7 +408,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -411,7 +456,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -454,7 +504,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -497,7 +552,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -540,7 +600,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -584,7 +649,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -627,7 +697,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -670,7 +745,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -713,7 +793,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -756,7 +841,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -799,7 +889,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -842,7 +937,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -885,7 +985,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -928,7 +1033,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -971,7 +1081,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1014,7 +1129,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1057,7 +1177,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1100,7 +1225,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1143,7 +1273,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1186,7 +1321,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1229,7 +1369,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1272,7 +1417,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1315,7 +1465,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1358,7 +1513,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1401,7 +1561,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1444,7 +1609,12 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1487,7 +1657,8 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 "
+      className="flex lh-copy pt2 pb3 undefined"
+      style={null}
     >
       <div
         className="flex-auto"
@@ -1557,7 +1728,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1600,7 +1776,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1643,7 +1824,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1686,7 +1872,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1729,7 +1920,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1772,7 +1968,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1815,7 +2016,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1858,7 +2064,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1901,7 +2112,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1944,7 +2160,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -1987,7 +2208,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2030,7 +2256,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2073,7 +2304,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2117,7 +2353,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2160,7 +2401,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2203,7 +2449,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2246,7 +2497,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2289,7 +2545,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2332,7 +2593,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2375,7 +2641,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2418,7 +2689,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2461,7 +2737,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2504,7 +2785,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2547,7 +2833,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2590,7 +2881,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2633,7 +2929,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2676,7 +2977,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2719,7 +3025,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2762,7 +3073,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2805,7 +3121,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2848,7 +3169,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2891,7 +3217,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2934,7 +3265,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -2977,7 +3313,12 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 bb b--near-white"
+      className="flex lh-copy pt2 pb3 undefined"
+      style={
+        Object {
+          "borderBottom": "1px rgba( 0, 0, 0, 0.1) solid",
+        }
+      }
     >
       <div
         className="flex-auto"
@@ -3020,7 +3361,8 @@ exports[`RepoList component Render RepoList component. 1`] = `
       </div>
     </li>
     <li
-      className="flex lh-copy pt2 pb3 "
+      className="flex lh-copy pt2 pb3 undefined"
+      style={null}
     >
       <div
         className="flex-auto"

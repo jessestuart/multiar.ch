@@ -36,6 +36,7 @@ export const ArchitectureIconGroup = ({
 interface Props {
   className?: string
   repo: DockerHubRepo
+  style?: any
 }
 
 const RepoListRow = (props: Props) => {
@@ -47,7 +48,11 @@ const RepoListRow = (props: Props) => {
   const repoUrl = `https://cloud.docker.com/u/jessestuart/repository/docker/jessestuart/${repo.name}`
 
   return (
-    <li key={repo.name} className={`flex lh-copy pt2 pb3 ${className}`}>
+    <li
+      key={repo.name}
+      className={`flex lh-copy pt2 pb3 ${className}`}
+      style={props.style}
+    >
       <div className="flex-auto">
         <a
           className="flex-nowrap primary lh-title dib mr2"

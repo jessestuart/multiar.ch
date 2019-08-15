@@ -7,6 +7,7 @@ import React from 'react'
 import { Box, Text } from 'rebass/styled-components'
 
 import RepoListRow from 'components/RepoList/RepoListRow'
+import { colors } from 'styles/Theme'
 
 export const PureRepoList = ({
   repos = [],
@@ -32,9 +33,13 @@ export const PureRepoList = ({
           .map((repo: DockerHubRepo, index: number) => {
             return (
               <RepoListRow
-                className={index !== repos.length - 1 ? 'bb b--near-white' : ''}
                 key={index}
                 repo={repo}
+                style={
+                  index !== repos.length - 1
+                    ? { borderBottom: `1px ${colors.neutral} solid` }
+                    : null
+                }
               />
             )
           })}
@@ -62,7 +67,7 @@ const RepoList = () => {
     }
   `)
 
-  const repos: DockerHubRepo[] = _.flow(
+  const initialRepos: DockerHubRepo[] = _.flow(
     fp.get('allDockerHubRepo.edges'),
     fp.map('node'),
     fp.filter(repo => {
@@ -73,7 +78,8 @@ const RepoList = () => {
       return lastUpdated > -31540000000
     }),
   )(query)
-  return <PureRepoList repos={repos} />
+
+  return <PureRepoList repos={initialRepos} />
 }
 
 export default RepoList

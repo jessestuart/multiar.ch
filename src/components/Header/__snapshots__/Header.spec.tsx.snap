@@ -2,7 +2,7 @@
 
 exports[`Render Header component. 1`] = `
 <div
-  className="sc-bdVaJa justify-center items-center center w-100 pa2 sc-bwzfXH cvWZpY"
+  className="sc-bdVaJa justify-center items-center center w-100 ph2 pv3 sc-bwzfXH cvWZpY"
 >
   <a
     aria-current="page"
@@ -13,7 +13,7 @@ exports[`Render Header component. 1`] = `
     style={Object {}}
   >
     <div
-      className="ma0 mt2 f1 sc-bdVaJa sYLYI"
+      className="f1 sc-bdVaJa sYLYI"
       color="primary"
       fontFamily="mono"
     >
