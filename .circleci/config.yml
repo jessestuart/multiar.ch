@@ -168,7 +168,6 @@ jobs:
       - checkout
       - *restore_cache
       - *restore_public_dir_cache
-      - *install_dependencies
       - run:
           name: Build static site. (with limited assets)
           command: yarn build:ci
