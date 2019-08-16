@@ -6,3 +6,9 @@ src/styles/Theme.ts:360,1565866800:360,r
 src/components/RepoList/index.tsx:114,1565848800:114,r
 .git/COMMIT_EDITMSG:60,1565946000:60,r
 .git/rebase-merge/git-rebase-todo:20,1565946000:20,r
+
+[ver:1,total:480]
+.gtm/terminal.app:340,1565845200:130,1565848800:210,r
+package.json:95,1565845200:95,m
+gatsby-browser.js:30,1565848800:30,r
+src/components/Layout/index.tsx:15,1565845200:15,m
