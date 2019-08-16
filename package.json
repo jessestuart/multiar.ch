@@ -78,7 +78,7 @@
     "babel-plugin-styled-components": "1.10.6",
     "babel-preset-gatsby": "0.2.8",
     "codecov": "3.5.0",
-    "concurrently": "4.1.1",
+    "concurrently": "4.1.2",
     "cypress": "3.4.1",
     "eslint": "6.1.0",
     "eslint-config-prettier": "6.0.0",
