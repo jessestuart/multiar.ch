@@ -1,10 +1,11 @@
 import React from 'react'
 import { Text } from 'rebass/styled-components'
+import { Flex } from 'reflexbox'
 import { colors } from 'styles/Theme'
 
 const SubHeader = () => (
-  <div className="pt5 pb4 bb bt b--black-10 flex justify-center">
-    <Text className="flex flex-column lh-title mw7">
+  <Flex className="pt5 pb4 bb bt b--black-10 flex justify-center pl4 pl0-ns">
+    <Flex className="lh-title" flexDirection="column">
       <Text
         fontFamily="serif"
         className="i justify-center center pl3"
@@ -16,13 +17,11 @@ const SubHeader = () => (
         <br />
         (that manifest cray)
       </Text>
-      <div className="flex justify-end">
-        <Text fontFamily="serif" pl={2}>
-          — Jay-Z, Probably
-        </Text>
-      </div>
-    </Text>
-  </div>
+      <Flex className="justify-end">
+        <Text fontFamily="serif">— Jay-Z, Probably</Text>
+      </Flex>
+    </Flex>
+  </Flex>
 )
 
 export default SubHeader

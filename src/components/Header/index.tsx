@@ -3,12 +3,13 @@ import React, { ReactNode } from 'react'
 import { Flex, Text } from 'rebass/styled-components'
 
 const Header = ({ children }: { children: ReactNode }) => (
-  <Flex
-    bg="secondary"
-    className="justify-center items-center center w-100 ph2 pv3"
-  >
-    <Link to="/" className="fw3 no-underline tracked-tight">
-      <Text color="primary" fontFamily="mono" className="f1">
+  <Flex bg="secondary" className="items-center justify-center ph2 pv1 pv3-ns">
+    <Link to="/" className="no-underline">
+      <Text
+        color="primary"
+        fontFamily="mono"
+        className="f1-ns f2 fw3 tracked-tight"
+      >
         {children}
       </Text>
     </Link>

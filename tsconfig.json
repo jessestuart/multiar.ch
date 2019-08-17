@@ -18,7 +18,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "paths": { "*": ["src/*", "static/*", "test/*"] },
+    "paths": { "*": ["src/*", "test/*"] },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalPulls component. Render TotalPulls component. 1`] = `
+<div
+  className="sc-bdVaJa flex justify-center items-center sc-bwzfXH gYCEQ"
+>
+  Total pulls:
+  <div
+    className="pl1 b sc-bdVaJa gtVQmG"
+    style={
+      Object {
+        "color": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  >
+    1,724,122
+  </div>
+</div>
+`;

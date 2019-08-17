@@ -5,7 +5,8 @@ import renderer from 'react-test-renderer'
 
 import fixtures from '../../../test/fixtures/DockerHubReposFixture'
 
-import RepoList, { PureRepoList } from '.'
+import RepoList from 'components/RepoList'
+import PureRepoList from 'components/RepoList/PureRepoList'
 
 jest.mock('gatsby', () => ({
   graphql: jest.fn(),

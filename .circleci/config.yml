@@ -41,18 +41,25 @@ workflows:
 # Shared definitions.
 # ===================
 defaults: &defaults
-  working_directory: ~/multiar.ch
+  working_directory: /root/multiar.ch
   docker:
     - image: node:12
 
 # ====================
 # SHARED JOBS POINTERS
 # ====================
+save_cache: &save_cache
+  save_cache:
+    paths:
+      - /root/multiar.ch/node_modules/
+      - /root/.cache/yarn/
+    key: v5-dependencies-{{ checksum "yarn.lock" }}
+
 restore_cache: &restore_cache
   restore_cache:
     keys:
-      - v4-dependencies-{{ checksum "yarn.lock" }}
-      - v4-dependencies-
+      - v5-dependencies-{{ checksum "yarn.lock" }}
+      - v5-dependencies-
 
 restore_public_dir_cache: &restore_public_dir_cache
   restore_cache:
@@ -60,13 +67,6 @@ restore_public_dir_cache: &restore_public_dir_cache
       - v2-public-dir-{{ .Branch }}-{{ .Revision }}
       - v2-public-dir-{{ .Branch }}
       - v2-public-dir-
-
-save_cache: &save_cache
-  save_cache:
-    paths:
-      - node_modules/
-      - ~/.cache/yarn
-    key: v4-dependencies-{{ checksum "yarn.lock" }}
 
 save_public_dir_cache: &save_public_dir_cache
   save_cache:
@@ -77,16 +77,7 @@ save_public_dir_cache: &save_public_dir_cache
 install_dependencies: &install_dependencies
   run:
     name: Install dependencies.
-    command: yarn --silent --no-progress --frozen-lockfile --prefer-offline
-
-load_aws_credentials: &load_aws_credentials
-  run: |
-    mkdir -p ~/.aws
-    cat > ~/.aws/credentials \<<EOF
-    [default]
-    aws_access_key_id = ${AWS_ACCESS_KEY_ID}
-    aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}
-    EOF
+    command: yarn --silent --no-progress --frozen-lockfile
 
 semantic_release: &semantic_release
   <<: *defaults
@@ -103,24 +94,24 @@ sentry_release: &sentry_release
     - run: curl -sL https://sentry.io/get-cli/ | bash
     - run: sh ./scripts/update-sentry-release.sh
 
-cypress_job: &cypress_job
-  working_directory: ~/multiar.ch
-  docker:
-    # the Docker image with Cypress dependencies
-    - image: cypress/base:12.6.0
-      environment:
-        ## this enables colors in the output
-        TERM: xterm
-  steps:
-    - checkout
-    - *restore_cache
-    - *load_aws_credentials
-    - run:
-        command: GATSBY_ENV=Staging yarn gatsby develop
-        background: true
-    - run: sleep 60s
-    - run: yarn cypress install
-    - run: yarn cypress run
+# cypress_job: &cypress_job
+#   working_directory: ~/multiar.ch
+#   docker:
+#     # the Docker image with Cypress dependencies
+#     - image: cypress/base:12.6.0
+#       environment:
+#         ## this enables colors in the output
+#         TERM: xterm
+#   steps:
+#     - checkout
+#     - *restore_cache
+#     - *load_aws_credentials
+#     - run:
+#         command: GATSBY_ENV=Staging yarn gatsby develop
+#         background: true
+#     - run: sleep 60s
+#     - run: yarn cypress install
+#     - run: yarn cypress run
 
 # ================
 # JOB DECLARATIONS
@@ -170,7 +161,7 @@ jobs:
       - *restore_public_dir_cache
       - run:
           name: Build static site. (with limited assets)
-          command: yarn build:ci
+          command: yarn build
       - *save_cache
       - *save_public_dir_cache
 
@@ -179,5 +170,3 @@ jobs:
   semantic_release: *semantic_release
 
   sentry_release: *sentry_release
-
-  cypress_job: *cypress_job
