@@ -9,11 +9,11 @@ import { Box, Text } from 'rebass/styled-components'
 import RepoListRow from 'components/RepoList/RepoListRow'
 import { colors } from 'styles/Theme'
 
-export const PureRepoList = ({
-  repos = [],
-}: {
+interface Props {
   repos: DockerHubRepo[] | undefined
-}) => {
+}
+
+export const PureRepoList = ({ repos = [] }: Props) => {
   if (_.isEmpty(repos)) {
     return null
   }
@@ -75,7 +75,8 @@ const RepoList = () => {
         typeof repo.lastUpdated === 'string'
           ? DateTime.fromISO(repo.lastUpdated).diffNow().milliseconds
           : DateTime.fromJSDate(repo.lastUpdated).diffNow().milliseconds
-      return lastUpdated > -31540000000
+      const oneYearInMilliseconds = -31540000000
+      return lastUpdated > oneYearInMilliseconds
     }),
   )(query)
 
