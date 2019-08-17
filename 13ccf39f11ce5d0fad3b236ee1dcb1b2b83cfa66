@@ -1,0 +1,13 @@
+[ver:1,total:6840]
+.gtm/terminal.app:5685,1566057600:1220,1566061200:1440,1566064800:1970,1566068400:1055,r
+src/components/SubHeader/index.tsx:380,1566064800:380,m
+src/components/Footer/index.tsx:185,1566064800:170,1566068400:15,m
+src/components/Header/index.tsx:180,1566068400:180,m
+src/components/RepoList/RepoListRow.tsx:110,1566068400:110,m
+package.json:100,1566064800:100,m
+src/components/Layout/index.tsx:80,1566068400:80,m
+src/components/TotalPulls/index.tsx:50,1566057600:50,m
+.stylelintrc:20,1566064800:20,d
+src/components/TotalPulls/TotalPulls.spec.tsx:20,1566057600:20,r
+.git/rebase-merge/git-rebase-todo:15,1566057600:15,d
+.git/PULLREQ_EDITMSG:15,1566057600:15,d
