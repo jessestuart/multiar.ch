@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import _ from 'lodash'
 import fp from 'lodash/fp'
 import React from 'react'
-import { Box, Text } from 'rebass/styled-components'
+import { Flex, Text } from 'rebass/styled-components'
 
 import { colors } from 'styles/Theme'
 
@@ -24,12 +24,12 @@ const TotalPulls = () => {
   )(query)
 
   return (
-    <Box className="flex justify-center items-center">
+    <Flex className="flex justify-center items-center">
       Total pulls:
       <Text className="pl1 b" style={{ color: colors.text }}>
-        {totalPulls}
+        {totalPulls.toLocaleString()}
       </Text>
-    </Box>
+    </Flex>
   )
 }
 
