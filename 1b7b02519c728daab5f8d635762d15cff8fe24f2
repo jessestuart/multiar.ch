@@ -1,0 +1,9 @@
+[ver:1,total:7260]
+.gtm/terminal.app:4870,1565949600:390,1565953200:600,1566036000:240,1566039600:900,1566043200:360,1566046800:600,1566050400:1110,1566054000:525,1566057600:145,r
+src/components/Footer/index.tsx:617,1566050400:617,m
+src/components/TotalPulls/TotalPulls.spec.tsx:482,1566054000:307,1566057600:175,m
+src/components/RepoList/index.tsx:475,1566050400:195,1566054000:280,m
+src/components/TotalPulls/index.tsx:408,1566050400:238,1566054000:70,1566057600:100,m
+src/components/TotalPulls/TotalPull.spec.tsx:160,1566054000:160,d
+.git/rebase-merge/git-rebase-todo:150,1565949600:150,d
+src/components/RepoList/RepoList.spec.tsx:98,1566054000:98,r
