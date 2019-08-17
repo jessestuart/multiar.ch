@@ -71,14 +71,14 @@ const RepoListRow = (props: Props) => {
         <ArchitectureIconGroup architectures={architectures} />
         <Text>{repo.description}</Text>
         <Text
-          className="flex justify-start no-underline flex-column f6"
+          className="flex flex-column f6 justify-start no-underline"
           fontFamily="sans-serif"
           color="textMuted"
         >
           Updated {lastUpdatedRelative}
         </Text>
       </Box>
-      <Text className="pl4 flex justify-end" fontFamily="mono">
+      <Text className="flex flex-auto justify-end pl4 " fontFamily="mono">
         {repo.pullCount.toLocaleString()}
       </Text>
     </li>

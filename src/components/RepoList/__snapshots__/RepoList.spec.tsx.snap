@@ -65,7 +65,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           OwnTracks. Multiarch. 👌
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -73,7 +73,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         488,928
@@ -121,7 +121,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           The every(wo)man's reverse proxy, on all your boxes or boards. amd64, arm64, & armhf nightly builds.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -129,7 +129,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         363,037
@@ -177,7 +177,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Nightly multi-architecture (amd64, arm64, armv7) builds for the Kubernetes Helm tiller service.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -185,7 +185,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         334,292
@@ -233,7 +233,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           All the dependencies, up-to-date, all the time. Nightly multiarch builds. (amd64 + arm64)
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -241,7 +241,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         143,411
@@ -289,7 +289,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Minio server — supports arm (arm32v6, arm32v7, armhf) arm64 (aarch64), and amd64 architectures.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -297,7 +297,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         74,819
@@ -345,7 +345,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           An OSS metrics dashboard and graph editor for Graphite, Elasticsearch, Prometheus and InfluxDB.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -353,7 +353,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         52,737
@@ -401,7 +401,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           amd64, arm64, and armhf Docker images for Minio Client.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -409,7 +409,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         45,199
@@ -457,7 +457,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Multiarch (ARM, ARM64, AMD64) fluent-bit image. Nightly builds from master. Telemetry FTW.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -465,7 +465,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         38,773
@@ -513,7 +513,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Multi-arch (AMD, ARM, ARM64) image for scraping data from a Unifi controller.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -521,7 +521,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         37,002
@@ -569,7 +569,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Nightly multiarch (arm64, armhf, amd64) builds of Heptio Velero for Kubernetes.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -577,7 +577,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         36,417
@@ -625,7 +625,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Nightly multiarch (arm64, armhf, amd64) builds of Heptio's ark.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -633,7 +633,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         23,236
@@ -681,7 +681,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           A local PV represents a local disk directly-attached to a Node. This reached GA in 1.14.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -689,7 +689,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         17,476
@@ -738,7 +738,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
  Nightly multiarch builds.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -746,7 +746,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         11,239
@@ -794,7 +794,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -802,7 +802,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         10,668
@@ -850,7 +850,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -858,7 +858,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         8,596
@@ -906,7 +906,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -914,7 +914,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         5,189
@@ -962,7 +962,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -970,7 +970,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         4,527
@@ -1018,7 +1018,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1026,7 +1026,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,293
@@ -1074,7 +1074,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1082,7 +1082,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,271
@@ -1130,7 +1130,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1138,7 +1138,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,147
@@ -1186,7 +1186,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1194,7 +1194,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,826
@@ -1242,7 +1242,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           Caddy w/ Cloudflare plugin included. [NOTE: use jessestuart/caddy instead for nightly builds!] 
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1250,7 +1250,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,824
@@ -1298,7 +1298,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1306,7 +1306,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,509
@@ -1354,7 +1354,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1362,7 +1362,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,063
@@ -1410,7 +1410,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1418,7 +1418,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,852
@@ -1466,7 +1466,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1474,7 +1474,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,528
@@ -1522,7 +1522,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1530,7 +1530,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,007
@@ -1578,7 +1578,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1586,7 +1586,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         713
@@ -1634,7 +1634,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1642,7 +1642,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         630
@@ -1690,7 +1690,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1698,7 +1698,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         621
@@ -1746,7 +1746,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1754,7 +1754,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         571
@@ -1802,7 +1802,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1810,7 +1810,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         527
@@ -1858,7 +1858,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1866,7 +1866,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         519
@@ -1914,7 +1914,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1922,7 +1922,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         420
@@ -1966,7 +1966,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -1974,7 +1974,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         255
@@ -2049,7 +2049,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           OwnTracks. Multiarch. 👌
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2057,7 +2057,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         488,928
@@ -2105,7 +2105,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           The every(wo)man's reverse proxy, on all your boxes or boards. amd64, arm64, & armhf nightly builds.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2113,7 +2113,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         363,037
@@ -2161,7 +2161,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Nightly multi-architecture (amd64, arm64, armv7) builds for the Kubernetes Helm tiller service.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2169,7 +2169,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         334,292
@@ -2217,7 +2217,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           All the dependencies, up-to-date, all the time. Nightly multiarch builds. (amd64 + arm64)
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2225,7 +2225,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         143,411
@@ -2273,7 +2273,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Minio server — supports arm (arm32v6, arm32v7, armhf) arm64 (aarch64), and amd64 architectures.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2281,7 +2281,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         74,819
@@ -2329,7 +2329,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           An OSS metrics dashboard and graph editor for Graphite, Elasticsearch, Prometheus and InfluxDB.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2337,7 +2337,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         52,737
@@ -2385,7 +2385,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           amd64, arm64, and armhf Docker images for Minio Client.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2393,7 +2393,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         45,199
@@ -2441,7 +2441,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Multiarch (ARM, ARM64, AMD64) fluent-bit image. Nightly builds from master. Telemetry FTW.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2449,7 +2449,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         38,773
@@ -2497,7 +2497,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Multi-arch (AMD, ARM, ARM64) image for scraping data from a Unifi controller.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2505,7 +2505,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         37,002
@@ -2553,7 +2553,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Nightly multiarch (arm64, armhf, amd64) builds of Heptio Velero for Kubernetes.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2561,7 +2561,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         36,417
@@ -2609,7 +2609,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Nightly multiarch (arm64, armhf, amd64) builds of Heptio's ark.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2617,7 +2617,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         23,236
@@ -2665,7 +2665,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           A local PV represents a local disk directly-attached to a Node. This reached GA in 1.14.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2673,7 +2673,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         17,476
@@ -2722,7 +2722,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
  Nightly multiarch builds.
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2730,7 +2730,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         11,239
@@ -2778,7 +2778,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2786,7 +2786,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         10,668
@@ -2834,7 +2834,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2842,7 +2842,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         8,596
@@ -2890,7 +2890,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2898,7 +2898,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         5,189
@@ -2946,7 +2946,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -2954,7 +2954,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         4,527
@@ -3002,7 +3002,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3010,7 +3010,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,293
@@ -3058,7 +3058,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3066,7 +3066,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,271
@@ -3114,7 +3114,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3122,7 +3122,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,147
@@ -3170,7 +3170,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3178,7 +3178,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,826
@@ -3226,7 +3226,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           Caddy w/ Cloudflare plugin included. [NOTE: use jessestuart/caddy instead for nightly builds!] 
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3234,7 +3234,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,824
@@ -3282,7 +3282,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3290,7 +3290,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,509
@@ -3338,7 +3338,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3346,7 +3346,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,063
@@ -3394,7 +3394,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3402,7 +3402,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,852
@@ -3450,7 +3450,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3458,7 +3458,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,528
@@ -3506,7 +3506,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3514,7 +3514,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,007
@@ -3562,7 +3562,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3570,7 +3570,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         713
@@ -3618,7 +3618,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3626,7 +3626,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         630
@@ -3674,7 +3674,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3682,7 +3682,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         621
@@ -3730,7 +3730,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3738,7 +3738,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         571
@@ -3786,7 +3786,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3794,7 +3794,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         527
@@ -3842,7 +3842,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3850,7 +3850,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         519
@@ -3898,7 +3898,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3906,7 +3906,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         420
@@ -3950,7 +3950,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
           
         </div>
         <div
-          className="flex justify-start no-underline flex-column f6 sc-bdVaJa kLLToM"
+          className="flex flex-column f6 justify-start no-underline sc-bdVaJa kLLToM"
           color="textMuted"
           fontFamily="sans-serif"
         >
@@ -3958,7 +3958,7 @@ exports[`RepoList component Render RepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="pl4 flex justify-end sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         255

@@ -130,13 +130,11 @@
     "url": "https://github.com/jessestuart/multiar.ch"
   },
   "scripts": {
-    "build": "GATSBY_ENV=Production gatsby build",
-    "build:ci": "GATSBY_ENV=Staging gatsby build",
+    "build": "gatsby build",
     "check-types": "tsc -p tsconfig.json",
     "clean": "rimraf node_modules/ .cache/ && yarn -s",
-    "dev": "GATSBY_ENV=Development NODE_OPTIONS=--max_old_space_size=4096 gatsby develop",
+    "dev": "gatsby develop",
     "e2e:percy": "percy exec ts-node ./test/e2e/run-percy-cypress.js",
-    "format": "prettier 'src/**/*.js' 'src/**/*.md'",
     "lint": "concurrently 'yarn lint:js' 'yarn check-types'",
     "lint:js": "eslint --cache --quiet --ext .ts,.tsx ./src/",
     "test": "JEST_JUNIT_OUTPUT=reports/junit/js-test-results.xml jest",
