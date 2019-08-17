@@ -4,49 +4,8 @@ import _ from 'lodash'
 import fp from 'lodash/fp'
 import { DateTime } from 'luxon'
 import React from 'react'
-import { Box, Text } from 'rebass/styled-components'
 
-import RepoListRow from 'components/RepoList/RepoListRow'
-import { colors } from 'styles/Theme'
-
-interface Props {
-  repos: DockerHubRepo[] | undefined
-}
-
-export const PureRepoList = ({ repos = [] }: Props) => {
-  if (_.isEmpty(repos)) {
-    return null
-  }
-  return (
-    <Box className="justify-center center flex pt4 f4">
-      <ol className="mw7-ns">
-        <li className="flex fw7 lh-copy">
-          <Text className="flex-nowrap w-100" fontFamily="mono">
-            Image
-          </Text>
-          <Text className="flex justify-end w-100" fontFamily="mono">
-            Pulls
-          </Text>
-        </li>
-        {_.sortBy(repos, 'pullCount')
-          .reverse()
-          .map((repo: DockerHubRepo, index: number) => {
-            return (
-              <RepoListRow
-                key={index}
-                repo={repo}
-                style={
-                  index !== repos.length - 1
-                    ? { borderBottom: `1px ${colors.neutral} solid` }
-                    : null
-                }
-              />
-            )
-          })}
-      </ol>
-    </Box>
-  )
-}
+import PureRepoList from 'components/RepoList/PureRepoList'
 
 const RepoList = () => {
   const query = useStaticQuery(graphql`

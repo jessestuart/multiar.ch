@@ -1,11 +1,16 @@
+import classNames from 'classnames'
 import { DockerHubRepo } from 'gatsby-source-docker-hub'
 import _ from 'lodash'
 import { DateTime } from 'luxon'
 import React from 'react'
 import { Text } from 'rebass/styled-components'
+import { Box } from 'reflexbox'
 import styled from 'styled-components'
 
 import Theme from 'styles/Theme'
+
+const DOCKER_HUB_URL =
+  'https://cloud.docker.com/u/jessestuart/repository/docker/jessestuart/'
 
 export const ArchitectureIcon = styled.span`
   background-color: #e5f4ee;
@@ -18,15 +23,15 @@ export const ArchitectureIcon = styled.span`
 
 export type Architecture = 'amd64' | 'arm64' | 'arm'
 
-export const ArchitectureIconGroup = ({
-  architectures,
-}: {
+interface IconGroupProps {
   architectures: Architecture[] | undefined
-}) => (
+}
+
+export const ArchitectureIconGroup = ({ architectures }: IconGroupProps) => (
   <>
     {architectures &&
-      architectures.sort().map((architecture: string, archIndex: number) => (
-        <ArchitectureIcon key={archIndex} className="f7 pa1 ma1">
+      architectures.sort().map((architecture: string) => (
+        <ArchitectureIcon key={architecture} className="f7 pa1 ma1">
           {architecture}
         </ArchitectureIcon>
       ))}
@@ -45,17 +50,17 @@ const RepoListRow = (props: Props) => {
     _.toString(repo.lastUpdated),
   ).toRelative()
   const architectures: Architecture[] | undefined = _.get(repo, 'architectures')
-  const repoUrl = `https://cloud.docker.com/u/jessestuart/repository/docker/jessestuart/${repo.name}`
+  const repoUrl = `${DOCKER_HUB_URL}${repo.name}`
 
   return (
     <li
       key={repo.name}
-      className={`flex lh-copy pt2 pb3 ${className}`}
+      className={classNames('flex lh-copy pt2 pb3', className)}
       style={props.style}
     >
-      <div className="flex-auto">
+      <Box>
         <a
-          className="flex-nowrap primary lh-title dib mr2"
+          className="dib flex-nowrap lh-title mr2 primary"
           style={{ color: Theme.colors.primary }}
           href={repoUrl}
         >
@@ -72,7 +77,7 @@ const RepoListRow = (props: Props) => {
         >
           Updated {lastUpdatedRelative}
         </Text>
-      </div>
+      </Box>
       <Text className="pl4 flex justify-end" fontFamily="mono">
         {repo.pullCount.toLocaleString()}
       </Text>
