@@ -1539,11 +1539,6 @@
     "@testing-library/dom" "^6.0.0"
     "@types/testing-library__react" "^9.1.0"
 
-"@theme-ui/preset-base@^0.2.25":
-  version "0.2.29"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.2.29.tgz#ff5402eda152a2836e2d3cbf65358a8e2599f03e"
-  integrity sha512-CSihLkUWMonX8Ro3p7Q93L8Dho1gV0JSyoVAMmvS3nf5GKhFMHYCQ33H1A9ho7OWnlVHPq21sM9sNOkFJuEPBA==
-
 "@types/axios@0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@types/axios/-/axios-0.14.0.tgz#ec2300fbe7d7dddd7eb9d3abf87999964cafce46"
@@ -4692,7 +4687,7 @@ deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
-deepmerge@4.0.0, deepmerge@^4.0.0:
+deepmerge@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.0.0.tgz#3e3110ca29205f120d7cb064960a39c3d2087c09"
   integrity sha512-YZ1rOP5+kHor4hMAH+HRQnBQHg+wvS1un1hAOuIcxcBy0hzcUf6Jg2a1w65kpoOUnurOfZbERwjI1TfZxNjcww==
@@ -12745,14 +12740,12 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-rebass@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/rebass/-/rebass-4.0.2.tgz#2bad127ce5b48706517bd78f3e5d335bb1ba8354"
-  integrity sha512-a2mK2p5wA23sPEB7Kr6QXRjdR7ceDxy7Rj4ILfeLyaoXK7mHyNivNjwPd843DIU9loNGrQQV+qgmZsVyXYv3kw==
+rebass@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/rebass/-/rebass-4.0.3.tgz#6b0de1706bbfb2a0af3069f16ebb90736a6b6651"
+  integrity sha512-Yg7ZAXWa9oDf8Rqb2IKtkNbxulHeiGMcAt5F/cI6isxO2WOz3jAdpJ4A4fjIDOJ0FVX6pR4wQgvNMKjgNR9nrg==
   dependencies:
-    "@theme-ui/preset-base" "^0.2.25"
-    deepmerge "^4.0.0"
-    reflexbox "^4.0.2"
+    reflexbox "^4.0.1"
 
 recursive-readdir@2.2.1:
   version "2.2.1"
@@ -12797,7 +12790,7 @@ redux@^4.0.0:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
 
-reflexbox@4.0.2, reflexbox@^4.0.2:
+reflexbox@4.0.2, reflexbox@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/reflexbox/-/reflexbox-4.0.2.tgz#66b35021a97f220270cc49abf994313bc696ccad"
   integrity sha512-j5vbfB/aLgGbyiioNlXdpSTK97nbR5t7HWeX4w4+rlJVCvqNjZs9SfyLhwE9v4u7C6FookW39m5PhlUCgArPeQ==
