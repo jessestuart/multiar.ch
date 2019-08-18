@@ -37,7 +37,9 @@ const RepoList = () => {
       const oneYearInMilliseconds = -31540000000
       // Only return repos that have been updated in the last year, and that
       // support more than one architecture.
-      return lastUpdated > oneYearInMilliseconds && _.size(repo.architectures) > 1
+      return (
+        lastUpdated > oneYearInMilliseconds && _.size(repo.architectures) > 1
+      )
     }),
   )(query)
 
