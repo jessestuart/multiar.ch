@@ -6,9 +6,8 @@
 const React = require('react')
 
 require('typeface-alegreya')
-require('typeface-alegreya-sans')
 require('typeface-fira-mono')
-require('typeface-lato')
+require('typeface-nunito')
 
 const Theme = require('./src/styles/Theme').default
 

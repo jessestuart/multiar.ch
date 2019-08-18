@@ -14884,11 +14884,6 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-alegreya-sans@0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-alegreya-sans/-/typeface-alegreya-sans-0.0.72.tgz#5b63550f60a48a99b5630ead0cbe733e3bb32c6e"
-  integrity sha512-W4JWZwG+4YoJF9RcEg0SFgzOVDxuctMSwcQD+ZoqdsR44+AXHLN9pZui1IC8JjGMt4KYI4LatFucenJ8aFZs/A==
-
 typeface-alegreya@0.0.69:
   version "0.0.69"
   resolved "https://registry.yarnpkg.com/typeface-alegreya/-/typeface-alegreya-0.0.69.tgz#92d82f3e68360d5d5cee01be812f5aeb19ade8a7"
@@ -14899,10 +14894,10 @@ typeface-fira-mono@0.0.72:
   resolved "https://registry.yarnpkg.com/typeface-fira-mono/-/typeface-fira-mono-0.0.72.tgz#b396d2a08814bb3a32d94ef71c74d37883c3475b"
   integrity sha512-bouzjtniGMrakhazipUl6mskswe7UvH3qynU5Wsl0O7NMuL178VtZ0pOqUGsjBJ42l64GZo9nUMI1eSK4kvJbQ==
 
-typeface-lato@0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-lato/-/typeface-lato-0.0.75.tgz#8aa11c5611dc38416837c089b265a2abd1f7dd31"
-  integrity sha512-iA5uJD4PSTyIE4BDiSOexQeXkDkiJuX4Hu3wh3saJ06EB2TvJayab1Lbbmqq2je/LQv7KCQZHZmC0k4hedd8sw==
+typeface-nunito@0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-nunito/-/typeface-nunito-0.0.72.tgz#152e7b8fc35452bacffc1313f322cbbd8034fc30"
+  integrity sha512-id43vYQiM9emQ6sbysLDRp8fb39Dk5yW/q6uSPHJnE1XVDSfrxYWFg/YiSoiaK+kO7wbuWb2HSjCAfH96Mabvg==
 
 typescript@3.5.3:
   version "3.5.3"
