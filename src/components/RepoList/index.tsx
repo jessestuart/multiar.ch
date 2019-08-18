@@ -35,7 +35,9 @@ const RepoList = () => {
           ? DateTime.fromISO(repo.lastUpdated).diffNow().milliseconds
           : DateTime.fromJSDate(repo.lastUpdated).diffNow().milliseconds
       const oneYearInMilliseconds = -31540000000
-      return lastUpdated > oneYearInMilliseconds
+      // Only return repos that have been updated in the last year, and that
+      // support more than one architecture.
+      return lastUpdated > oneYearInMilliseconds && _.size(repo.architectures) > 1
     }),
   )(query)
 
