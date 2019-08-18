@@ -4,8 +4,6 @@ import React from 'react'
 import { Heart } from 'react-feather'
 import { colors } from 'styles/Theme'
 
-import TotalPulls from 'components/TotalPulls'
-
 const Copyright = () => (
   <div className="flex justify-center items-center">
     © 2018–{DateTime.local().year}{' '}
@@ -40,7 +38,6 @@ const Footer = () => {
         borderTop: `1px ${colors.neutral} solid`,
       }}
     >
-      <TotalPulls />
       <Copyright />
       <MadeWithLove />
     </footer>

@@ -1,7 +1,7 @@
 import { DockerHubRepo } from 'gatsby-source-docker-hub'
 import _ from 'lodash'
 import React from 'react'
-import { Box, Text } from 'rebass/styled-components'
+import { Flex, Text } from 'rebass/styled-components'
 
 import RepoListRow from 'components/RepoList/RepoListRow'
 import { colors } from 'styles/Theme'
@@ -15,7 +15,7 @@ const PureRepoList = ({ repos = [] }: Props) => {
     return null
   }
   return (
-    <Box className="justify-center center flex pt4 f4">
+    <Flex className="justify-center center pt4 f4">
       <ol className="mw7-ns">
         <li className="flex fw7 lh-copy">
           <Text className="flex-nowrap flex-auto" fontFamily="mono">
@@ -41,7 +41,7 @@ const PureRepoList = ({ repos = [] }: Props) => {
             )
           })}
       </ol>
-    </Box>
+    </Flex>
   )
 }
 
