@@ -13,8 +13,8 @@ const IndexPage = () => {
     <>
       <Header>{title}</Header>
       <Flex className="w-90 w-100-ns" flexDirection="column">
-        <SubHeader />
         <RepoList />
+        <SubHeader />
         <Footer />
       </Flex>
     </>
