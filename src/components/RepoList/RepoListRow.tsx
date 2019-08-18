@@ -3,17 +3,16 @@ import { DockerHubRepo } from 'gatsby-source-docker-hub'
 import _ from 'lodash'
 import { DateTime } from 'luxon'
 import React from 'react'
-import { Text } from 'rebass/styled-components'
+import { Link, Text } from 'rebass/styled-components'
 import { Box } from 'reflexbox'
 import styled from 'styled-components'
 
-import Theme from 'styles/Theme'
+import { colors } from 'styles/Theme'
 
-const DOCKER_HUB_URL =
-  'https://cloud.docker.com/u/jessestuart/repository/docker/jessestuart/'
+const DOCKER_HUB_URL = 'https://hub.docker.com/r/jessestuart/'
 
 export const ArchitectureIcon = styled.span`
-  background-color: #e5f4ee;
+  background-color: ${colors.secondary};
   border-radius: 10%;
   border: 1px solid #abb7b2;
   display: inline;
@@ -59,20 +58,20 @@ const RepoListRow = (props: Props) => {
       style={props.style}
     >
       <Box>
-        <a
-          className="dib flex-nowrap lh-title mr2 primary"
-          style={{ color: Theme.colors.primary }}
+        <Link
+          className="flex-nowrap inline-flex primary"
+          color="primary"
           href={repoUrl}
         >
-          <Text fontFamily="mono" color="primary" className="fw5">
+          <Text fontFamily="mono" className="fw5 pr2">
             {repo.name}
           </Text>
-        </a>
+        </Link>
         <ArchitectureIconGroup architectures={architectures} />
         <Text>{repo.description}</Text>
         <Text
           className="flex flex-column f6 justify-start no-underline"
-          fontFamily="sans-serif"
+          fontFamily="sans"
           color="textMuted"
         >
           Updated {lastUpdatedRelative}

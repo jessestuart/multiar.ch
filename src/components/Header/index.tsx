@@ -18,7 +18,7 @@ const Header = ({ children }: { children: ReactNode }) => (
         {children}
       </Text>
     </Link>
-    <Text fontFamily="sans-serif" className="f5 lh-title">
+    <Text fontFamily="sans" className="f5 lh-title">
       A collection of mulitarch container images,
       <br />
       curated and maintained by{' '}

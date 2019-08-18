@@ -17,8 +17,8 @@ exports[`Render Header component. 1`] = `
     </div>
   </a>
   <div
-    className="f5 lh-title sc-bdVaJa cMLDlD"
-    fontFamily="sans-serif"
+    className="f5 lh-title sc-bdVaJa hBEspZ"
+    fontFamily="sans"
   >
     A collection of mulitarch container images,
     <br />

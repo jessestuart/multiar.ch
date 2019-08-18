@@ -13,7 +13,7 @@ export const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64]
 
 export const fonts = {
   mono: '"Fira Mono", Menlo, monospace',
-  sans: 'Lato, system-ui, sans-serif',
+  sans: 'Nunito, system-ui, sans-serif',
   serif: 'Alegreya',
 }
 

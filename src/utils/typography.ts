@@ -1,14 +1,13 @@
 import 'typeface-alegreya'
-import 'typeface-alegreya-sans'
 import 'typeface-fira-mono'
-import 'typeface-lato'
+import 'typeface-nunito'
 
 import _ from 'lodash'
 import fp from 'lodash/fp'
 import Typography from 'typography'
 
 const sansSerifFontFamilies = [
-  'Lato',
+  'Nunito',
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',
@@ -23,14 +22,6 @@ const sansSerifFontFamilies = [
   'sans-serif',
 ]
 
-const serifFontFamilies = [
-  'Alegreya',
-  'Georgia',
-  'Times New Roman',
-  'Times',
-  'serif',
-]
-
 const monospaceFontFamilies = [
   'Fira Mono',
   'SFMono-Regular',
@@ -41,8 +32,6 @@ const monospaceFontFamilies = [
   'Courier New',
   'monospace',
 ]
-
-const baseFontFamilyList = _.concat(['Lato'], sansSerifFontFamilies)
 
 const mapFontFamilyListToString = fp.join(',')
 
@@ -55,33 +44,15 @@ const options = {
   baseLineHeight: 1.9,
   blockMarginBottom: 0.75,
   bodyColor: textColorBase,
-  bodyFontFamily: baseFontFamilyList,
-  fontFamily: baseFontFamilyList,
-  // headerColor: Theme.colors.primary,
-  headerFontFamily: _.concat(['Alegreya Sans'], sansSerifFontFamilies),
+  bodyFontFamily: sansSerifFontFamilies,
+  fontFamily: sansSerifFontFamilies,
+  headerFontFamily: sansSerifFontFamilies,
   headerLineHeight: 1.7,
   monospaceFontFamily: monospaceFontFamilies,
   scaleRatio: 2,
   overrideStyles: () => ({
-    // blockquote: {
-    //   fontStyle: 'inherit',
-    //   textAlign: 'justify',
-    //   textIndent: '2em',
-    // },
-    // a: {
-    //   color: textColorBase,
-    // },
-
     ol: {
       listStyle: 'none',
-    },
-
-    '.spectral': {
-      fontFamily: mapFontFamilyListToString(serifFontFamilies),
-    },
-
-    '.lato': {
-      fontFamily: mapFontFamilyListToString(baseFontFamilyList),
     },
 
     '.code': {
@@ -101,29 +72,6 @@ const options = {
     '.gatsby-highlight > pre': {
       borderRadius: '5px',
     },
-
-    '.token.operator': {
-      background: 'inherit !important',
-    },
-
-    // 'blockquote > *not(:last-child)': {
-    //   paddingBottom: '0.5',
-    // },
-
-    // '.pseudo-underline': {
-    //   borderBottom: `2px solid ${colors.defaultLink}`,
-    //   position: 'relative',
-    //   textDecoration: 'none',
-    //   fontFamily: overrideStyleOptions.headerFontFamily.join(','),
-    // },
-
-    // 'article a.anchor': {
-    //   borderBottom: 'none',
-    //   boxShadow: 'none',
-    //   color: 'inherit',
-    //   fill: colors.primary.main,
-    //   textDecoration: 'none',
-    // },
   }),
 }
 
