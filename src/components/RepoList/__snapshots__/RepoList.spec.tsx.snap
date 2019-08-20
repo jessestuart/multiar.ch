@@ -31,14 +31,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -65,6 +57,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -82,14 +75,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -116,6 +101,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -133,14 +119,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -167,6 +145,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -184,14 +163,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -218,6 +189,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -235,14 +207,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -269,6 +233,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -286,14 +251,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -320,6 +277,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -337,14 +295,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -371,6 +321,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -388,14 +339,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -422,6 +365,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -439,14 +383,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -473,6 +409,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -490,14 +427,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -524,6 +453,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -541,14 +471,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -575,6 +497,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -592,14 +515,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -626,6 +541,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -643,14 +559,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -678,6 +586,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -695,14 +604,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -729,6 +630,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -746,14 +648,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -780,6 +674,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -797,14 +692,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -831,6 +718,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -848,14 +736,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -882,6 +762,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -899,14 +780,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -933,6 +806,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -950,14 +824,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -984,6 +850,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1001,14 +868,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1035,6 +894,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1052,14 +912,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1086,6 +938,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1103,14 +956,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1137,6 +982,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1154,14 +1000,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1188,6 +1026,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1205,14 +1044,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1239,6 +1070,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1256,14 +1088,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1290,6 +1114,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1307,14 +1132,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1341,6 +1158,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1358,14 +1176,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1392,6 +1202,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1409,14 +1220,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1443,6 +1246,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1460,14 +1264,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1494,6 +1290,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1511,14 +1308,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1545,6 +1334,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1562,14 +1352,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1596,6 +1378,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1613,14 +1396,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1647,6 +1422,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1664,14 +1440,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1698,6 +1466,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1715,14 +1484,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         }
       }
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1749,6 +1510,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1762,14 +1524,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
       className="flex lh-copy pt2 pb3"
       style={null}
     >
-      <style
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": ".css-vurnku{box-sizing:border-box;margin:0;min-width:0;}",
-          }
-        }
-        data-emotion-css="vurnku"
-      />
       <div
         className="css-vurnku"
       >
@@ -1796,6 +1550,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
+          4 days ago
         </div>
       </div>
       <div
@@ -1809,6 +1564,8 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
 </div>
 `;
 
-exports[`RepoList component Render RepoList component. 1`] = `null`;
+exports[`RepoList component Render RepoList component using data from apollo-client. 1`] = `null`;
+
+exports[`RepoList component Render RepoList component with initial data. 1`] = `null`;
 
 exports[`RepoList component Render empty PureRepoList. 1`] = `null`;
