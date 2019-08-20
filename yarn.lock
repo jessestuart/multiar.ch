@@ -6687,10 +6687,10 @@ gatsby-react-router-scroll@^2.1.3:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.3.1.tgz#02361db25a2e72b0374ebfa42ac2af9dfd5fcdaa"
-  integrity sha512-rHrqFnGtoY8Sy/5n7xxSLPyE/z87dJRR4fyL3pIsK577yN2DXKrLELsLl/fJ8aBc4OhjQN0YZatdffDHXs/Xsg==
+gatsby-source-docker-hub@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.4.1.tgz#58497be518fd067d9934812d2bf416ac3b2d87d9"
+  integrity sha512-AxwONOFHQKGBeaZb9h7qr0L1RXDTCFtSJ/eaEJq+CHlWedQQlf/nO5OCaD8pJ2oobga/CqIGPRpCwTGbjCE/3A==
   dependencies:
     "@babel/runtime" "7.5.5"
     axios "0.19.0"
