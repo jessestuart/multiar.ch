@@ -1,0 +1,15 @@
+[ver:1,total:8220]
+.gtm/terminal.app:5759,1566259200:260,1566284400:760,1566288000:360,1566295200:900,1566298800:720,1566302400:960,1566306000:510,1566464400:480,1566514800:60,1566518400:120,1566550800:340,1567098000:289,r
+src/components/RepoList/index.tsx:1050,1566259200:260,1566302400:700,1566306000:90,m
+package.json:626,1566550800:150,1567098000:476,m
+.eslintrc.js:240,1566540000:240,r
+foo.json:160,1566302400:160,d
+gatsby-config.js:120,1566298800:120,r
+node_modules/gatsby-source-docker-hub/package.json:60,1566284400:60,r
+.git/COMMIT_EDITMSG:60,1567098000:60,r
+src/styles/Theme.ts:40,1566550800:40,r
+.git/rebase-merge/git-rebase-todo:25,1566550800:10,1567098000:15,r
+node_modules/gatsby-source-docker-hub/index.js:20,1566284400:20,r
+src/components/Icons/Github.css:20,1566302400:20,r
+src/components/Apollo/index.tsx:20,1566302400:20,m
+src/components/RepoList/PureRepoList.tsx:20,1566259200:20,r
