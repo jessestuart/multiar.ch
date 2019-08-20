@@ -2,3 +2,13 @@
 package.json:110,1567598400:110,m
 .gtm/terminal.app:100,1567598400:100,r
 .git/COMMIT_EDITMSG:30,1567598400:30,r
+
+[ver:1,total:1380]
+.gtm/terminal.app:1120,1567594800:900,1567598400:220,r
+.git/COMMIT_EDITMSG:80,1567598400:80,r
+package.json:75,1567594800:75,r
+.git/rebase-merge/git-rebase-todo:35,1567594800:35,r
+test/setupTests.ts:20,1567594800:20,r
+src/components/RepoList/RepoList.spec.tsx:20,1567594800:20,r
+test/__mocks__/gatsby.ts:15,1567594800:15,d
+src/components/RepoList/index.tsx:15,1567594800:15,m
