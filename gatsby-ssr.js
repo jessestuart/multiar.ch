@@ -1,29 +1,20 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
-const React = require('react')
+import { ApolloProvider } from 'react-apollo'
+import { ThemeProvider } from 'styled-components'
+import React from 'react'
 
-const Theme = require('./src/styles/Theme').default
-
-const Layout = require('./src/components/Layout').default
-
-const { ThemeProvider } = require('styled-components')
-
-const { initSentry } = require('./src/services/sentry')
+import { client } from './src/components/Apollo'
+import { initSentry } from './src/services/sentry'
+import Layout from './src/components/Layout'
+import Theme from './src/styles/Theme'
 
 const { GATSBY_ENV } = process.env
 
 initSentry({ environment: GATSBY_ENV })
 
-// eslint-disable-next-line
-exports.wrapPageElement = ({ element, props }) => {
-  // props provide same data to Layout as Page element will get including
-  // location, data, etc - you don't need to pass it
-  return (
+export const wrapRootElement = ({ element, props }) => (
+  <ApolloProvider client={client}>
     <ThemeProvider theme={Theme}>
       <Layout {...props}>{element}</Layout>
     </ThemeProvider>
-  )
-}
+  </ApolloProvider>
+)
