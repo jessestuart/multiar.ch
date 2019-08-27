@@ -57,7 +57,7 @@
     "@types/axios": "0.14.0",
     "@types/classnames": "2.2.9",
     "@types/jest": "24.0.18",
-    "@types/lodash": "4.14.137",
+    "@types/lodash": "4.14.138",
     "@types/luxon": "1.15.2",
     "@types/nanoid": "2.0.0",
     "@types/node": "12.7.2",
