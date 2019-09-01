@@ -94,7 +94,7 @@
     "eslint-plugin-react-hooks": "2.0.1",
     "eslint-plugin-standard": "4.0.1",
     "gatsby-cypress": "0.2.7",
-    "husky": "3.0.4",
+    "husky": "3.0.5",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
     "jest-image-snapshot": "2.10.0",
