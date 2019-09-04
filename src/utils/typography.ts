@@ -1,6 +1,6 @@
 import 'typeface-alegreya'
-import 'typeface-nunito'
 import 'typeface-fira-mono'
+import 'typeface-nunito'
 
 import _ from 'lodash'
 import fp from 'lodash/fp'
