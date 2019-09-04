@@ -51,12 +51,12 @@ const dockerHubPlugin = {
   },
 }
 
-// const googleAnalyticsPlugin = {
-//   resolve: 'gatsby-plugin-google-analytics',
-//   options: {
-//     trackingId: 'UA-113515971-1',
-//   },
-// }
+const googleAnalyticsPlugin = {
+  resolve: 'gatsby-plugin-google-analytics',
+  options: {
+    trackingId: 'UA-147094030-1',
+  },
+}
 
 // TODO
 // /* eslint-disable @typescript-eslint/camelcase */
@@ -93,7 +93,7 @@ let plugins = _.compact([
   // ==========
   // Analytics.
   // ==========
-  // googleAnalyticsPlugin,
+  googleAnalyticsPlugin,
   // ===========
   // Miscellany.
   // ===========
