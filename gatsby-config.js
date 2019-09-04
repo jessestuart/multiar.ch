@@ -58,6 +58,7 @@ const dockerHubPlugin = {
 //   },
 // }
 
+// TODO
 // /* eslint-disable @typescript-eslint/camelcase */
 // const manifestPlugin = {
 //   resolve: 'gatsby-plugin-manifest',
@@ -79,9 +80,6 @@ let plugins = _.compact([
   // Gotta load those sweet, sweet files.
   // ====================================
   sourceFilesystem,
-  // =======================================================================
-  // Add in React Helmet and React 16 support until Gatsby v2 is released.
-  // =======================================================================
   'gatsby-plugin-react-helmet',
   // ========================
   // Styling-related plugins.
