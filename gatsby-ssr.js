@@ -1,6 +1,9 @@
 import { ApolloProvider } from '@apollo/react-hooks'
 import { ThemeProvider } from 'styled-components'
 import React from 'react'
+require('typeface-alegreya')
+require('typeface-fira-mono')
+require('typeface-nunito')
 
 import { client } from './src/components/Apollo'
 import { initSentry } from './src/services/sentry'
