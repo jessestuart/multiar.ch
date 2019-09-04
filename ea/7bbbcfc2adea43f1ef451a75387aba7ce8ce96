@@ -1,0 +1,9 @@
+[ver:1,total:240]
+.circleci/config.yml:120,1567598400:120,m
+.gtm/terminal.app:120,1567598400:120,r
+
+[ver:1,total:780]
+.gtm/terminal.app:480,1567598400:480,r
+gatsby-config.js:220,1567598400:220,m
+package.json:60,1567598400:60,m
+gatsby-browser.js:20,1567598400:20,m
