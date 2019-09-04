@@ -16,6 +16,7 @@
     "no-namespace": false,
     "no-use-before-declare": false,
     "object-literal-sort-keys": true,
-    "trailing-comma": [true, "es5"]
+    "trailing-comma": [true, "es5"],
+    "no-console": false
   }
 }

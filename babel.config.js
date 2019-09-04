@@ -1,6 +1,12 @@
 module.exports = {
   presets: [
-    '@babel/preset-env',
+    [
+      '@babel/preset-env',
+      {
+        useBuiltIns: 'entry', // or "entry"
+        corejs: 3,
+      },
+    ],
     '@babel/preset-react',
     '@babel/preset-typescript',
     'babel-preset-gatsby',

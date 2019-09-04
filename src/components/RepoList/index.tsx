@@ -1,105 +1,74 @@
 import { useQuery } from '@apollo/react-hooks'
-import { graphql, useStaticQuery } from 'gatsby'
-import { DockerHubRepo } from 'gatsby-source-docker-hub'
+import { DockerHubRepo } from 'docker-hub-utils'
 import gql from 'graphql-tag'
 import _ from 'lodash'
 import fp from 'lodash/fp'
+import { DateTime } from 'luxon'
 import React from 'react'
 
 import PureRepoList from 'components/RepoList/PureRepoList'
-
-const { DateTime } = require('luxon')
+import { useDockerHubSource } from 'utils/hooks'
+import log from 'utils/log'
 
 const DOCKER_HUB_QUERY = gql`
-  query DockerHubRepos($username: String!) {
-    allDockerHubRepo(username: $username) {
-      edges {
-        node {
-          architectures
-          description
-          lastUpdated
-          name
-          pullCount
-          starCount
+  {
+    repos(username: "jessestuart") {
+      description
+      lastUpdated
+      name
+      pullCount
+      starCount
+      manifestList {
+        manifests {
+          platform {
+            architecture
+          }
         }
       }
     }
   }
 `
 
-const parseRepos: (edges: any) => DockerHubRepo[] = _.flow(
-  fp.get('allDockerHubRepo.edges.node'),
+const parseRepos: (repos: DockerHubRepo[]) => DockerHubRepo[] = _.flow(
   fp.filter((repo: DockerHubRepo) => {
     const lastUpdated =
       typeof repo.lastUpdated === 'string'
         ? DateTime.fromISO(repo.lastUpdated).diffNow().milliseconds
         : DateTime.fromJSDate(repo.lastUpdated).diffNow().milliseconds
     const oneYearInMilliseconds = -31540000000
+    const numArchitectures = _.flow(
+      fp.get('manifestList.manifests'),
+      fp.map('platform.architecture'),
+      fp.size,
+    )(repo)
     // Only return repos that have been updated in the last year, and that
     // support more than one architecture.
-    return lastUpdated > oneYearInMilliseconds && _.size(repo.architectures) > 1
+    return lastUpdated > oneYearInMilliseconds && numArchitectures > 1
   }),
+  fp.compact,
 )
 
 const RepoList = () => {
+  const initialData = useDockerHubSource()
+  console.log(initialData)
+
   const { error, data } = useQuery(DOCKER_HUB_QUERY, {
-    pollInterval: 1000,
+    pollInterval: 10000,
     variables: { username: 'jessestuart' },
   })
   if (error) {
-    console.error(error)
-    return
+    log.error(error)
   }
+  const { repos } = data
 
-  const initialData = useStaticQuery(graphql`
-    {
-      allDockerHubRepo {
-        edges {
-          node {
-            architectures
-            description
-            id
-            lastUpdated
-            name
-            pullCount
-            starCount
-          }
-        }
-      }
-    }
-  `)
+  const initialRepos: DockerHubRepo[] = parseRepos(initialData)
+  const updatedRepos: DockerHubRepo[] = parseRepos(repos)
 
-  // console.log(Object.keys(data))
-
-  const initialRepos: DockerHubRepo[] = _.flow(
-    fp.get('allDockerHubRepo.edges'),
-    fp.map('node'),
-    node => {
-      console.log('node: ', { node })
-      return node
-    },
-    // fp.filter(repo => {
-    //   const lastUpdated =
-    //     typeof repo.lastUpdated === 'string'
-    //       ? DateTime.fromISO(repo.lastUpdated).diffNow().milliseconds
-    //       : DateTime.fromJSDate(repo.lastUpdated).diffNow().milliseconds
-    //   const oneYearInMilliseconds = -31540000000
-    //   // Only return repos that have been updated in the last year, and that
-    //   // support more than one architecture.
-    //   return (
-    //     lastUpdated > oneYearInMilliseconds && _.size(repo.architectures) > 1
-    //   )
-    // }),
-  )(data)
-
-  const repos = _.get(data, 'allDockerHubRepo.edges.node')
-  console.log({ repos })
-
-  if (_.isEmpty(_.compact(repos))) {
-    return null
-  }
-
-  return <PureRepoList repos={repos} />
+  return (
+    <PureRepoList
+      repos={_.isEmpty(updatedRepos) ? initialRepos : updatedRepos}
+    />
+  )
 }
 
 export default RepoList

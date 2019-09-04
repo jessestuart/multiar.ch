@@ -37,7 +37,7 @@ module.exports = {
     semi: ['error', 'never'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
-    'no-console': 'warn',
+    'no-console': ['off'],
     'no-undef': 'error',
     'object-curly-spacing': ['error', 'always'],
     'prettier/prettier': [

@@ -1,8 +1,8 @@
-const { ApolloProvider } = require('react-apollo')
+const { ApolloProvider } = require('@apollo/react-hooks')
 const { ThemeProvider } = require('styled-components')
 const React = require('react')
 
-const { client } = require('./src/components/Apollo')
+const client = require('./src/components/Apollo')
 
 const Theme = require('./src/styles/Theme').default
 const Layout = require('./src/components/Layout').default

@@ -1,4 +1,4 @@
-import { ApolloProvider } from 'react-apollo'
+import { ApolloProvider } from '@apollo/react-hooks'
 import { ThemeProvider } from 'styled-components'
 import React from 'react'
 
