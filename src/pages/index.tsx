@@ -22,7 +22,7 @@ const IndexPage = () => {
       <ApolloProvider client={client}>
         <Header>{title}</Header>
         <Flex className="w-90 w-100-ns" flexDirection="column">
-          <RepoList />
+          <RepoList pollInterval={5000} />
           <SubHeader />
           <Footer />
         </Flex>

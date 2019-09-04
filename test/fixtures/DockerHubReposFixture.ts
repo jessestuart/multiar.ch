@@ -1,3 +1,5 @@
+import _ from 'lodash'
+import { DateTime } from 'luxon'
 import nanoid from 'nanoid'
 
 const DockerHubReposJSON = [
@@ -225,14 +227,17 @@ const DockerHubReposJSON = [
   },
 ]
 
-// Hardcord `lasteUpdate` field to "now" so we have deterministic data
+// Hardcord `lastUpdated` field to "now" so we have deterministic data
 // (e.g., it won't get filtered out in the RepoList component).
-const now = new Date()
+const now: string = DateTime.local()
+  .minus(4 * 86400000)
+  .toISO()
 
 const DockerHubReposFixture = DockerHubReposJSON.map(fixture => ({
   ...fixture,
   id: nanoid(),
   lastUpdated: now,
+  user: 'jessestuart',
 }))
 
 export default DockerHubReposFixture
