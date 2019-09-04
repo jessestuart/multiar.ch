@@ -1,0 +1,11 @@
+[ver:1,total:960]
+.gtm/terminal.app:535,1567598400:535,r
+src/components/RepoList/index.tsx:110,1567598400:110,r
+src/services/sentry.ts:75,1567598400:75,r
+package.json:65,1567598400:65,m
+tslint.json:50,1567598400:50,m
+.git/PULLREQ_EDITMSG:30,1567598400:30,r
+babel.config.js:30,1567598400:30,r
+.git/rebase-merge/git-rebase-todo:30,1567598400:30,d
+src/utils/typography.ts:20,1567598400:20,m
+.eslintrc.js:15,1567598400:15,r
