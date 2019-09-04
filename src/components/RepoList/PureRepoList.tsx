@@ -1,4 +1,4 @@
-import { DockerHubRepo } from 'gatsby-source-docker-hub'
+import { DockerHubRepo } from 'docker-hub-utils'
 import _ from 'lodash'
 import React from 'react'
 import { Flex, Text } from 'rebass/styled-components'
@@ -10,8 +10,8 @@ interface Props {
   repos: DockerHubRepo[] | undefined
 }
 
-const PureRepoList = ({ repos = [] }: Props) => {
-  if (_.isEmpty(repos)) {
+const PureRepoList = ({ repos }: Props) => {
+  if (!repos || _.isEmpty(repos)) {
     return null
   }
   return (

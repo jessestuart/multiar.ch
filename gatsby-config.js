@@ -51,13 +51,14 @@ const dockerHubPlugin = {
   },
 }
 
-// const googleAnalyticsPlugin = {
-//   resolve: 'gatsby-plugin-google-analytics',
-//   options: {
-//     trackingId: 'UA-113515971-1',
-//   },
-// }
+const googleAnalyticsPlugin = {
+  resolve: 'gatsby-plugin-google-analytics',
+  options: {
+    trackingId: 'UA-147094030-1',
+  },
+}
 
+// TODO
 // /* eslint-disable @typescript-eslint/camelcase */
 // const manifestPlugin = {
 //   resolve: 'gatsby-plugin-manifest',
@@ -79,9 +80,6 @@ let plugins = _.compact([
   // Gotta load those sweet, sweet files.
   // ====================================
   sourceFilesystem,
-  // =======================================================================
-  // Add in React Helmet and React 16 support until Gatsby v2 is released.
-  // =======================================================================
   'gatsby-plugin-react-helmet',
   // ========================
   // Styling-related plugins.
@@ -95,7 +93,7 @@ let plugins = _.compact([
   // ==========
   // Analytics.
   // ==========
-  // googleAnalyticsPlugin,
+  googleAnalyticsPlugin,
   // ===========
   // Miscellany.
   // ===========

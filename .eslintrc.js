@@ -4,13 +4,11 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
     'plugin:promise/recommended',
-    'plugin:cypress/recommended',
     'plugin:react/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
-    'cypress',
     'prettier',
     'promise',
     'react',
@@ -28,7 +26,6 @@ module.exports = {
   },
   env: {
     browser: true,
-    'cypress/globals': true,
     jest: true,
     node: true,
   },
@@ -37,7 +34,7 @@ module.exports = {
     semi: ['error', 'never'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
-    'no-console': 'warn',
+    'no-console': ['off'],
     'no-undef': 'error',
     'object-curly-spacing': ['error', 'always'],
     'prettier/prettier': [

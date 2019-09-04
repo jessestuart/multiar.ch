@@ -17,9 +17,6 @@ workflows:
       - test:
           requires:
             - install_dependencies
-      # - cypress_job:
-      #     requires:
-      #       - install_dependencies
       - semantic_release:
           requires:
             - build
@@ -29,6 +26,11 @@ workflows:
             branches:
               only:
                 - master
+
+      # - cypress_job:
+      #     requires:
+      #       - install_dependencies
+
       # - sentry_release:
       #     requires:
       #       - semantic_release
@@ -145,13 +147,13 @@ jobs:
             yarn jest --coverage --runInBand --ci
           environment:
             JEST_JUNIT_OUTPUT: 'reports/junit/js-test-results.xml'
+      - run:
+          name: Upload results to Codecov.
+          command: yarn codecov
       - store_test_results:
           path: reports/junit
       - store_artifacts:
           path: reports/junit
-      - run:
-          name: Upload results to Codecov.
-          command: yarn codecov
 
   build:
     <<: *defaults

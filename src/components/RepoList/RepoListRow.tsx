@@ -1,6 +1,7 @@
 import classNames from 'classnames'
-import { DockerHubRepo } from 'gatsby-source-docker-hub'
+import { DockerHubRepo } from 'docker-hub-utils'
 import _ from 'lodash'
+import fp from 'lodash/fp'
 import { DateTime } from 'luxon'
 import React from 'react'
 import { Link, Text } from 'rebass/styled-components'
@@ -48,7 +49,11 @@ const RepoListRow = (props: Props) => {
   const lastUpdatedRelative = DateTime.fromISO(
     _.toString(repo.lastUpdated),
   ).toRelative()
-  const architectures: Architecture[] | undefined = _.get(repo, 'architectures')
+  const architectures: Architecture[] | undefined = _.flow(
+    fp.get('manifestList.manifests'),
+    fp.map('platform.architecture'),
+  )(repo)
+
   const repoUrl = `${DOCKER_HUB_URL}${repo.name}`
 
   return (
