@@ -12,7 +12,7 @@
     "classnames": "2.2.6",
     "core-js": "3.2.1",
     "docker-hub-utils": "1.5.0",
-    "gatsby": "2.15.7",
+    "gatsby": "2.15.8",
     "gatsby-link": "2.2.12",
     "graphql-tag": "2.10.1",
     "isomorphic-fetch": "2.2.1",
