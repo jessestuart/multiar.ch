@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/react-hooks'
-import { DockerHubRepo } from 'docker-hub-utils'
+import { Architecture, DockerHubRepo } from 'docker-hub-utils'
 import { graphql, useStaticQuery } from 'gatsby'
 import gql from 'graphql-tag'
 import _ from 'lodash'
@@ -46,60 +46,74 @@ const GATSBY_SOURCE_GRAPHQL_QUERY = graphql`
   }
 `
 
-const parseRepos: (repos: DockerHubRepo[]) => DockerHubRepo[] = _.flow(
+let reposToArchitectureMap: { [repoName: string]: Architecture[] }
+
+export const getReposToArchitecturesMap = _.once((repos: DockerHubRepo[]) => {
+  reposToArchitectureMap = _.reduce(
+    repos,
+    (acc, repo: DockerHubRepo) => ({
+      ...acc,
+      [repo.name]: _.flow(
+        fp.get('manifestList.manifests'),
+        fp.map('platform.architecture'),
+      )(repo),
+    }),
+    {},
+  )
+  return reposToArchitectureMap
+})
+
+const filterReposByDate = _.flow(
   fp.filter((repo: DockerHubRepo) => {
-    const lastUpdated =
-      typeof repo.lastUpdated === 'string'
-        ? DateTime.fromISO(repo.lastUpdated).diffNow().milliseconds
-        : DateTime.fromJSDate(repo.lastUpdated).diffNow().milliseconds
+    const lastUpdatedTimestamp: number = DateTime.fromISO(
+      repo.lastUpdated.toString(),
+    ).diffNow().milliseconds
     const oneYearInMilliseconds = -31540000000
-    const numArchitectures = repo.manifestList
-      ? _.flow(
-          fp.get('manifestList.manifests'),
-          fp.map('platform.architecture'),
-          fp.size,
-        )(repo)
-      : null
     // Only return repos that have been updated in the last year, and that
     // support more than one architecture.
-    return lastUpdated > oneYearInMilliseconds && numArchitectures > 1
+    return lastUpdatedTimestamp > oneYearInMilliseconds
   }),
   fp.compact,
 )
 
+const filterReposByManifestList = _.flow(
+  fp.filter((repo: DockerHubRepo) => {
+    const numArchitectures = _.size(reposToArchitectureMap[repo.name])
+    return numArchitectures > 1
+  }),
+)
+
 const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
   const initialData = useStaticQuery(GATSBY_SOURCE_GRAPHQL_QUERY)
+  const repos: DockerHubRepo[] = _.flow(
+    fp.get('allDockerHubRepo.edges'),
+    fp.map('node'),
+  )(initialData)
+  const repoToArchitecturesMap = getReposToArchitecturesMap(repos)
   const initialRepos = _.flow(
     fp.get('allDockerHubRepo.edges'),
     fp.map('node'),
-    parseRepos,
+    filterReposByDate,
+    filterReposByManifestList,
   )(initialData)
 
   const { error, data } = useQuery(DOCKER_HUB_QUERY, { pollInterval })
   if (error) {
     log.error(error)
   }
-  const updatedRepos: DockerHubRepo[] | undefined = _.get(data, 'repos')
-  if (!updatedRepos || _.isEmpty(updatedRepos)) {
-    return <PureRepoList repos={initialRepos} />
-  }
 
-  const mergedRepos = _.flow(
-    fp.map((repo: DockerHubRepo) => {
-      const manifestList = _.flow(
-        fp.filter({ name: repo.name }),
-        fp.first,
-        fp.get('manifestList'),
-      )(initialRepos)
-      return {
-        ...repo,
-        manifestList,
-      }
-    }),
-    parseRepos,
-  )(updatedRepos)
+  const updatedRepos: DockerHubRepo[] | undefined = _.flow(
+    fp.get('repos'),
+    filterReposByDate,
+    filterReposByManifestList,
+  )(data)
 
-  return <PureRepoList repos={mergedRepos} />
+  return (
+    <PureRepoList
+      repos={_.isEmpty(updatedRepos) ? initialRepos : updatedRepos}
+      repoToArchitecturesMap={repoToArchitecturesMap}
+    />
+  )
 }
 
 export default RepoList

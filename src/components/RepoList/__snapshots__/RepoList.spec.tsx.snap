@@ -2,7 +2,7 @@
 
 exports[`RepoList component Render PureRepoList component. 1`] = `
 <div
-  className="sc-bdVaJa justify-center center pt4 f4 sc-bwzfXH gYCEQ"
+  className="sc-bdVaJa center f4 justify-center pt4 sc-bwzfXH gYCEQ"
 >
   <ol
     className="mw7-ns"
@@ -57,7 +57,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -101,7 +100,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -145,7 +143,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -189,7 +186,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -233,7 +229,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -277,7 +272,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -321,7 +315,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -365,7 +358,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -409,7 +401,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -453,7 +444,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -497,7 +487,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -541,7 +530,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -586,7 +574,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -630,7 +617,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -674,7 +660,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -718,7 +703,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -762,7 +746,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -806,7 +789,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -850,7 +832,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -894,7 +875,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -938,7 +918,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -982,7 +961,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1026,7 +1004,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1070,7 +1047,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1114,7 +1090,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1158,7 +1133,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1202,7 +1176,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1246,7 +1219,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1290,7 +1262,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1334,7 +1305,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1378,7 +1348,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1422,7 +1391,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1466,7 +1434,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1510,7 +1477,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
@@ -1550,7 +1516,6 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
           fontFamily="sans"
         >
           Updated 
-          4 days ago
         </div>
       </div>
       <div
