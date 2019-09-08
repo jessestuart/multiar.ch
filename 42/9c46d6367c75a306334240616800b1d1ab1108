@@ -1,0 +1,12 @@
+[ver:1,total:360]
+.gtm/terminal.app:240,1567962000:240,r
+.git/PULLREQ_EDITMSG:80,1567962000:80,d
+.git/rebase-merge/git-rebase-todo:20,1567962000:20,d
+src/components/RepoList/RepoList.spec.tsx:20,1567962000:20,r
+
+[ver:1,total:480]
+.gtm/terminal.app:250,1567962000:250,r
+src/components/RepoList/RepoListRow.tsx:140,1567962000:140,m
+src/utils/typography.ts:50,1567962000:50,m
+package.json:20,1567962000:20,r
+src/styles/Theme.ts:20,1567962000:20,r
