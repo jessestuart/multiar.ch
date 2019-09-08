@@ -68,7 +68,7 @@ const RepoListRow = (props: Props) => {
           </Text>
         </Link>
         <ArchitectureIconGroup architectures={architectures} />
-        <Text>{repo.description}</Text>
+        <Text className="lh-title pv2">{repo.description}</Text>
         <Text
           className="flex flex-column f6 justify-start no-underline"
           fontFamily="sans"

@@ -60,7 +60,9 @@ describe('RepoList component', () => {
   test('Render PureRepoList component.', () => {
     const component = renderer.create(
       <PureRepoList
+        // @ts-ignore
         repos={fixtures}
+        // @ts-ignore
         repoToArchitecturesMap={getReposToArchitecturesMap(fixtures)}
       />,
     )

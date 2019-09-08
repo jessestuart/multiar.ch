@@ -234,7 +234,7 @@ const now: DateTime = DateTime.local().minus(4 * 86400000)
 const DockerHubReposFixture = DockerHubReposJSON.map(fixture => ({
   ...fixture,
   id: nanoid(),
-  lastUpdated: now,
+  lastUpdated: now.toISO(),
   user: 'jessestuart',
 }))
 
