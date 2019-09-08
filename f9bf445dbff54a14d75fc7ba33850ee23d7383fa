@@ -1,0 +1,5 @@
+[ver:1,total:240]
+.gtm/terminal.app:125,1567962000:125,r
+src/components/RepoList/RepoList.spec.tsx:55,1567962000:55,m
+src/components/RepoList/index.tsx:45,1567962000:45,r
+test/fixtures/DockerHubReposFixture.ts:15,1567962000:15,m
