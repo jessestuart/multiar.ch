@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import { DockerHubRepo } from 'docker-hub-utils'
+import { Architecture } from 'docker-hub-utils'
 import _ from 'lodash'
-import fp from 'lodash/fp'
 import { DateTime } from 'luxon'
 import React from 'react'
 import { Link, Text } from 'rebass/styled-components'
@@ -21,8 +21,6 @@ export const ArchitectureIcon = styled.span`
   user-select: none !important;
 `
 
-export type Architecture = 'amd64' | 'arm64' | 'arm'
-
 interface IconGroupProps {
   architectures: Architecture[] | undefined
 }
@@ -41,18 +39,15 @@ export const ArchitectureIconGroup = ({ architectures }: IconGroupProps) => (
 interface Props {
   className?: string
   repo: DockerHubRepo
+  architectures: Architecture[]
   style?: any
 }
 
 const RepoListRow = (props: Props) => {
-  const { className, repo } = props
+  const { architectures, className, repo } = props
   const lastUpdatedRelative = DateTime.fromISO(
     _.toString(repo.lastUpdated),
   ).toRelative()
-  const architectures: Architecture[] | undefined = _.flow(
-    fp.get('manifestList.manifests'),
-    fp.map('platform.architecture'),
-  )(repo)
 
   const repoUrl = `${DOCKER_HUB_URL}${repo.name}`
 
@@ -73,7 +68,7 @@ const RepoListRow = (props: Props) => {
           </Text>
         </Link>
         <ArchitectureIconGroup architectures={architectures} />
-        <Text>{repo.description}</Text>
+        <Text className="lh-title pv2">{repo.description}</Text>
         <Text
           className="flex flex-column f6 justify-start no-underline"
           fontFamily="sans"

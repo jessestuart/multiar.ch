@@ -41,13 +41,13 @@ export const textColorMuted = 'rgba(0, 0, 0, 0.6)'
 // tslint:disable
 const options = {
   baseFontSize: '16px',
-  baseLineHeight: 1.9,
+  baseLineHeight: 1.7,
   blockMarginBottom: 0.75,
   bodyColor: textColorBase,
   bodyFontFamily: sansSerifFontFamilies,
   fontFamily: sansSerifFontFamilies,
   headerFontFamily: sansSerifFontFamilies,
-  headerLineHeight: 1.7,
+  headerLineHeight: 1.5,
   monospaceFontFamily: monospaceFontFamilies,
   scaleRatio: 2,
   overrideStyles: () => ({

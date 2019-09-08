@@ -229,14 +229,12 @@ const DockerHubReposJSON = [
 
 // Hardcord `lastUpdated` field to "now" so we have deterministic data
 // (e.g., it won't get filtered out in the RepoList component).
-const now: string = DateTime.local()
-  .minus(4 * 86400000)
-  .toISO()
+const now: DateTime = DateTime.local().minus(4 * 86400000)
 
 const DockerHubReposFixture = DockerHubReposJSON.map(fixture => ({
   ...fixture,
   id: nanoid(),
-  lastUpdated: now,
+  lastUpdated: now.toISO(),
   user: 'jessestuart',
 }))
 

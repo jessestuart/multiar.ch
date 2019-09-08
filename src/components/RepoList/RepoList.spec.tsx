@@ -2,7 +2,6 @@ import { MockedProvider } from '@apollo/react-testing'
 import * as Gatsby from 'gatsby'
 import _ from 'lodash'
 import React from 'react'
-// import { act } from 'react-dom/test-utils'
 // @ts-ignore
 import renderer, { act } from 'react-test-renderer'
 // @ts-ignore
@@ -10,7 +9,10 @@ import wait from 'waait'
 
 import fixtures from '../../../test/fixtures/DockerHubReposFixture'
 
-import RepoList, { DOCKER_HUB_QUERY } from 'components/RepoList'
+import RepoList, {
+  DOCKER_HUB_QUERY,
+  getReposToArchitecturesMap,
+} from 'components/RepoList'
 import PureRepoList from 'components/RepoList/PureRepoList'
 
 jest.mock('gatsby', () => ({
@@ -56,13 +58,25 @@ describe('RepoList component', () => {
   })
 
   test('Render PureRepoList component.', () => {
-    const component = renderer.create(<PureRepoList repos={fixtures} />)
+    const component = renderer.create(
+      <PureRepoList
+        // @ts-ignore
+        repos={fixtures}
+        // @ts-ignore
+        repoToArchitecturesMap={getReposToArchitecturesMap(fixtures)}
+      />,
+    )
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Render empty PureRepoList.', () => {
-    const component = renderer.create(<PureRepoList repos={[]} />)
+    const component = renderer.create(
+      <PureRepoList
+        repos={[]}
+        repoToArchitecturesMap={getReposToArchitecturesMap([])}
+      />,
+    )
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })

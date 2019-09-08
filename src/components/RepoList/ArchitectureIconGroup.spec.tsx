@@ -1,3 +1,4 @@
+import { Architecture } from 'docker-hub-utils'
 import React from 'react'
 import renderer from 'react-test-renderer'
 
@@ -6,7 +7,13 @@ import { ArchitectureIconGroup } from 'components/RepoList/RepoListRow'
 describe('ArchitectureIconGroup', () => {
   test('render with default icons', () => {
     const component = renderer.create(
-      <ArchitectureIconGroup architectures={['amd64', 'arm64', 'arm']} />,
+      <ArchitectureIconGroup
+        architectures={[
+          Architecture.arm,
+          Architecture.arm64,
+          Architecture.amd64,
+        ]}
+      />,
     )
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()

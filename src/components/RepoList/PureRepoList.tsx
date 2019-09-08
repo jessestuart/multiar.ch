@@ -1,4 +1,5 @@
 import { DockerHubRepo } from 'docker-hub-utils'
+import { Architecture } from 'docker-hub-utils'
 import _ from 'lodash'
 import React from 'react'
 import { Flex, Text } from 'rebass/styled-components'
@@ -8,14 +9,15 @@ import { colors } from 'styles/Theme'
 
 interface Props {
   repos: DockerHubRepo[] | undefined
+  repoToArchitecturesMap: { [repoName: string]: Architecture[] }
 }
 
-const PureRepoList = ({ repos }: Props) => {
+const PureRepoList = ({ repos, repoToArchitecturesMap }: Props) => {
   if (!repos || _.isEmpty(repos)) {
     return null
   }
   return (
-    <Flex className="justify-center center pt4 f4">
+    <Flex className="center f4 justify-center pt4">
       <ol className="mw7-ns">
         <li className="flex fw7 lh-copy">
           <Text className="flex-nowrap flex-auto" fontFamily="mono">
@@ -30,12 +32,13 @@ const PureRepoList = ({ repos }: Props) => {
           .map((repo: DockerHubRepo, index: number) => {
             return (
               <RepoListRow
-                key={index}
+                key={repo.name}
                 repo={repo}
+                architectures={repoToArchitecturesMap[repo.name]}
                 style={
-                  index !== repos.length - 1
-                    ? { borderBottom: `1px ${colors.neutral} solid` }
-                    : null
+                  index === repos.length - 1
+                    ? null
+                    : { borderBottom: `1px ${colors.neutral} solid` }
                 }
               />
             )
