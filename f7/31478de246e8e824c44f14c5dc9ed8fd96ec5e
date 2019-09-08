@@ -1,0 +1,6 @@
+[ver:1,total:480]
+.gtm/terminal.app:250,1567962000:250,r
+src/components/RepoList/RepoListRow.tsx:140,1567962000:140,m
+src/utils/typography.ts:50,1567962000:50,m
+package.json:20,1567962000:20,r
+src/styles/Theme.ts:20,1567962000:20,r
