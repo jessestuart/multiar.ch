@@ -99,6 +99,7 @@ let plugins = _.compact([
   // ===========
   'gatsby-plugin-remove-trailing-slashes',
   'gatsby-plugin-lodash',
+  'gatsby-plugin-preload-fonts',
 ])
 
 if (!IS_LOCAL) {

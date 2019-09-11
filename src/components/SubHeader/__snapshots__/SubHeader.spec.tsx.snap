@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubHeader component. 1`] = `
+<div
+  className="pt5 pb4 bb bt b--black-10 flex justify-center pl4 pl0-ns css-4cffwv"
+>
+  <div
+    className="lh-title css-l3rx45"
+  >
+    <div
+      className="i justify-center center pl3 sc-bdVaJa bYLyyG"
+      fontFamily="serif"
+      style={
+        Object {
+          "borderLeft": "2px #68465b solid",
+        }
+      }
+    >
+      Cross-build so hard, muhfuckas wanna fine me;
+      <br />
+      (that manifest cray)
+    </div>
+    <div
+      className="justify-end css-4cffwv"
+    >
+      <div
+        className="sc-bdVaJa bYLyyG"
+        fontFamily="serif"
+      >
+        — Jay-Z, Probably
+      </div>
+    </div>
+  </div>
+</div>
+`;

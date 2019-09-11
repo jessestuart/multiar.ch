@@ -1,0 +1,28 @@
+{
+  "timestamp": 1568213135056,
+  "hash": "8cb35993f8cd799d11781092ddd064a1",
+  "assets": {
+    "/dev-404-page": {
+      "http://localhost:8000/static/nunito-latin-700-91ae827aa880d02ea567979add1da58c.woff2": true,
+      "http://localhost:8000/static/nunito-latin-400-de6068bf97f40206af0b062e262e6213.woff2": true,
+      "http://localhost:8000/static/fira-mono-latin-400-e3ae866ff2823372c9e3aaadebbd8db2.woff2": true
+    },
+    "/": {
+      "http://localhost:8000/static/nunito-latin-400-de6068bf97f40206af0b062e262e6213.woff2": true,
+      "http://localhost:8000/static/fira-mono-latin-400-e3ae866ff2823372c9e3aaadebbd8db2.woff2": true,
+      "http://localhost:8000/static/nunito-latin-700-91ae827aa880d02ea567979add1da58c.woff2": true,
+      "http://localhost:8000/static/fira-mono-latin-500-e8330ccb5d46418d07df67a12e125315.woff2": true,
+      "http://localhost:8000/static/nunito-latin-600-b10ecee279e3a8d11d5ec3193b68d8bf.woff2": true,
+      "http://localhost:8000/static/fira-mono-latin-700-88eb04d0e7cd2ef944219997d022085f.woff2": true,
+      "http://localhost:8000/static/alegreya-latin-400italic-dd74c0c256a81a250d6e3886b9e576ff.woff2": true
+    },
+    "/404.html": {
+      "http://localhost:8000/static/nunito-latin-700-91ae827aa880d02ea567979add1da58c.woff2": true,
+      "http://localhost:8000/static/nunito-latin-400-de6068bf97f40206af0b062e262e6213.woff2": true
+    },
+    "/404/": {
+      "http://localhost:8000/static/nunito-latin-700-91ae827aa880d02ea567979add1da58c.woff2": true,
+      "http://localhost:8000/static/nunito-latin-400-de6068bf97f40206af0b062e262e6213.woff2": true
+    }
+  }
+}

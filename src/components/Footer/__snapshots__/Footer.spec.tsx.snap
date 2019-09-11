@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer components. Copyright component. 1`] = `
+<div
+  className="justify-center items-center css-4cffwv"
+>
+  © 2018–
+  2019
+   
+  <a
+    className="pl1 b"
+    href="https://jesses.io/"
+    style={
+      Object {
+        "color": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  >
+    Jesse Stuart
+  </a>
+</div>
+`;
+
+exports[`Footer components. Footer component. 1`] = `
+<footer
+  className="b-primary bb bottom-0 bw2 f5-ns f6 flex flex-column fw4 pa4 w-100"
+  style={
+    Object {
+      "borderTop": "1px rgba( 0, 0, 0, 0.1) solid",
+    }
+  }
+>
+  <div
+    className="justify-center items-center css-4cffwv"
+  >
+    © 2018–
+    2019
+     
+    <a
+      className="pl1 b"
+      href="https://jesses.io/"
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.75)",
+        }
+      }
+    >
+      Jesse Stuart
+    </a>
+  </div>
+  <div
+    className="dib center tc flex-ns justify-center items-center css-vurnku"
+  >
+    Pixels, bits and bytes hand-crafted with
+    <svg
+      className="hot-pink mh1"
+      fill="#ff3a5c"
+      height={32}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      width={32}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+      />
+    </svg>
+    in NYC.
+  </div>
+</footer>
+`;
+
+exports[`Footer components. MadeWithLove component. 1`] = `
+<div
+  className="dib center tc flex-ns justify-center items-center css-vurnku"
+>
+  Pixels, bits and bytes hand-crafted with
+  <svg
+    className="hot-pink mh1"
+    fill="#ff3a5c"
+    height={32}
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+    width={32}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+    />
+  </svg>
+  in NYC.
+</div>
+`;
