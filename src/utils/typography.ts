@@ -5,6 +5,7 @@ import 'typeface-nunito'
 import _ from 'lodash'
 import fp from 'lodash/fp'
 import Typography from 'typography'
+import { colors } from '../styles/Theme'
 
 const sansSerifFontFamilies = [
   'Nunito',
@@ -51,6 +52,12 @@ const options = {
   monospaceFontFamily: monospaceFontFamilies,
   scaleRatio: 2,
   overrideStyles: () => ({
+    html: {
+      backgroundColor: colors.secondary,
+    },
+    body: {
+      backgroundColor: 'white',
+    },
     ol: {
       listStyle: 'none',
     },

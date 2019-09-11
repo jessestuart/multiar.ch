@@ -61,7 +61,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         488,928
@@ -105,7 +105,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         363,037
@@ -149,7 +149,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         334,292
@@ -193,7 +193,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         143,411
@@ -237,7 +237,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         74,819
@@ -281,7 +281,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         52,737
@@ -325,7 +325,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         45,199
@@ -369,7 +369,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         38,773
@@ -413,7 +413,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         37,002
@@ -457,7 +457,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         36,417
@@ -501,7 +501,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         23,236
@@ -545,7 +545,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         17,476
@@ -590,7 +590,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         11,239
@@ -634,7 +634,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         10,668
@@ -678,7 +678,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         8,596
@@ -722,7 +722,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         5,189
@@ -766,7 +766,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         4,527
@@ -810,7 +810,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,293
@@ -854,7 +854,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,271
@@ -898,7 +898,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         3,147
@@ -942,7 +942,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,826
@@ -986,7 +986,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,824
@@ -1030,7 +1030,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,509
@@ -1074,7 +1074,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         2,063
@@ -1118,7 +1118,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,852
@@ -1162,7 +1162,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,528
@@ -1206,7 +1206,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         1,007
@@ -1250,7 +1250,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         713
@@ -1294,7 +1294,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         630
@@ -1338,7 +1338,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         621
@@ -1382,7 +1382,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         571
@@ -1426,7 +1426,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         527
@@ -1470,7 +1470,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         519
@@ -1514,7 +1514,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         420
@@ -1554,7 +1554,7 @@ exports[`RepoList component Render PureRepoList component. 1`] = `
         </div>
       </div>
       <div
-        className="flex flex-auto justify-end pl4  sc-bdVaJa ffawrJ"
+        className="flex flex-auto justify-end pl4 sc-bdVaJa ffawrJ"
         fontFamily="mono"
       >
         255

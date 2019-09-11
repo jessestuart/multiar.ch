@@ -1,0 +1,6 @@
+projectKey=multiar.ch
+serverUrl=https://sonar.jesses.io
+serverVersion=7.9.1.27448
+dashboardUrl=https://sonar.jesses.io/dashboard?id=multiar.ch
+ceTaskId=AW0ghf4Dn0vmn8-HfrBK
+ceTaskUrl=https://sonar.jesses.io/api/ce/task?id=AW0ghf4Dn0vmn8-HfrBK

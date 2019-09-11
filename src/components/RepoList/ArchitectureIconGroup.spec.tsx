@@ -2,7 +2,7 @@ import { Architecture } from 'docker-hub-utils'
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import { ArchitectureIconGroup } from 'components/RepoList/RepoListRow'
+import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIcons'
 
 describe('ArchitectureIconGroup', () => {
   test('render with default icons', () => {
