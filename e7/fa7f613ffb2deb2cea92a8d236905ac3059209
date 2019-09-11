@@ -1,0 +1,12 @@
+[ver:1,total:1260]
+.gtm/terminal.app:810,1568210400:750,1568214000:60,r
+.git/PULLREQ_EDITMSG:150,1568210400:150,d
+jest.config.js:80,1568210400:80,r
+prettier.config.js:50,1568210400:50,r
+gatsby-config.js:40,1568210400:40,m
+font-preload-cache.json:30,1568210400:30,m
+src/utils/typography.ts:30,1568210400:30,r
+prettier.config.ts:30,1568210400:30,d
+test/setupTests.ts:20,1568210400:20,r
+src/components/Icons/Github.css:10,1568210400:10,r
+src/components/Layout/index.tsx:10,1568210400:10,r
