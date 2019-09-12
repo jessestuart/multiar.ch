@@ -1,0 +1,7 @@
+[ver:1,total:2820]
+src/components/RepoList/index.tsx:1184,1568314800:962,1568318400:222,m
+src/components/RepoList/RepoListRow.tsx:651,1568314800:119,1568318400:532,m
+.gtm/terminal.app:537,1568314800:350,1568318400:187,r
+src/components/RepoList/PureRepoList.tsx:348,1568314800:269,1568318400:79,m
+src/utils/repos.ts:90,1568314800:90,r
+package.json:10,1568314800:10,m
