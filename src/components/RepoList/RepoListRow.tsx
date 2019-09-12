@@ -6,9 +6,10 @@ import React from 'react'
 import { Link, Text } from 'rebass/styled-components'
 import { Box } from 'reflexbox'
 
-import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIcons'
+import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIconGroups'
 
-const DOCKER_HUB_URL = 'https://hub.docker.com/r/jessestuart/'
+const getDockerHubURL = (repo: DockerHubRepo): string =>
+  `https://hub.docker.com/r/${repo.user}/${repo.name}`
 
 interface Props {
   className?: string
@@ -17,13 +18,12 @@ interface Props {
   style?: any
 }
 
-const getLastUpdatedRelative = (repo: DockerHubRepo): string | null =>
-  DateTime.fromISO(_.toString(repo.lastUpdated)).toRelative()
-
 const RepoListRow = (props: Props) => {
   const { architectures = [], className, repo } = props
-  const lastUpdatedRelative: string | null = getLastUpdatedRelative(repo)
-  const repoUrl = `${DOCKER_HUB_URL}${repo.name}`
+  const lastUpdatedRelative: string | null = DateTime.fromISO(
+    repo.lastUpdated,
+  ).toRelative()
+  const repoUrl = getDockerHubURL(repo)
 
   return (
     <li
