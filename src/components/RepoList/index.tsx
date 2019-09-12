@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/react-hooks'
-import { Architecture, DockerHubRepo } from 'docker-hub-utils'
+import { DockerHubRepo } from 'docker-hub-utils'
 import { graphql, useStaticQuery } from 'gatsby'
 import gql from 'graphql-tag'
 import _ from 'lodash'
@@ -8,7 +8,10 @@ import { DateTime } from 'luxon'
 import React from 'react'
 
 import PureRepoList from 'components/RepoList/PureRepoList'
-import log from 'utils/log'
+import {
+  getArchitecturesForRepo,
+  getReposToArchitecturesMap,
+} from 'utils/repos'
 
 export const DOCKER_HUB_QUERY = gql`
   {
@@ -46,41 +49,25 @@ const GATSBY_SOURCE_GRAPHQL_QUERY = graphql`
   }
 `
 
-let reposToArchitectureMap: { [repoName: string]: Architecture[] }
-
-export const getReposToArchitecturesMap = _.once((repos: DockerHubRepo[]) => {
-  reposToArchitectureMap = _.reduce(
-    repos,
-    (acc, repo: DockerHubRepo) => ({
-      ...acc,
-      [repo.name]: _.flow(
-        fp.get('manifestList.manifests'),
-        fp.map('platform.architecture'),
-      )(repo),
-    }),
-    {},
-  )
-  return reposToArchitectureMap
-})
-
+/**
+ *  Filter by repos that have been updated in the last year.
+ */
 const filterReposByDate = _.flow(
   fp.filter((repo: DockerHubRepo) => {
     const lastUpdatedTimestamp: number = DateTime.fromISO(
       repo.lastUpdated.toString(),
     ).diffNow().milliseconds
     const oneYearInMilliseconds = -31540000000
-    // Only return repos that have been updated in the last year, and that
-    // support more than one architecture.
     return lastUpdatedTimestamp > oneYearInMilliseconds
   }),
   fp.compact,
 )
 
-const filterReposByManifestList = _.flow(
-  fp.filter((repo: DockerHubRepo) => {
-    const numArchitectures = _.size(reposToArchitectureMap[repo.name])
-    return numArchitectures > 1
-  }),
+/**
+ * Filter by repos that support more than one architecture.
+ */
+const filterReposByManifestList = fp.filter(
+  (repo: DockerHubRepo) => _.size(getArchitecturesForRepo(repo)) > 1,
 )
 
 const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
@@ -97,10 +84,7 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
     filterReposByManifestList,
   )(initialData)
 
-  const { error, data } = useQuery(DOCKER_HUB_QUERY, { pollInterval })
-  if (error) {
-    log.error(error)
-  }
+  const { data } = useQuery(DOCKER_HUB_QUERY, { pollInterval })
 
   const updatedRepos: DockerHubRepo[] | undefined = _.flow(
     fp.get('repos'),
@@ -108,8 +92,18 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
     filterReposByManifestList,
   )(data)
 
+  const initialRepoPullCount = _.reduce(
+    initialRepos,
+    (acc, value) => ({
+      ...acc,
+      [value.name]: value.pullCount,
+    }),
+    {},
+  )
+
   return (
     <PureRepoList
+      initialRepoPullCount={initialRepoPullCount}
       repos={_.isEmpty(updatedRepos) ? initialRepos : updatedRepos}
       repoToArchitecturesMap={repoToArchitecturesMap}
     />

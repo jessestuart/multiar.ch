@@ -1933,6 +1933,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-countup@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-countup/-/react-countup-4.0.1.tgz#db718f8a72184684034cbbc4d4f8a98b863d4d66"
+  integrity sha512-b6rQxkkYOA4WXmnW2rUBvExAxZmEPvPGfaXS3UkOSZF2TiCO0kh5EF8jvKQU2jFzeI6Hb6LtXUJhFMk9ir9kVQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@*", "@types/react-dom@16.9.0":
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.0.tgz#ba6ddb00bf5de700b0eb91daa452081ffccbfdea"

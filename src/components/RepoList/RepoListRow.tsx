@@ -3,27 +3,34 @@ import { Architecture, DockerHubRepo } from 'docker-hub-utils'
 import _ from 'lodash'
 import { DateTime } from 'luxon'
 import React from 'react'
+import CountUp from 'react-countup'
 import { Link, Text } from 'rebass/styled-components'
 import { Box } from 'reflexbox'
 
-import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIcons'
+import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIconGroups'
 
-const DOCKER_HUB_URL = 'https://hub.docker.com/r/jessestuart/'
+const getDockerHubURL = (repo: DockerHubRepo): string =>
+  `https://hub.docker.com/r/${repo.user}/${repo.name}`
 
 interface Props {
-  className?: string
-  repo: DockerHubRepo
   architectures: Architecture[]
+  className?: string
+  initialRepoPullCount?: { [repoName: string]: number }
+  repo: DockerHubRepo
   style?: any
 }
 
-const getLastUpdatedRelative = (repo: DockerHubRepo): string | null =>
-  DateTime.fromISO(_.toString(repo.lastUpdated)).toRelative()
-
 const RepoListRow = (props: Props) => {
-  const { architectures = [], className, repo } = props
-  const lastUpdatedRelative: string | null = getLastUpdatedRelative(repo)
-  const repoUrl = `${DOCKER_HUB_URL}${repo.name}`
+  const {
+    architectures = [],
+    className,
+    initialRepoPullCount = {},
+    repo,
+  } = props
+  const lastUpdatedRelative: string | null = DateTime.fromISO(
+    repo.lastUpdated,
+  ).toRelative()
+  const repoUrl = getDockerHubURL(repo)
 
   return (
     <li
@@ -54,7 +61,12 @@ const RepoListRow = (props: Props) => {
         ) : null}
       </Box>
       <Text className="flex flex-auto justify-end pl4" fontFamily="mono">
-        {repo.pullCount.toLocaleString()}
+        <CountUp
+          duration={2}
+          end={_.toInteger(repo.pullCount)}
+          separator=","
+          start={_.toInteger(initialRepoPullCount[repo.name] || 0)}
+        />
       </Text>
     </li>
   )

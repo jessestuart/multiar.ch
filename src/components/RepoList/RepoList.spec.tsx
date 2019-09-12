@@ -2,18 +2,12 @@ import { MockedProvider } from '@apollo/react-testing'
 import * as Gatsby from 'gatsby'
 import _ from 'lodash'
 import React from 'react'
-// @ts-ignore
 import renderer, { act } from 'react-test-renderer'
-// @ts-ignore
 import wait from 'waait'
 
 import fixtures from '../../../test/fixtures/DockerHubReposFixture'
 
-import RepoList, {
-  DOCKER_HUB_QUERY,
-  getReposToArchitecturesMap,
-} from 'components/RepoList'
-import PureRepoList from 'components/RepoList/PureRepoList'
+import RepoList, { DOCKER_HUB_QUERY } from 'components/RepoList'
 
 jest.mock('gatsby', () => ({
   graphql: jest.fn(),
@@ -33,13 +27,11 @@ const mocks = [
   },
 ]
 
-const MockedRepoList = () => {
-  return (
-    <MockedProvider mocks={mocks} addTypename={false}>
-      <RepoList />
-    </MockedProvider>
-  )
-}
+const MockedRepoList = () => (
+  <MockedProvider mocks={mocks} addTypename={false}>
+    <RepoList />
+  </MockedProvider>
+)
 
 describe('RepoList component', () => {
   const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery')
@@ -55,30 +47,6 @@ describe('RepoList component', () => {
 
   afterEach(() => {
     jest.clearAllMocks()
-  })
-
-  test('Render PureRepoList component.', () => {
-    const component = renderer.create(
-      <PureRepoList
-        // @ts-ignore
-        repos={fixtures}
-        // @ts-ignore
-        repoToArchitecturesMap={getReposToArchitecturesMap(fixtures)}
-      />,
-    )
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
-  test('Render empty PureRepoList.', () => {
-    const component = renderer.create(
-      <PureRepoList
-        repos={[]}
-        repoToArchitecturesMap={getReposToArchitecturesMap([])}
-      />,
-    )
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
   })
 
   test('Render RepoList component with initial data.', () => {
