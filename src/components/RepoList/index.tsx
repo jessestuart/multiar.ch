@@ -92,8 +92,18 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
     filterReposByManifestList,
   )(data)
 
+  const initialRepoPullCount = _.reduce(
+    initialRepos,
+    (acc, value) => ({
+      ...acc,
+      [value.name]: value.pullCount,
+    }),
+    {},
+  )
+
   return (
     <PureRepoList
+      initialRepoPullCount={initialRepoPullCount}
       repos={_.isEmpty(updatedRepos) ? initialRepos : updatedRepos}
       repoToArchitecturesMap={repoToArchitecturesMap}
     />

@@ -8,14 +8,20 @@ import RepoListRow from 'components/RepoList/RepoListRow'
 import { colors } from 'styles/Theme'
 
 interface Props {
+  initialRepoPullCount?: { [repoName: string]: number }
   repos: DockerHubRepo[] | undefined
   repoToArchitecturesMap: { [repoName: string]: Architecture[] }
 }
 
-const PureRepoList = ({ repos, repoToArchitecturesMap }: Props) => {
+const PureRepoList = ({
+  initialRepoPullCount,
+  repos,
+  repoToArchitecturesMap,
+}: Props) => {
   if (!repos || _.isEmpty(repos)) {
     return null
   }
+
   return (
     <Flex className="center f4 justify-center pt4">
       <ol className="mw7-ns">
@@ -33,6 +39,7 @@ const PureRepoList = ({ repos, repoToArchitecturesMap }: Props) => {
             return (
               <RepoListRow
                 key={repo.name}
+                initialRepoPullCount={initialRepoPullCount}
                 repo={repo}
                 architectures={repoToArchitecturesMap[repo.name]}
                 style={
