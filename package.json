@@ -144,6 +144,7 @@
     "lint": "concurrently 'yarn lint:js' 'yarn check-types'",
     "lint:js": "eslint --cache --quiet --ext .ts,.tsx ./src/",
     "test": "JEST_JUNIT_OUTPUT=reports/junit/js-test-results.xml jest --cache --coverage",
+    "test:ci": "jest --coverage --runInBand --ci",
     "test:coverage": "yarn test --coverage",
     "test:update-snapshots": "yarn test --updateSnapshot",
     "test:watch": "yarn test --watch",

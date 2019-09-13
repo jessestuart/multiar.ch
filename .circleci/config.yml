@@ -26,15 +26,6 @@ workflows:
             branches:
               only:
                 - master
-      - sentry_release:
-          requires:
-            - build
-            - lint
-            - test
-          filters:
-            branches:
-              only:
-                - master
 
       # - cypress_job:
       #     requires:
@@ -88,14 +79,16 @@ semantic_release: &semantic_release
     - checkout
     - *restore_cache
     - run: yarn semantic-release
-
-sentry_release: &sentry_release
-  <<: *defaults
-  steps:
-    - checkout
-    - *restore_cache
     - run: curl -sL https://sentry.io/get-cli/ | bash
     - run: sh ./scripts/update-sentry-release.sh
+
+# sentry_release: &sentry_release
+#   <<: *defaults
+#   steps:
+#     - checkout
+#     - *restore_cache
+#     - run: curl -sL https://sentry.io/get-cli/ | bash
+#     - run: sh ./scripts/update-sentry-release.sh
 
 # cypress_job: &cypress_job
 #   working_directory: ~/multiar.ch
@@ -144,10 +137,10 @@ jobs:
       - *restore_cache
       - run:
           name: Run Jest tests & collect coverage.
-          command: |
-            yarn jest --coverage --runInBand --ci
+          command: yarn test:ci
           environment:
-            JEST_JUNIT_OUTPUT: 'reports/junit/js-test-results.xml'
+            JEST_JUNIT_OUTPUT_DIR: 'reports/junit/'
+            JEST_JUNIT_OUTPUT_NAME: 'js-test-results.xml'
       - run:
           name: Upload results to Codecov.
           command: yarn codecov
@@ -163,7 +156,7 @@ jobs:
       - *restore_cache
       - *restore_public_dir_cache
       - run:
-          name: Build static site. (with limited assets)
+          name: Build static site.
           command: yarn build
       - *save_cache
       - *save_public_dir_cache
@@ -171,5 +164,3 @@ jobs:
   # ---------------------------------------------------------------------------
 
   semantic_release: *semantic_release
-
-  sentry_release: *sentry_release
