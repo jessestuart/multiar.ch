@@ -7,6 +7,7 @@ import CountUp from 'react-countup'
 import { Link, Text } from 'rebass/styled-components'
 import { Box } from 'reflexbox'
 
+import { PullCountMap } from 'components/RepoList'
 import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIconGroups'
 
 const getDockerHubURL = (repo: DockerHubRepo): string =>
@@ -15,7 +16,7 @@ const getDockerHubURL = (repo: DockerHubRepo): string =>
 interface Props {
   architectures: Architecture[]
   className?: string
-  initialRepoPullCount?: { [repoName: string]: number }
+  initialRepoPullCount?: PullCountMap
   repo: DockerHubRepo
   style?: any
 }

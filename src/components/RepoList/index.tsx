@@ -70,6 +70,18 @@ const filterReposByManifestList = fp.filter(
   (repo: DockerHubRepo) => _.size(getArchitecturesForRepo(repo)) > 1,
 )
 
+export interface PullCountMap {
+  [repoName: string]: number
+}
+
+export const getInitialRepoPullCountMap = fp.reduce(
+  (acc: PullCountMap, repo: DockerHubRepo) => ({
+    ...acc,
+    [repo.name]: repo.pullCount,
+  }),
+  {},
+)
+
 const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
   const initialData = useStaticQuery(GATSBY_SOURCE_GRAPHQL_QUERY)
   const repos: DockerHubRepo[] = _.flow(
@@ -92,14 +104,7 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
     filterReposByManifestList,
   )(data)
 
-  const initialRepoPullCount = _.reduce(
-    initialRepos,
-    (acc, value) => ({
-      ...acc,
-      [value.name]: value.pullCount,
-    }),
-    {},
-  )
+  const initialRepoPullCount = getInitialRepoPullCountMap(initialRepos)
 
   return (
     <PureRepoList

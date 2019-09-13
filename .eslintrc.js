@@ -1,19 +1,17 @@
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
+    'eslint:recommended',
     'plugin:import/typescript',
-    'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
     'plugin:promise/recommended',
     'plugin:react/recommended',
-  ],
-  parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
-    'promise',
-    'react',
-    'react-hooks',
+    'prettier/@typescript-eslint',
   ],
+  plugins: ['react-hooks'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 8,
     ecmaFeatures: {
@@ -37,29 +35,16 @@ module.exports = {
     'no-console': ['off'],
     'no-undef': 'error',
     'object-curly-spacing': ['error', 'always'],
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        trailingComma: 'all',
-        printWidth: 80,
-        parser: 'typescript',
-      },
-    ],
     'promise/no-callback-in-promise': 'off',
     'react/no-unescaped-entities': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
     '@typescript-eslint/array-type': 'warn',
-    '@typescript-eslint/ban-ts-ignore': ['warn'],
+    '@typescript-eslint/ban-ts-ignore': ['off'],
     '@typescript-eslint/ban-types': 'warn',
     '@typescript-eslint/camelcase': 'warn',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/explicit-member-accessibility': 'off',
-    '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': ['off'],
-    '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-use-before-define': 'off',

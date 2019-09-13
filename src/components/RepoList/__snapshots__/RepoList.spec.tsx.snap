@@ -3,3 +3,43 @@
 exports[`RepoList component Render RepoList component using data from apollo-client. 1`] = `null`;
 
 exports[`RepoList component Render RepoList component with initial data. 1`] = `null`;
+
+exports[`RepoList component getInitialRepoPullCountMap 1`] = `
+Object {
+  "adguard-home": 713,
+  "alpine-essentials": 420,
+  "ark": 23236,
+  "arm_exporter": 255,
+  "caddy": 363037,
+  "caddy-cloudflare": 2824,
+  "consul": 5189,
+  "docker-hub-exporter": 8596,
+  "docker-registry": 621,
+  "drone-server": 630,
+  "elasticsearch-kubernetes": 1007,
+  "elasticsearch_exporter": 10668,
+  "fluent-bit": 38773,
+  "fluent-bit-builder": 2826,
+  "grafana": 52737,
+  "helm-exporter": 1528,
+  "homemaker": 4527,
+  "jenkins": 571,
+  "jesses.io": 527,
+  "kube-local-volume-provisioner": 17476,
+  "kube2iam": 11239,
+  "lmsensors_exporter": 3293,
+  "mc": 45199,
+  "minio": 74819,
+  "node_exporter": 1852,
+  "owntracks": 488928,
+  "pihole-exporter": 519,
+  "pihole_exporter": 3271,
+  "prometheus-config-reloader": 2063,
+  "prometheus-operator": 3147,
+  "renovate": 143411,
+  "tiller": 334292,
+  "unifi_exporter": 37002,
+  "vagrant-build-base": 2509,
+  "velero": 36417,
+}
+`;

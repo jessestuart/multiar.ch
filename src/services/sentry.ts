@@ -6,7 +6,6 @@ const _ = require('lodash')
 // is a pretty good stand-in here.
 const version = require('../../package.json').version
 
-// This is public anyway, so no sense hiding it in an env var. ¯\_(ツ)_/¯
 const SENTRY_DSN = 'https://724727a3650f47c1a0194515f319f59d@sentry.io/1519871'
 
 export const initSentry = _.once(({ environment }) => {

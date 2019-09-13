@@ -6,17 +6,13 @@ const siteMetadata = {
   description: 'Collection of regularly-updated, multiarch Docker images.',
 }
 
-// If we detect if we're running in a CI environment, only a few sample
-// photos will be downloaded from a test bucket, rather the the full
-// high-resolution photos displayed in production. This is simply to
-// save on AWS costs :)
 const GatsbyEnv = {
-  Development: 'Deveopment',
+  Development: 'Development',
   Production: 'Production',
   Staging: 'Staging',
 }
 
-const GATSBY_ENV = GatsbyEnv[process.env.GATSBY_ENV]
+const GATSBY_ENV = GatsbyEnv[process.env.GATSBY_ENV] || GatsbyEnv.Development
 const IS_LOCAL = GATSBY_ENV === GatsbyEnv.Development
 // const AUTHOR_NAME = 'Jesse Stuart'
 // const SITE_NAME = 'jesses.io'
@@ -28,14 +24,6 @@ const sourceFilesystem = {
     name: 'pages',
   },
 }
-
-// const sourceFilesystemImages = {
-//   resolve: 'gatsby-source-filesystem',
-//   options: {
-//     path: `${__dirname}/src/images`,
-//     name: 'images',
-//   },
-// }
 
 const typographyPlugin = {
   resolve: 'gatsby-plugin-typography',
@@ -58,21 +46,17 @@ const googleAnalyticsPlugin = {
   },
 }
 
-// TODO
-// /* eslint-disable @typescript-eslint/camelcase */
-// const manifestPlugin = {
-//   resolve: 'gatsby-plugin-manifest',
-//   options: {
-//     name: 'Jesse Stuart',
-//     short_name: 'jesses.io',
-//     start_url: '/',
-//     background_color: '#373b46',
-//     theme_color: '#673ab7',
-//     display: 'standalone',
-//     icon: './src/components/Icons/logo_dark.svg',
-//   },
-// }
-// /* eslint-enable @typescript-eslint/camelcase */
+const manifestPlugin = {
+  resolve: 'gatsby-plugin-manifest',
+  options: {
+    name: 'multiar.ch',
+    short_name: 'multiar.ch',
+    start_url: '/',
+    background_color: 'white',
+    theme_color: '#e5f4ee',
+    display: 'standalone',
+  },
+}
 
 let plugins = _.compact([
   'gatsby-plugin-typescript',
@@ -109,8 +93,7 @@ if (!IS_LOCAL) {
   plugins = _.concat(plugins, [
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify-cache',
-    // 'gatsby-plugin-feed',
-    // manifestPlugin,
+    manifestPlugin,
     'gatsby-plugin-netlify',
   ])
 }

@@ -26,18 +26,19 @@ workflows:
             branches:
               only:
                 - master
+      - sentry_release:
+          requires:
+            - build
+            - lint
+            - test
+          filters:
+            branches:
+              only:
+                - master
 
       # - cypress_job:
       #     requires:
       #       - install_dependencies
-
-      # - sentry_release:
-      #     requires:
-      #       - semantic_release
-      #     filters:
-      #       branches:
-      #         only:
-      #           - master
 
 # ===================
 # Shared definitions.

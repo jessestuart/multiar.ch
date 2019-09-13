@@ -11,3 +11,4 @@ test/coverage/
 /public
 .DS_Store
 /.gtm/
+/dist/

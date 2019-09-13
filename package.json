@@ -41,6 +41,7 @@
   "devDependencies": {
     "@apollo/react-testing": "3.1.0",
     "@babel/core": "7.6.0",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-export-default-from": "7.5.2",
     "@babel/plugin-proposal-object-rest-spread": "7.5.5",
     "@babel/plugin-transform-runtime": "7.6.0",
@@ -136,10 +137,10 @@
     "url": "https://github.com/jessestuart/multiar.ch"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_ENV=Production gatsby build",
     "check-types": "tsc -p tsconfig.json",
     "clean": "rimraf node_modules/ .cache/ && yarn -s",
-    "dev": "gatsby develop",
+    "dev": "GATSBY_ENV=Development gatsby develop",
     "lint": "concurrently 'yarn lint:js' 'yarn check-types'",
     "lint:js": "eslint --cache --quiet --ext .ts,.tsx ./src/",
     "test": "JEST_JUNIT_OUTPUT=reports/junit/js-test-results.xml jest --cache --coverage",

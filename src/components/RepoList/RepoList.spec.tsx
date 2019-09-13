@@ -1,13 +1,16 @@
-import { MockedProvider } from '@apollo/react-testing'
+import { DockerHubRepo } from 'docker-hub-utils'
 import * as Gatsby from 'gatsby'
-import _ from 'lodash'
 import React from 'react'
+
+import { MockedProvider } from '@apollo/react-testing'
+import RepoList, { DOCKER_HUB_QUERY } from 'components/RepoList'
 import renderer, { act } from 'react-test-renderer'
 import wait from 'waait'
 
 import fixtures from '../../../test/fixtures/DockerHubReposFixture'
+import { getInitialRepoPullCountMap } from './'
 
-import RepoList, { DOCKER_HUB_QUERY } from 'components/RepoList'
+const reposFixtures = (fixtures as unknown) as DockerHubRepo[]
 
 jest.mock('gatsby', () => ({
   graphql: jest.fn(),
@@ -62,5 +65,10 @@ describe('RepoList component', () => {
       const tree = component.toJSON()
       expect(tree).toMatchSnapshot()
     })
+  })
+
+  test('getInitialRepoPullCountMap', () => {
+    const initialRepoPullCountMap = getInitialRepoPullCountMap(reposFixtures)
+    expect(initialRepoPullCountMap).toMatchSnapshot()
   })
 })

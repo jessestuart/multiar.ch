@@ -1,6 +1,13 @@
+const React = require('react')
 const { ApolloProvider } = require('@apollo/react-hooks')
 const { ThemeProvider } = require('styled-components')
-const React = require('react')
+
+const { GATSBY_ENV } = process.env
+
+if (GATSBY_ENV !== 'Development') {
+  const { initSentry } = require('./src/services/sentry')
+  initSentry({ environment: GATSBY_ENV })
+}
 
 require('typeface-alegreya')
 require('typeface-fira-mono')
