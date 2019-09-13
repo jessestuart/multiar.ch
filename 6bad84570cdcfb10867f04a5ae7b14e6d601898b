@@ -1,0 +1,5 @@
+[ver:1,total:600]
+.circleci/config.yml:270,1568343600:270,m
+.gtm/terminal.app:210,1568343600:210,r
+package.json:60,1568343600:60,m
+scripts/update-sentry-release.sh:60,1568343600:60,r
