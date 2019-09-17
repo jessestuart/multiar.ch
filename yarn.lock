@@ -5210,16 +5210,6 @@ docker-hub-utils@1.10.0:
     pino "5.13.3"
     ramda "0.26.1"
 
-docker-hub-utils@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.5.0.tgz#8b0c247d171133dc1b353fd5dd96f3ed05739666"
-  integrity sha512-cdEegawLgS5FWkRtTNu329icR3YAzCQ16+OK+vGmqERg1cR4KN1l0LxzxW1OnUFWFylcDzT5/D3+N8PBWxJVrw==
-  dependencies:
-    axios "0.19.0"
-    camelcase-keys "6.0.1"
-    pino "5.13.2"
-    ramda "0.26.1"
-
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
@@ -6230,11 +6220,6 @@ fast-redact@^1.4.4:
   resolved "https://registry.yarnpkg.com/fast-redact/-/fast-redact-1.5.0.tgz#302892f566750c4f5eec7b830bfc9bc473484034"
   integrity sha512-Afo61CgUjkzdvOKDHn08qnZ0kwck38AOGcMlvSGzvJbIab6soAP5rdoQayecGCDsD69AiF9vJBXyq31eoEO2tQ==
 
-fast-safe-stringify@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.6.tgz#04b26106cc56681f51a044cfc0d76cf0008ac2c2"
-  integrity sha512-q8BZ89jjc+mz08rSxROs8VsrBBcn1SIw1kq9NjolL509tkABRk9io01RAjSaEv1Xb2uFLt8VtRiZbGp5H8iDtg==
-
 fast-safe-stringify@^2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
@@ -6874,14 +6859,14 @@ gatsby-react-router-scroll@^2.1.8:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.3.tgz#7681d99d7fdcb18cfc79e2454de176872beb9b9b"
-  integrity sha512-0Swqw3Dsek2bJEnI5M/wFxZtWmrnFPrRqjjUIhuDuZCrw+xCv03lpdh8x4JI7hAKTcvv6Jni9v84DRqighL00g==
+gatsby-source-docker-hub@1.5.15:
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.15.tgz#022450ba0f451d3ffe4f3e2ac621e624b0ecb998"
+  integrity sha512-1hGn+2I/9onmV/CyBJjEveiDCE+XECPIW2FMjjphoeGwkB0lordGEvbrCPVLfzRkjiExoFlfda7bB+OHA70i5A==
   dependencies:
     "@babel/runtime" "7.6.0"
     axios "0.19.0"
-    docker-hub-utils "1.5.0"
+    docker-hub-utils "1.10.0"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.22:
@@ -11731,18 +11716,6 @@ pino-std-serializers@^2.3.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-2.4.2.tgz#cb5e3e58c358b26f88969d7e619ae54bdfcc1ae1"
   integrity sha512-WaL504dO8eGs+vrK+j4BuQQq6GLKeCCcHaMB2ItygzVURcL1CycwNEUHTD/lHFHs/NL5qAz2UKrjYWXKSf4aMQ==
-
-pino@5.13.2:
-  version "5.13.2"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-5.13.2.tgz#773416c9764634276e7b2ae021357679ff7b5634"
-  integrity sha512-WwOSCy36/gWhinsqWqAnuwIi2WtcH+jvoyeLm3bjUALIrzWIst0AovQjK4jVvSN2l64KFPfi3gd2fjsTovjdLQ==
-  dependencies:
-    fast-redact "^1.4.4"
-    fast-safe-stringify "^2.0.6"
-    flatstr "^1.0.9"
-    pino-std-serializers "^2.3.0"
-    quick-format-unescaped "^3.0.2"
-    sonic-boom "^0.7.5"
 
 pino@5.13.3:
   version "5.13.3"
