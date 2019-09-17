@@ -63,6 +63,10 @@ const filterReposByDate = _.flow(
   fp.compact,
 )
 
+const filterReposByPullCount = fp.filter(
+  (repo: DockerHubRepo) => repo.pullCount >= 1000,
+)
+
 /**
  * Filter by repos that support more than one architecture.
  */
@@ -93,6 +97,7 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
     fp.get('allDockerHubRepo.edges'),
     fp.map('node'),
     filterReposByDate,
+    filterReposByPullCount,
     filterReposByManifestList,
   )(initialData)
 
@@ -101,6 +106,7 @@ const RepoList = ({ pollInterval }: { pollInterval?: number | undefined }) => {
   const updatedRepos: DockerHubRepo[] | undefined = _.flow(
     fp.get('repos'),
     filterReposByDate,
+    filterReposByPullCount,
     filterReposByManifestList,
   )(data)
 

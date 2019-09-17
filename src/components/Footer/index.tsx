@@ -24,8 +24,8 @@ export const MadeWithLove = () => (
     <Heart
       className="hot-pink mh1"
       fill={colors.hotPink}
-      height={space[4]}
-      width={space[4]}
+      height={space[3]}
+      width={space[3]}
     />
     in NYC.
   </Box>
