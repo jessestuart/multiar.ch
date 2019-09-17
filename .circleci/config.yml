@@ -80,15 +80,7 @@ semantic_release: &semantic_release
     - *restore_cache
     - run: yarn semantic-release
     - run: curl -sL https://sentry.io/get-cli/ | bash
-    - run: sh ./scripts/update-sentry-release.sh
-
-# sentry_release: &sentry_release
-#   <<: *defaults
-#   steps:
-#     - checkout
-#     - *restore_cache
-#     - run: curl -sL https://sentry.io/get-cli/ | bash
-#     - run: sh ./scripts/update-sentry-release.sh
+    - run: ./scripts/update-sentry-release.sh
 
 # cypress_job: &cypress_job
 #   working_directory: ~/multiar.ch
