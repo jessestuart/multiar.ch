@@ -1,0 +1,16 @@
+[ver:1,total:4020]
+.gtm/terminal.app:2090,1568721600:1185,1568775600:80,1568779200:825,r
+gatsby-browser.js:395,1568721600:200,1568775600:20,1568779200:175,r
+.eslintrc.js:330,1568779200:330,m
+src/config/gatsby-browser-ssr.tsx:310,1568721600:260,1568779200:50,d
+gatsby-config.js:210,1568721600:210,r
+src/components/RepoList/RepoListRow.tsx:180,1568779200:180,m
+src/config/gatsby-config.ts:150,1568721600:150,d
+jest.config.js:110,1568779200:110,m
+node_modules/ts-node/dist/index.d.ts:50,1568721600:50,r
+gatsby-ssr.js:50,1568775600:20,1568779200:30,r
+src/config/gatsby-browser-ssr.ts:45,1568721600:45,d
+src/services/sentry.ts:40,1568779200:40,r
+node_modules/@types/luxon/index.d.ts:37,1568779200:37,r
+src/components/RepoList/index.tsx:15,1568779200:15,r
+node_modules/docker-hub-utils/dist/types/DockerHubRepo.d.ts:8,1568779200:8,r
