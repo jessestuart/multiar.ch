@@ -78,7 +78,7 @@
     "babel-plugin-module-resolver": "3.2.0",
     "babel-plugin-styled-components": "1.10.6",
     "babel-preset-gatsby": "0.2.14",
-    "codecov": "3.5.0",
+    "codecov": "3.6.0",
     "concurrently": "4.1.2",
     "eslint": "6.4.0",
     "eslint-config-prettier": "6.3.0",
