@@ -11,7 +11,7 @@
     "axios": "0.19.0",
     "classnames": "2.2.6",
     "core-js": "3.2.1",
-    "docker-hub-utils": "1.10.4",
+    "docker-hub-utils": "1.10.5",
     "gatsby": "2.15.20",
     "gatsby-link": "2.2.15",
     "gatsby-plugin-preload-fonts": "1.0.7",
