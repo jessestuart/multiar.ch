@@ -5054,17 +5054,6 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docker-hub-utils@1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.2.tgz#427c4f612c14e654b0b78040915e8a725a3d9622"
-  integrity sha512-SrwOQox8V+R6Ao9KfyM2bI30Z8CoXyBg6pfzJQaQkvpWzEOFHzWi9ZrxGN5u5UPQ/fxglmYQLqPpRAvvi1xrPQ==
-  dependencies:
-    axios "0.19.0"
-    camelcase-keys "6.0.1"
-    luxon "1.18.1"
-    pino "5.13.3"
-    ramda "0.26.1"
-
 docker-hub-utils@1.10.4:
   version "1.10.4"
   resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.4.tgz#b58cc3228b2d3c9638d9fe6bd9fa1560e0d1ce27"
@@ -6725,14 +6714,14 @@ gatsby-react-router-scroll@^2.1.9:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.17:
-  version "1.5.17"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.17.tgz#2c26fbcab5d90413d1f6e9520f39829db789db52"
-  integrity sha512-yxUK5QcbfULQ5BYeN89GGxtdXM6dRfc1zCuTolp+pXeM05gRnmM+21LmMiLcVtfdwnr9R2vgQ4av1/QXyhpC/Q==
+gatsby-source-docker-hub@1.5.19:
+  version "1.5.19"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.19.tgz#75e006d2b2f13a3037d8f007e04ee61539ca5b2c"
+  integrity sha512-VdZmZkI+dsQa1ntIbXDy1Ni8BFQotcvXYwdoBQmh9T4gGoxc4l4iItRx+QYZarT0SQMKcz5Ws09lSiVdVbX02w==
   dependencies:
     "@babel/runtime" "7.6.0"
     axios "0.19.0"
-    docker-hub-utils "1.10.2"
+    docker-hub-utils "1.10.4"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.26:
@@ -9766,11 +9755,6 @@ ltcdr@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ltcdr/-/ltcdr-2.2.1.tgz#5ab87ad1d4c1dab8e8c08bbf037ee0c1902287cf"
   integrity sha1-Wrh60dTB2rjowIu/A37gwZAih88=
-
-luxon@1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.18.1.tgz#66beb914f90fb9ef1744a589e4c8690b3571364c"
-  integrity sha512-azDixkutGp2OKPTl5dQECS+tFcnc1Mc3tb2tHDulVcm5lm9WSXR1hqXtzATyxLlK8fUhUxBvWuj1gxlDY1S37g==
 
 luxon@1.18.2:
   version "1.18.2"
