@@ -987,17 +987,17 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.6.0"
 
-"@babel/runtime@7.6.0", "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
-  integrity sha512-89eSBLJsxNxOERC0Op4vd+0Bqm6wRMqMbFtV3i0/fbaWw/mJ8Q3eBvgX0G4SyrOOLCtbu98HspF8o09MRT+KzQ==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
 "@babel/runtime@7.6.2":
   version "7.6.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
   integrity sha512-EXxN64agfUqqIGeEjI5dL5z0Sw0ZwWo1mLTi4mQowCZ42O59b7DRpZAnTC6OqdF28wMBMFKNb/4uFGrVaigSpg==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
+  integrity sha512-89eSBLJsxNxOERC0Op4vd+0Bqm6wRMqMbFtV3i0/fbaWw/mJ8Q3eBvgX0G4SyrOOLCtbu98HspF8o09MRT+KzQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -5274,6 +5274,17 @@ docker-hub-utils@1.10.6:
     pino "5.13.3"
     ramda "0.26.1"
 
+docker-hub-utils@1.10.7:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.7.tgz#81f42ae483b157d91772bdc4cb9a7e47e416cede"
+  integrity sha512-6gI7+zI3f4s38cKt5ZGuA8CLYqV5MBXePKSh+AE0zlLr7NH3Ee7IYoVK5fI5TE40IFIL4Y5/iPrldUqz4pGNqg==
+  dependencies:
+    axios "0.19.0"
+    camelcase-keys "6.0.1"
+    luxon "1.19.3"
+    pino "5.13.3"
+    ramda "0.26.1"
+
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
@@ -6923,14 +6934,14 @@ gatsby-react-router-scroll@^2.1.9:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.21:
-  version "1.5.21"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.21.tgz#4e92196e4d6f226fb9bdb0448ddac69f4b5bc986"
-  integrity sha512-jUaUURNhnPBnqSIipd/Vl6XhFq71QhhNBvo9bGldPggaB9gMwd4OMhCU5JmZT7yd6x6nQmdiv1HTjbW5MQWpVw==
+gatsby-source-docker-hub@1.5.22:
+  version "1.5.22"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.22.tgz#54e287f10804f245d1bb3597c4ded072113323d9"
+  integrity sha512-Jm6wChe+aNiPV3iJJzP2kCSEIG1fC+ZK+w43nthkVtW5/Fd8ass6I0ZD1azYr3FHfxP3w4fmT2EN76hZIFCpgQ==
   dependencies:
-    "@babel/runtime" "7.6.0"
+    "@babel/runtime" "7.6.2"
     axios "0.19.0"
-    docker-hub-utils "1.10.6"
+    docker-hub-utils "1.10.7"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.26:
@@ -9969,6 +9980,11 @@ luxon@1.19.2:
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.19.2.tgz#f041a9031e7dff6fdbff46e46c73b3fdf4ab2764"
   integrity sha512-4Dn6oriheX04QQd7mMhuScnyQPdD7h11aCJgSTq9FqkOWdxX7xRUXoX/OXu4rkw98NmcVz3QSLpLbDnT6lVsMw==
+
+luxon@1.19.3:
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.19.3.tgz#86c04a1395529b4386ae235a8fe16d0a82a0695b"
+  integrity sha512-YwTDjGRQC0QC9Iya2g2eKZfgEFqRId4ZoLHORQcfTMB/5xrTx427V7ZPjQJ1vzvhA2vJfG2bh1Kv8V8IFMWCUA==
 
 macos-release@^2.2.0:
   version "2.3.0"
