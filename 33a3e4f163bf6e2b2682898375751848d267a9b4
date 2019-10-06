@@ -1,0 +1,6 @@
+[ver:1,total:660]
+.gtm/terminal.app:440,1570327200:380,1570330800:60,r
+src/components/Header/index.tsx:80,1570327200:80,r
+src/components/SubHeader/index.tsx:75,1570327200:75,m
+src/components/Header/Header.spec.tsx:50,1570327200:50,m
+src/components/SubHeader/SubHeader.spec.tsx:15,1570327200:15,m
