@@ -2,18 +2,54 @@
 
 exports[`ArchitectureIconGroup render with default icons 1`] = `
 Array [
-  <span
-    className="f7 pa1 ma1 sc-bdVaJa kJZcve"
+  .c0 {
+  background-color: #e5f4ee;
+  border-radius: 10%;
+  border: 1px solid #abb7b2;
+  display: inline;
+  font-family: "Fira Mono",Menlo,monospace;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+<span
+    className="c0 f7 pa1 ma1"
   >
     amd64
   </span>,
-  <span
-    className="f7 pa1 ma1 sc-bdVaJa kJZcve"
+  .c0 {
+  background-color: #e5f4ee;
+  border-radius: 10%;
+  border: 1px solid #abb7b2;
+  display: inline;
+  font-family: "Fira Mono",Menlo,monospace;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+<span
+    className="c0 f7 pa1 ma1"
   >
     arm
   </span>,
-  <span
-    className="f7 pa1 ma1 sc-bdVaJa kJZcve"
+  .c0 {
+  background-color: #e5f4ee;
+  border-radius: 10%;
+  border: 1px solid #abb7b2;
+  display: inline;
+  font-family: "Fira Mono",Menlo,monospace;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+<span
+    className="c0 f7 pa1 ma1"
   >
     arm64
   </span>,

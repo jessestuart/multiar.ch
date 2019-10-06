@@ -4,12 +4,11 @@ import _ from 'lodash'
 import React from 'react'
 import { Flex, Text } from 'rebass/styled-components'
 
-import { PullCountMap } from 'components/RepoList'
 import RepoListRow from 'components/RepoList/RepoListRow'
 import { colors } from 'styles/Theme'
 
 interface Props {
-  initialRepoPullCount?: PullCountMap
+  initialRepoPullCount?: { [repoName: string]: number }
   repos: DockerHubRepo[] | undefined
   repoToArchitecturesMap: { [repoName: string]: Architecture[] }
 }

@@ -1,6 +1,7 @@
 import { Architecture } from 'docker-hub-utils'
 import React from 'react'
 import renderer from 'react-test-renderer'
+import 'jest-styled-components'
 
 import { ArchitectureIconGroup } from 'components/RepoList/ArchitectureIconGroups'
 

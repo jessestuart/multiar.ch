@@ -1,6 +1,7 @@
 import { DockerHubRepo } from 'docker-hub-utils'
 import * as Gatsby from 'gatsby'
 import React from 'react'
+import { ThemeProvider } from 'styled-components'
 
 import { MockedProvider } from '@apollo/react-testing'
 import RepoList, { DOCKER_HUB_QUERY } from 'components/RepoList'
@@ -31,9 +32,11 @@ const mocks = [
 ]
 
 const MockedRepoList = () => (
-  <MockedProvider mocks={mocks} addTypename={false}>
-    <RepoList />
-  </MockedProvider>
+  <ThemeProvider theme={{}}>
+    <MockedProvider mocks={mocks} addTypename={false}>
+      <RepoList />
+    </MockedProvider>
+  </ThemeProvider>
 )
 
 describe('RepoList component', () => {

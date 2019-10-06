@@ -1,15 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render Header component. 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #68465b;
+  font-family: "Fira Mono",Menlo,monospace;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Nunito,system-ui,sans-serif;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #68465b;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #e5f4ee;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 <div
-  className="sc-bdVaJa items-center justify-center ph2 pv1 pv3-ns sc-bwzfXH jqzMcH"
+  className="c0 items-center justify-center ph2 pv1 pv3-ns"
 >
   <a
-    className="no-underline sc-bdVaJa gtVQmG"
+    className="c1 no-underline"
     href="/"
   >
     <div
-      className="f1-ns f2 fw5 tracked-tight sc-bdVaJa sYLYI"
+      className="c2 f1-ns f2 fw5 tracked-tight"
       color="primary"
       fontFamily="mono"
     >
@@ -17,7 +59,7 @@ exports[`Render Header component. 1`] = `
     </div>
   </a>
   <div
-    className="f5 lh-title sc-bdVaJa hBEspZ"
+    className="c3 f5 lh-title"
     fontFamily="sans"
   >
     A collection of mulitarch container images,
@@ -25,7 +67,7 @@ exports[`Render Header component. 1`] = `
     curated and maintained by
      
     <a
-      className="fw6 sc-bdVaJa gGpyvt"
+      className="c4 fw6"
       color="primary"
       href="https://jesses.io"
     >
@@ -34,7 +76,7 @@ exports[`Render Header component. 1`] = `
     .
   </div>
   <a
-    className="absolute hvr-grow sc-bdVaJa gtVQmG"
+    className="c1 absolute hvr-grow"
     href="https://github.com/jessestuart/multiar.ch"
     style={
       Object {

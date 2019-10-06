@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom/extend-expect'
+import 'jest-styled-components'
 import { createTransformer } from 'babel-jest'
 
 // Gatsby's `<Link>` overrides:

@@ -21,6 +21,7 @@ export const DOCKER_HUB_QUERY = gql`
       name
       pullCount
       starCount
+      user
     }
   }
 `
@@ -36,6 +37,7 @@ const GATSBY_SOURCE_GRAPHQL_QUERY = graphql`
           name
           pullCount
           starCount
+          user
           manifestList {
             manifests {
               platform {

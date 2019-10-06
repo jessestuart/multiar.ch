@@ -1,6 +1,5 @@
 import React from 'react'
-import { Text } from 'rebass/styled-components'
-import { Flex } from 'reflexbox'
+import { Flex, Text } from 'rebass/styled-components'
 import { colors } from 'styles/Theme'
 
 const SubHeader = () => (

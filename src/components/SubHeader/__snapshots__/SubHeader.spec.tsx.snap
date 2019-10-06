@@ -1,14 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SubHeader component. 1`] = `
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Alegreya;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 <div
-  className="pt5 pb4 bb bt b--black-10 flex justify-center pl4 pl0-ns css-4cffwv"
+  className="c0 pt5 pb4 bb bt b--black-10 flex justify-center pl4 pl0-ns"
 >
   <div
-    className="lh-title css-l3rx45"
+    className="c1 lh-title"
   >
     <div
-      className="i justify-center center pl3 sc-bdVaJa bYLyyG"
+      className="c2 i justify-center center pl3"
       fontFamily="serif"
       style={
         Object {
@@ -21,10 +51,10 @@ exports[`SubHeader component. 1`] = `
       (that manifest cray)
     </div>
     <div
-      className="justify-end css-4cffwv"
+      className="c0 justify-end"
     >
       <div
-        className="sc-bdVaJa bYLyyG"
+        className="c2"
         fontFamily="serif"
       >
         — Jay-Z, Probably
