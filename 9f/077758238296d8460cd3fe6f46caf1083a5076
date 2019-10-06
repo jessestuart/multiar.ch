@@ -1,0 +1,13 @@
+[ver:1,total:3120]
+.gtm/terminal.app:1935,1570323600:760,1570327200:1175,r
+src/components/SubHeader/index.tsx:195,1570327200:195,m
+jest.config.js:190,1570323600:20,1570327200:170,m
+test/setupTests.ts:185,1570327200:185,m
+src/components/SubHeader/SubHeader.spec.tsx:150,1570327200:150,m
+src/components/RepoList/PureRepoList.spec.tsx:140,1570327200:140,m
+gatsby-browser.js:105,1570327200:105,r
+src/components/RepoList/RepoList.spec.tsx:95,1570327200:95,m
+src/components/Header/Header.spec.tsx:50,1570327200:50,r
+src/components/RepoList/ArchitectureIconGroups.tsx:30,1570327200:30,r
+src/components/Header/index.tsx:30,1570327200:30,m
+src/components/RepoList/ArchitectureIconGroup.spec.tsx:15,1570327200:15,m
