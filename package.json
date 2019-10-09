@@ -54,7 +54,7 @@
     "@types/classnames": "2.2.9",
     "@types/isomorphic-fetch": "0.0.35",
     "@types/jest": "24.0.18",
-    "@types/lodash": "4.14.142",
+    "@types/lodash": "4.14.144",
     "@types/luxon": "1.15.2",
     "@types/nanoid": "2.1.0",
     "@types/node": "12.7.12",
