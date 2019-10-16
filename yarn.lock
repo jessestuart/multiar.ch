@@ -2029,10 +2029,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/rebass@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-4.0.2.tgz#9352bc042a48f74e0da0657425f1abb4bbe7f2de"
-  integrity sha512-xNvwtAiLmqHum14UHgxSUKCuvLacoKO/0BfeS1T/pGLyCpkIhj+nBb4Oe6e8QKH3unNdfKn0fCvdZnfxG9VT5A==
+"@types/rebass@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-4.0.3.tgz#cb55b73395ae87e0c2c0c0292c95d9f8e7a2ca27"
+  integrity sha512-dUZMb8IOqSesn1bQHLeIMIAHTaYcuQ9hTn9b2/Vj9AEcjRIBYnOfQlTshXWcf+GAYTWYxK4fb9qjkoQ3GyG52w==
   dependencies:
     "@types/react" "*"
     "@types/styled-components" "*"
