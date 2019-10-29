@@ -5309,17 +5309,6 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docker-hub-utils@1.10.10:
-  version "1.10.10"
-  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.10.tgz#a4f3c3aaed1f3901f27fee74898364c343e9b86f"
-  integrity sha512-sj+N4XdIL8/XcrF+HseAwuZor3s8zCkEXrTulxN4lA16pT1e0HrxszykDrrzI7k+Evz//yMpuxktnsOnd21CNQ==
-  dependencies:
-    axios "0.19.0"
-    camelcase-keys "6.1.0"
-    luxon "1.19.3"
-    pino "5.13.5"
-    ramda "0.26.1"
-
 docker-hub-utils@1.10.11:
   version "1.10.11"
   resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.11.tgz#d7d6f640fe8ec59f3172a108cdc234f636ce8e38"
@@ -6981,14 +6970,14 @@ gatsby-react-router-scroll@^2.1.14:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.25:
-  version "1.5.25"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.25.tgz#e85a5633009897f8397a808fa595abcf1baaaef6"
-  integrity sha512-67nHSR7Uv/Ouw0BsxpL7CX6xQVfkjwJZ9qNXkyV9bZMzLtUiyV1pjpUNrryTNeZKThezQOPXsVr/OkLIonNZkQ==
+gatsby-source-docker-hub@1.5.26:
+  version "1.5.26"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.26.tgz#baa0da053d2290d3e2d0c581f2074c6cba109e48"
+  integrity sha512-njBL3xCKdy3ZLd0at/ZNQexqzZmMZyy1C4HXrL60cIbT+YoMlT7m1cQHv5bzF+mu3wmZ79Lgsn80WXg9ccDV6g==
   dependencies:
     "@babel/runtime" "7.6.3"
     axios "0.19.0"
-    docker-hub-utils "1.10.10"
+    docker-hub-utils "1.10.11"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.35:
@@ -10067,11 +10056,6 @@ ltcdr@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ltcdr/-/ltcdr-2.2.1.tgz#5ab87ad1d4c1dab8e8c08bbf037ee0c1902287cf"
   integrity sha1-Wrh60dTB2rjowIu/A37gwZAih88=
-
-luxon@1.19.3:
-  version "1.19.3"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.19.3.tgz#86c04a1395529b4386ae235a8fe16d0a82a0695b"
-  integrity sha512-YwTDjGRQC0QC9Iya2g2eKZfgEFqRId4ZoLHORQcfTMB/5xrTx427V7ZPjQJ1vzvhA2vJfG2bh1Kv8V8IFMWCUA==
 
 luxon@1.20.0:
   version "1.20.0"
