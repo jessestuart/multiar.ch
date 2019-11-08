@@ -1344,13 +1344,6 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.6.0"
 
-"@babel/runtime@7.6.3", "@babel/runtime@^7.6.3":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
-  integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
 "@babel/runtime@7.7.2":
   version "7.7.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
@@ -1369,6 +1362,13 @@
   version "7.6.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
   integrity sha512-EXxN64agfUqqIGeEjI5dL5z0Sw0ZwWo1mLTi4mQowCZ42O59b7DRpZAnTC6OqdF28wMBMFKNb/4uFGrVaigSpg==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@^7.6.3":
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+  integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -5846,17 +5846,6 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docker-hub-utils@1.10.13:
-  version "1.10.13"
-  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.13.tgz#bacfb89bd36e8ef16bb249b1aefa9dbf7a4037aa"
-  integrity sha512-Vur9VfXaA5QcqlKdezNFFHDajzo9q8GoO++nDKx1pMw4VtGOqxygNi4l8mOOHWKhQuksff8r3cN43psOVxYrKw==
-  dependencies:
-    axios "0.19.0"
-    camelcase-keys "6.1.0"
-    luxon "1.21.1"
-    pino "5.13.5"
-    ramda "0.26.1"
-
 docker-hub-utils@1.10.14:
   version "1.10.14"
   resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.14.tgz#400cef8d283ce1a68b03da429e001e94f725c9cd"
@@ -7140,7 +7129,7 @@ flat@^4.1.0:
   dependencies:
     is-buffer "~2.0.3"
 
-flatstr@^1.0.12, flatstr@^1.0.9:
+flatstr@^1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/flatstr/-/flatstr-1.0.12.tgz#c2ba6a08173edbb6c9640e3055b95e287ceb5931"
   integrity sha512-4zPxDyhCyiN2wIAtSLI6gc82/EjqZc1onI4Mz/l0pWrAlsSfYH/2ZIcU+e3oA2wDwbzIWNKwa23F8rh6+DRWkw==
@@ -7541,14 +7530,14 @@ gatsby-react-router-scroll@^2.1.14:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.28:
-  version "1.5.28"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.28.tgz#907eab9940a2b1079bc9190fa134ffc9e16c656a"
-  integrity sha512-UDWzB3tAhpDEIlRLftzyKxhwgA4HQIRvQnEY127OJgMAj6cbm/ENoceIFy7CslY4/pTFN6E2XgHAyGB9Y9samA==
+gatsby-source-docker-hub@1.5.29:
+  version "1.5.29"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.29.tgz#097ff3eaf9b0702f3c76392d0f3eb428458525b5"
+  integrity sha512-RpgQDygpf3n6WB8RrL4qk4F1EdNhvO05EOxNjkGzPXgwUqQkkT+1qUAvXu3sDNCarZVR1WmOkIznVBEkrbnn/g==
   dependencies:
-    "@babel/runtime" "7.6.3"
+    "@babel/runtime" "7.7.2"
     axios "0.19.0"
-    docker-hub-utils "1.10.13"
+    docker-hub-utils "1.10.14"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.35:
@@ -12475,22 +12464,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-pino-std-serializers@^2.3.0, pino-std-serializers@^2.4.2:
+pino-std-serializers@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-2.4.2.tgz#cb5e3e58c358b26f88969d7e619ae54bdfcc1ae1"
   integrity sha512-WaL504dO8eGs+vrK+j4BuQQq6GLKeCCcHaMB2ItygzVURcL1CycwNEUHTD/lHFHs/NL5qAz2UKrjYWXKSf4aMQ==
-
-pino@5.13.5:
-  version "5.13.5"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-5.13.5.tgz#3bfd03c9e7d247adf806960a25c139572ce3cd4f"
-  integrity sha512-NSArDZnjIXgzTLsYA5EhYwLiMe2OmGJ73760Wt5Vj44kUcuPJk4ub29BKtWXGAMwVmW1cQ7Q8jQaLjY/5Gxqcw==
-  dependencies:
-    fast-redact "^2.0.0"
-    fast-safe-stringify "^2.0.7"
-    flatstr "^1.0.9"
-    pino-std-serializers "^2.3.0"
-    quick-format-unescaped "^3.0.3"
-    sonic-boom "^0.7.5"
 
 pino@5.13.6:
   version "5.13.6"
