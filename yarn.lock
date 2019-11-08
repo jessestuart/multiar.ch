@@ -4312,15 +4312,6 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-camelcase-keys@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-6.1.0.tgz#3ca09b3cae196a58e291a6913ce97ffc8f8ae850"
-  integrity sha512-43tBGDIs3SBDA5R5mYzkiBP3lt2IKhLDp1wVGS9XTq6SR3+7ZNdi/VwBJsk4NKgySoaziTrKM+N8hhT04NBVUA==
-  dependencies:
-    camelcase "^5.3.1"
-    map-obj "^4.0.0"
-    quick-lru "^4.0.1"
-
 camelcase-keys@6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-6.1.1.tgz#0d24dde78cea4c7d2da7f4ea40b7995083328c8d"
@@ -5854,17 +5845,6 @@ dns-txt@^2.0.2:
   integrity sha1-uR2Ab10nGI5Ks+fRB9iBocxGQrY=
   dependencies:
     buffer-indexof "^1.0.0"
-
-docker-hub-utils@1.10.14:
-  version "1.10.14"
-  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.14.tgz#400cef8d283ce1a68b03da429e001e94f725c9cd"
-  integrity sha512-oobj6eDBZcacbRA/OnuWbcfF3SrI0jrV8CeSne2FFkOODHcSs6f86OFvjOE8OPN7cZPUPMOGdEae4j51SunHuw==
-  dependencies:
-    axios "0.19.0"
-    camelcase-keys "6.1.0"
-    luxon "1.21.1"
-    pino "5.13.6"
-    ramda "0.26.1"
 
 docker-hub-utils@1.10.15:
   version "1.10.15"
@@ -7550,14 +7530,14 @@ gatsby-react-router-scroll@^2.1.14:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-docker-hub@1.5.29:
-  version "1.5.29"
-  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.29.tgz#097ff3eaf9b0702f3c76392d0f3eb428458525b5"
-  integrity sha512-RpgQDygpf3n6WB8RrL4qk4F1EdNhvO05EOxNjkGzPXgwUqQkkT+1qUAvXu3sDNCarZVR1WmOkIznVBEkrbnn/g==
+gatsby-source-docker-hub@1.5.30:
+  version "1.5.30"
+  resolved "https://registry.yarnpkg.com/gatsby-source-docker-hub/-/gatsby-source-docker-hub-1.5.30.tgz#9d3d91c9e139ee011d591ac762efda3ea02596a9"
+  integrity sha512-uX/7MSyT/qM1CgTP8jurrxrbbuZZe7A734RoHM8m0ymMWRoRg+DaVFZClLWS14u50IlNL65hyt1oYxAKCo1/Xw==
   dependencies:
     "@babel/runtime" "7.7.2"
     axios "0.19.0"
-    docker-hub-utils "1.10.14"
+    docker-hub-utils "1.10.15"
     lodash "4.17.15"
 
 gatsby-source-filesystem@2.1.35:
