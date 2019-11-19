@@ -12,7 +12,7 @@
     "classnames": "2.2.6",
     "core-js": "3.4.1",
     "docker-hub-utils": "1.10.16",
-    "gatsby": "2.17.17",
+    "gatsby": "2.18.0",
     "gatsby-link": "2.2.24",
     "gatsby-plugin-preload-fonts": "1.0.17",
     "isomorphic-fetch": "2.2.1",
