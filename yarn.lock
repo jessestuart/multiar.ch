@@ -5373,6 +5373,17 @@ docker-hub-utils@1.10.17:
     pino "5.14.0"
     ramda "0.26.1"
 
+docker-hub-utils@1.10.18:
+  version "1.10.18"
+  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.18.tgz#1679187bd015c4396faff8d505d945faff3b15bb"
+  integrity sha512-UO7zi18Bj4NjravellFTRoZNkYESInLw/+9x2Ip+nVz2siaLGV8W2pxKfFkgPDwtTUJfMTHz73gZ65sR0ETPzw==
+  dependencies:
+    axios "0.19.0"
+    camelcase-keys "6.1.1"
+    luxon "1.21.3"
+    pino "5.14.0"
+    ramda "0.26.1"
+
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
