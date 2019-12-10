@@ -79,7 +79,7 @@
     "babel-plugin-styled-components": "1.10.6",
     "babel-preset-gatsby": "0.2.23",
     "codecov": "3.6.1",
-    "concurrently": "5.0.0",
+    "concurrently": "5.0.1",
     "eslint": "6.7.2",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-import": "2.19.1",
