@@ -5,7 +5,7 @@ exports[`Footer components. Copyright component. 1`] = `
   className="justify-center items-center css-4cffwv"
 >
   © 2018–
-  2019
+  2020
    
   <a
     className="pl1 b"
@@ -34,7 +34,7 @@ exports[`Footer components. Footer component. 1`] = `
     className="justify-center items-center css-4cffwv"
   >
     © 2018–
-    2019
+    2020
      
     <a
       className="pl1 b"
