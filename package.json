@@ -1,7 +1,7 @@
 {
   "name": "multiar.ch",
   "description": "multiar.ch",
-  "version": "1.10.126",
+  "version": "1.10.127",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "dependencies": {
     "@apollo/react-hooks": "3.1.3",
