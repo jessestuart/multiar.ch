@@ -3196,6 +3196,13 @@ axios@*, axios@0.19.0, axios@^0.19.0:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
+axios@0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 axobject-query@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.0.2.tgz#ea187abe5b9002b377f925d8bf7d1c561adf38f9"
@@ -5572,6 +5579,17 @@ docker-hub-utils@1.10.19:
     camelcase-keys "6.1.1"
     luxon "1.21.3"
     pino "5.15.0"
+    ramda "0.26.1"
+
+docker-hub-utils@1.10.22:
+  version "1.10.22"
+  resolved "https://registry.yarnpkg.com/docker-hub-utils/-/docker-hub-utils-1.10.22.tgz#225f60cedf832e64bbe09c59c4c6261cd8a64c99"
+  integrity sha512-eRJfauk5LZZZN7SkpvsDer+vEMgq+RiBtOa8WzKz536g8ugrsH1Q5zQzcWWBZYlAW5TeGeiThVCnTyxzaRjxSQ==
+  dependencies:
+    axios "0.19.2"
+    camelcase-keys "6.1.1"
+    luxon "1.21.3"
+    pino "5.16.0"
     ramda "0.26.1"
 
 doctrine@1.5.0:
@@ -12358,6 +12376,18 @@ pino@5.15.0:
   version "5.15.0"
   resolved "https://registry.yarnpkg.com/pino/-/pino-5.15.0.tgz#6703164ce74dd4786d44887cd33268e13fd463d8"
   integrity sha512-7+FXMTA3H3sNP5+2miY2K9JKnAAW5GKuhHfNWsukFCsPprGQY3ctqpwbV74wAHW3Nl93cEEQ1G82MgOLM8P7TQ==
+  dependencies:
+    fast-redact "^2.0.0"
+    fast-safe-stringify "^2.0.7"
+    flatstr "^1.0.12"
+    pino-std-serializers "^2.4.2"
+    quick-format-unescaped "^3.0.3"
+    sonic-boom "^0.7.5"
+
+pino@5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-5.16.0.tgz#94d01cb38b5f4a16dd4d7c47aa489fbfe40c3c06"
+  integrity sha512-k9cDzHd9S/oYSQ9B9g9+7RXkfsZX78sQXERC8x4p2XArECZXULx9nqNwZvJHsLj779wPCt+ybN+dG8jFR70p6Q==
   dependencies:
     fast-redact "^2.0.0"
     fast-safe-stringify "^2.0.7"
